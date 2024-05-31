@@ -37,7 +37,7 @@ The example [database](N5-CS-Database.db) contains the tables and records that t
 
 The first 4 records of the data used in the examples are shown in the following tables:
 
-## Table: pet
+### Table: pet
 
 | pet_id | name     | species | dob |
 | :----: | ----     | ------- | --- |
@@ -46,7 +46,7 @@ The first 4 records of the data used in the examples are shown in the following 
 | 3	     | Bo       | Rabbit  | 2011-10-13 |
 | 4      | Joscelin | Gerbil  | 2022-02-19 |
 
-## Table: vaccination
+### Table: vaccination
 
 | vax_id | pet_id | vax_date   | name             | reaction | price |
 | :----: | :----: | --------   | ----             | :------: | ----- |
