@@ -1,9 +1,6 @@
 # Web Design and Development
 
-
 **Note:** HTML, CSS, and JavaScript use American spelling so when you see `center` or `color` they are not typos.
-
-All the code examples will work with [Replit](https://replit.com/).
 
 # Hypertext Markup Language (HTML) 
 

@@ -1,6 +1,5 @@
 # Database Design and Development
 
-
 All the code examples use SQLite.  They will work with [Replit](https://replit.com/) and [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 **Note:** These notes are focused on N5 Computing Science so some terms might be used differently.
