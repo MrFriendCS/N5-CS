@@ -4,9 +4,9 @@
 
 **Note:** HTML, CSS, and JavaScript use American spelling so when you see `center` or `color` they are not typos.
 
-# Hypertext Markup Language (HTML) 
+## Hypertext Markup Language (HTML) 
 
-## HTML
+### HTML
 
 HTML uses elements to display content.  An element normally consists of opening (`<tag>`) and closing (`</tag>`) tags, with the content to be display contained between the tags.
 
@@ -37,9 +37,9 @@ All element  HTML documents are contained within the opening and closing `html` 
 </html>
 ```
 
-## Information
+### Information
 
-## Comments
+### Comments
 
 Single line comment.
 
@@ -56,7 +56,7 @@ This comment is not displayed
 -->
 ```
 
-## Display information
+### Display information
 
 Without HTML tags information is displayed as plain text, but with tags it will have the formatting associated with the tag.
 
@@ -64,7 +64,7 @@ Without HTML tags information is displayed as plain text, but with tags it will 
 Hello world
 ```
 
-## HTML document (Webpage)
+### HTML document (Webpage)
 
 A HTML documen has two main parts:
 
@@ -84,9 +84,9 @@ A HTML documen has two main parts:
 </html>
 ```
 
-## Head
+### Head
 
-## Title
+### Title
 
 The webpage title will be displayed on the browser tab:
 
@@ -94,7 +94,7 @@ The webpage title will be displayed on the browser tab:
 <title>My Web Page</title>
 ```
 
-## StyleLink
+### StyleLink
 
 The [CSS](#css) for a webpage can be internal using the `style` tag.
 
@@ -104,7 +104,7 @@ The [CSS](#css) for a webpage can be internal using the `style` tag.
 </style>
 ```
 
-## 
+### 
 
 The [CSS](#css) for a webpage can be in an external file using the `link` element.
 
@@ -116,8 +116,8 @@ ___Note___: A few HTML elements do not have a closing tag, and `link` is one of 
 
 
 
-## Body
-## Heading
+### Body
+### Heading
 
 There are six levels of heading.
 
@@ -129,7 +129,7 @@ There are six levels of heading.
 <h6>Lowest leveleast heading level</h6>
 ```
 
-## Paragraph
+### Paragraph
 
 ``` html
 <p>A paragraph of text.</p>
@@ -137,11 +137,11 @@ There are six levels of heading.
 <p>Plus another paragraph of text.</p>
 ```
 
-## Lists
+### Lists
 
 Lists can be ordered (`ol`) or unordered `ul`).  Both types of lists contain list items (`li`).
 
-## Ordered list - Numbered
+### Ordered list - Numbered
 
 
 ``` html
@@ -152,7 +152,7 @@ Lists can be ordered (`ol`) or unordered `ul`).  Both types of lists contain lis
 </ol>
 ```
 
-## Unorderd list - Bullet points
+### Unorderd list - Bullet points
 
 
 ``` html
@@ -165,7 +165,7 @@ Lists can be ordered (`ol`) or unordered `ul`).  Both types of lists contain lis
 
 
 
-## Division
+### Division
 
 The `<div>` tag is used to divide the webpage into different parts.
 
@@ -179,9 +179,9 @@ The `<div>` tag is used to divide the webpage into different parts.
 <div>
 ```
 
-## Anchor (Hyperlinks)
+### Anchor (Hyperlinks)
 
-## External
+### External
 
 
 Link to an external website, using asote aressin
@@ -190,7 +190,7 @@ Link to an external website, using asote aressin
 <a href="https://mrfriendcs.github.io/">N5 CS Help</a>
 ```
 
-## Internal
+### Internal
 
 
 Link to another webpage, in the same folder, using relative addressing.
@@ -199,7 +199,7 @@ Link to another webpage, in the same folder, using relative addressing.
 <a href="home.html">Home</a>
 ```
 
-## Media
+### Media
 
 To ensure that media is displayed / played correctly the `type` attribute is used.
 
@@ -210,7 +210,7 @@ To ensure that media is displayed / played correctly the `type` attribute is use
 | mp3 | audio/mpeg |
 | mp4 | video/mp4 |
 
-## Image
+### Image
 
 The image tag (`<img>`) has three attributes.  The first (`src`) is where the image is located, and can use relative or absolute addressing.  The second (`alt`) is the alternative text that will be displayed if the image can't be displayed, and is used by screen readers.
 
@@ -218,7 +218,7 @@ The image tag (`<img>`) has three attributes.  The first (`src`) is where the im
 <img src="laptop.jpg" alt="Laptop on a table">
 ```
 
-## Audio
+### Audio
 
 ``` html
 <audio controls src="clapping.mp3">  
@@ -226,7 +226,7 @@ The image tag (`<img>`) has three attributes.  The first (`src`) is where the im
 </audio>
 ```
 
-## Video
+### Video
 
 ``` html
 <video controls src="clapping.mp4">  
@@ -234,13 +234,13 @@ The image tag (`<img>`) has three attributes.  The first (`src`) is where the im
 </video>
 ```
 
-# Classes and IDs
+## Classes and IDs
 
 HTML elements can have additional attributes for `class` and `id` which are useful applying [CSS](#css) rules to specific elements, and can be used by [JavaScript](#js).
 
 A class can be assigned to one or more cascading Style Sheets (CSS), whereas an ID can only be applied to one element on a page.
 
-## Classes
+### Classes
 
 ``` html
 <p class="highlight">A paragraph.</p>
@@ -248,7 +248,7 @@ A class can be assigned to one or more cascading Style Sheets (CSS), whereas an 
 <p class="highlight">Plus another.</p>
 ```
 
-## IDs
+### IDs
 
 ``` html
 <p id="main">A paragraph.</p>
@@ -256,7 +256,7 @@ A class can be assigned to one or more cascading Style Sheets (CSS), whereas an 
 <p>Plus another.</p>
 ```
 
-## Classes and IDs
+### Classes and IDs
 
 An element can have an ID and a class.
 
@@ -268,11 +268,11 @@ An element can have an ID and a class.
 
 
 
-# Cascading Style Sheets (CSS) {#css}
+## Cascading Style Sheets (CSS) {#css}
 
-## Information
+### Information
 
-## Comments
+### Comments
 
 Single line comment.
 
@@ -289,26 +289,26 @@ This comment is not displayed
 */
 ```
 
-## CSS rules
+### CSS rules
 
 Rules are terminated with a semicolon, **`;`**. A rule will be applied without a semicolon but multiple rules will not.
 
-## Single property
+### Single property
 
 ``` css
 selector {property: value;}
 ```
 
-## Multiple properties
+### Multiple properties
 
 ``` css
 selector {property: value;
           property: value;}
 ```
 
-## Selectors
+### Selectors
 
-## Element selectors
+### Element selectors
 
 Element selectors are HTML tags without the angle brackets.  All elements of that type will have their formatting modified by the CSS rule(s).
 
@@ -316,7 +316,7 @@ Element selectors are HTML tags without the angle brackets.  All elements of tha
 p {property: value;}
 ```
 
-## Class selectors
+### Class selectors
 
 Class selectors use the class name with a dot in front.
 
@@ -324,23 +324,23 @@ Class selectors use the class name with a dot in front.
 .mainPara {property: value;}
 ```
 
-## ID selectors
+### ID selectors
 
 ID selectors use the ID name with a hash in front.
 
 ``` css
-#otherPara {property: value;}
+##otherPara {property: value;}
 ```
 
-## CSS Precedence
+### CSS Precedence
 
-## Selectors
+### Selectors
 
  * Element rules overwrite default rules
  * Class rules overwrite element rules
  * ID rules overwrite class rules
 
-## Location
+### Location
 
  * External rules overwrite default rules
  * Internal rules overwrite external rules
@@ -348,30 +348,30 @@ ID selectors use the ID name with a hash in front.
 
 plify and implement internal and external Cascading Style Sheets (CSS):
 
-## selectors, classes and IDs
+### selectors, classes and IDs
 
-## CSS rules
+### CSS rules
 
 CSS rules 
 
-## Single property
+### Single property
 
 ``` css
 selector {property: value;}
 ```
 
-## Multiple properties
+### Multiple properties
 
 ``` css
 selector {property: value;
           property: value;}
 ```
 
-## Properties
+### Properties
 
 **Note:** All examples will use a HTML element as the selector but would work equally well with a class or ID.
 
-## Font
+### Font
 
 ``` css
 p {font-family: sans-serif;}
@@ -379,7 +379,7 @@ p {font-family: sans-serif;}
 h1 {font-size: large;}
 ```
 
-## Alignment
+### Alignment
 
 ``` css
 h2 {text-align: left;}
@@ -389,7 +389,7 @@ h3 {text-align: center;}
 h4 {text-align: right;}
 ```
 
-## Colour
+### Colour
 
 The colour of the text and / or the background can be changed using one of the many predefined colours.  To see a list visit [W3Schools](https://www.w3schools.com/colors/colors_names.asp). 
 
@@ -405,13 +405,13 @@ h5 {color: DarkRed;
 
 
 
-# JavaScript (JS) {#js}
+## JavaScript (JS) {#js}
 
 JavaScript statements are terminated with a semicolon, **`;`**. An individual statement will probably run without a semicolon but multiple statements will not.
 
-## Information
+### Information
 
-## Comments
+### Comments
 
 Single line comment.
 
@@ -428,7 +428,7 @@ This comment is not displayed
 */
 ```
 
-## Mouse Over
+### Mouse Over
 
 This event is triggered when the mouse is over an element that has the `onmouseover` listener set.  It calls the associated JS function.
 
@@ -443,7 +443,7 @@ This event is triggered when the mouse is over an element that has the `onmouseo
 </script>
 ```
 
-## Mouse Out
+### Mouse Out
 
 This event is triggered when the mouse is no longer over an element that has the `onmouseout` listener set.  It calls the associated JS function.
 
@@ -458,7 +458,7 @@ This event is triggered when the mouse is no longer over an element that has the
 </script>
 ```
 
-## This
+### This
 
 Passing `this` as a parameter to the JS function allows the same function to be used with multiple elements.
 

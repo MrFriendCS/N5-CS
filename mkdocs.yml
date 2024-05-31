@@ -1,3 +1,6 @@
-site_name: N5 Computing Science
+site_name: N5 CS
+
+theme:
+  name: readthedocs
 
 navigation_depth: 4
