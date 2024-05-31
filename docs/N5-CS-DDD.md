@@ -1,10 +1,5 @@
-# N5 Computing Science
-{:.no_toc}
+# Database Design and Development
 
-[Home](index.md)
-
-## Database Design and Development
-{:.no_toc}
 
 All the code examples use SQLite.  They will work with [Replit](https://replit.com/) and [DB Browser for SQLite](https://sqlitebrowser.org/).
 
@@ -22,13 +17,8 @@ SQLite, and SQL, is not whitespace sensitive.  This means a statement can be all
 
 The statements are terminated with a semicolon, __`;`__.  An individual statement will run without a semicolon but multiple statements will not.
 
-## Table of Contents {#toc}
-{:.no_toc}
 
-* TOC will be displayed here
-{:toc}
-
-### Attribute types (Data types)
+## Attribute types (Data types)
 
 SQLite has fewer data types than SQL.  However, SQL datatypes can be used and SQLite will match these to it's own datatypes.
 
@@ -41,14 +31,13 @@ SQLite has fewer data types than SQL.  However, SQL datatypes can be used and SQ
 | Time          | "13:15:00" |
 | Boolean       | TRUE, FALSE |
 
-### Example Data
+## Example Data
 
 The example [database](N5-CS-Database.db) contains the tables and records that the SQL examples will work with. The file can be opened with [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 The first 4 records of the data used in the examples are shown in the following tables:
 
-#### Table: pet
-{:.no_toc}
+## Table: pet
 
 | pet_id | name     | species | dob |
 | :----: | ----     | ------- | --- |
@@ -57,8 +46,7 @@ The first 4 records of the data used in the examples are shown in the following 
 | 3	     | Bo       | Rabbit  | 2011-10-13 |
 | 4      | Joscelin | Gerbil  | 2022-02-19 |
 
-#### Table: vaccination
-{:.no_toc}
+## Table: vaccination
 
 | vax_id | pet_id | vax_date   | name             | reaction | price |
 | :----: | :----: | --------   | ----             | :------: | ----- |
@@ -67,14 +55,13 @@ The first 4 records of the data used in the examples are shown in the following 
 | 3      | 1      | 2015-12-17 | Cat Flu          | FALSE    | 12.99 |
 | 4      | 17     | 2015-10-05 | Cat Flu          | FALSE    | 12.99 |
 
-#### ER Diagram
-{:.no_toc}
+## ER Diagram
 
 ![N5 DDD Enitiy Relationship Diagram](N5-CS-DDD-ER.png "ER Diagram")
 
-[Back to Table of Contents](#toc)
 
-#### Views tables
+
+## Views tables
 
 To view all the tables in the database the `name` field of the `sqlite_schema` table is displayed.
 
@@ -84,11 +71,11 @@ SELECT name
     WHERE type = "table";
 ```
 
-[Back to Table of Contents](#toc)
 
-## Information
 
-### Comments
+# Information
+
+## Comments
 
 Single line comment.
 
@@ -105,22 +92,22 @@ This comment is not displayed
 */
 ```
 
-### Display information
+## Display information
 It is possible to display simple messages.
 
-#### Replit
+## Replit
 
 ``` sql
 .print Hello World!
 ```
 
-#### DB Browser for SQLite
+## DB Browser for SQLite
 
 ``` sql
 SELECT "Hello World!";
 ```
 
-## Display Data
+# Display Data
 
 To search a database, a basic statement with two keywords `SELECT` and `FROM` is used.
 
@@ -140,15 +127,15 @@ SELECT name, species
     FROM pet;
 ```
 
-[Back to Table of Contents](#toc)
 
-## Filter results
+
+# Filter results
 
 To limit the number of records returned, the `WHERE` keyword is used with a comparison operator.
 
 **Note:** Whilst SQL keywords are not case sensitive, search terms are.  Searching for `Hello` will not find `hello`, `HELLO`, or any other variation.
 
-### Comparison operators
+## Comparison operators
 
 Comparison operators are used to compare one value with another.
 
@@ -161,7 +148,7 @@ Comparison operators are used to compare one value with another.
 | <      | Less than |
 | <=     | Less than or equal to |
 
-### Simple search
+## Simple search
 
 A simple search compares a field in a record with a value.  If the comparison is `True` then the required fields of that record are displayed.
 
@@ -171,13 +158,13 @@ SELECT *
     WHERE species = "Cat";
 ```
 
-[Back to Table of Contents](#toc)
 
-### Complex search
+
+## Complex search
 
 A complex search compares two fields.
 
-#### AND
+## AND
 
 If both comparisons are `True` then the required fields of that record are displayed.
 
@@ -188,7 +175,7 @@ SELECT *
         AND reaction = True;
 ```
 
-#### OR
+## OR
 
 If either comparison is `True` then the required fields of that record are displayed.
 
@@ -199,9 +186,9 @@ SELECT *
         OR reaction = True;
 ```
 
-[Back to Table of Contents](#toc)
 
-## Sort results
+
+# Sort results
 
 It is possible to sort the output of a search using `ORDER BY` and stating the field, or fields.  Fields are sorted ascending, smallest to largest, by default.
 
@@ -220,13 +207,13 @@ SELECT *
         name ASC;
 ```
 
-[Back to Table of Contents](#toc)
 
-## Equi-join between tables
+
+# Equi-join between tables
 
 Tables are joined using the primary key of one table and the foreign key of the other table.
 
-### Generic
+## Generic
 
 ``` sql
 SELECT *
@@ -234,7 +221,7 @@ SELECT *
     WHERE table1.primary_key = table2.foreign_key;
 ```
 
-### Example
+## Example
 
 **Note:** In this example both tables have a field with the same name.  So that the database can distinguish between the fields they must be qualified with the table name.  Just using the field name would be _ambiguous_.
 
@@ -244,20 +231,20 @@ SELECT *
     WHERE pet.pet_id = vaccination.pet_id;
 ```
 
-[Back to Table of Contents](#toc)
 
-## Add New Data
+
+# Add New Data
 
 It is possible to insert a record, multiple records, or partial records into a table using `INSERT INTO` and `VALUES`.  All validation rules must be met for the new data to be added.
 
-### Single record
+## Single record
 
 ``` sql
 INSERT INTO pet
     VALUES (26, "Tiger", "Cat", "2022-04-17");
 ```
 
-### Multiple records
+## Multiple records
 
 ``` sql
 INSERT INTO pet
@@ -265,7 +252,7 @@ INSERT INTO pet
            (28, "Ben", "Ferret", "2022-05-01");
 ```
 
-### Partial record(s)
+## Partial record(s)
 
 If a partial record is added then the field names must be stated.  The values must be in the same order as the fields.
 
@@ -274,13 +261,13 @@ INSERT INTO pet ("species", "name", "pet_id")
     VALUES ("Dog", "Winston", 29);
 ```
 
-[Back to Table of Contents](#toc)
 
-## Modify Data
+
+# Modify Data
 
 **Note:** It is possible to damage the data with an `UPDATE` statement.  It is advisable to practise with a `SELECT` statement first to see if the correct record, or records, will be changed.
 
-### Single value changed
+## Single value changed
 
 ``` sql
 UPDATE pet
@@ -288,7 +275,7 @@ UPDATE pet
     WHERE pet_id = 29;
 ```
 
-### Multiple  values changed
+## Multiple  values changed
 
 ``` sql
 UPDATE pet
@@ -299,9 +286,9 @@ UPDATE pet
 
 __Caution__: without the `WHERE` clause all records would be updated!
 
-[Back to Table of Contents](#toc)
 
-## Remove Data
+
+# Remove Data
 
 **Note:** It is possible to damage the data with a `DELETE FROM` statement.  It is advisable to practise with a `SELECT` statement first to see if the correct record, or records, will be deleted.
 
@@ -312,11 +299,11 @@ DELETE FROM pet
 
 __Caution__: without the `WHERE` clause all records would be deleted!
 
-[Back to Table of Contents](#toc)
 
-## Create a table
 
-### Data types
+# Create a table
+
+## Data types
 
 | Type    | SQL             | Comment |
 | ----    | ---             | ------- |
@@ -326,7 +313,7 @@ __Caution__: without the `WHERE` clause all records would be deleted!
 | Time    | TIME            | HH:MM:SS |
 | Boolean | BOOL            | |
 
-### Validation
+## Validation
 
 | Type              | SQL |
 | ----              | --- |
@@ -335,11 +322,11 @@ __Caution__: without the `WHERE` clause all records would be deleted!
 | Field length      | CHECK(LENGTH(`field`) = 3) |
 | Range             | CHECK(`field` >=1 AND `field` <=6) |
 
-### Example
+## Example
 
-#### Data dictionaries
+## Data dictionaries
 
-##### Entity: vehicle
+## Entity: vehicle
 
 | Attribute | Key   | Type    | Size  | Req'd | Validation |
 | --------- | :---: | ----    | :---: | :---: | ---------- |
@@ -348,7 +335,7 @@ __Caution__: without the `WHERE` clause all records would be deleted!
 | model     |       | text    | 20    | N     | |
 | colour    |       | text    | 15    | Y     | |
 
-##### Entity: repair
+## Entity: repair
 
 | Attribute     | Key   | Type    | Size  | Req'd | Validation |
 | ---------     | :---: | ----    | :---: | :---: | ---------- |
@@ -360,7 +347,7 @@ __Caution__: without the `WHERE` clause all records would be deleted!
 | completed     |       | boolean |       | Y     | |
 | paid          |       | text    | 7     | Y     | Restricted choice: Nothing, Part, All |
 
-#### SQL
+## SQL
 
 ``` sql
 CREATE TABLE vehicle(
@@ -390,9 +377,9 @@ CREATE TABLE repair(
 );
 ```
 
-[Back to Table of Contents](#toc)
 
-## Modify a table
+
+# Modify a table
 
 Modifying a table involves a number of steps:
 
@@ -405,7 +392,7 @@ Modifying a table involves a number of steps:
  7. Rename the new table as the old table
  8. Turn on referential integrity - _if needed_
 
-### 1. Get details
+## 1. Get details
 
 To view the field names, keys, data types, and validation of a table the `sqlite_schema.sql` field for the required table is displayed:
 
@@ -431,7 +418,7 @@ CREATE TABLE "vaccination" (
 )
 ```
 
-### 2. Create new table
+## 2. Create new table
 
 Create a new table with the required changes made.
 
@@ -452,7 +439,7 @@ CREATE TABLE new_vaccination (
 );
 ```
 
-### 3. Copy data
+## 3. Copy data
 
 Copy the data from the old table into the new table.
 
@@ -462,7 +449,7 @@ INSERT INTO new_vaccianation
     FROM vaccination;
 ```
 
-### 4. Check data
+## 4. Check data
 
 Check that the data has been copied into the new table.
 
@@ -471,7 +458,7 @@ SELECT *
     FROM new_vaccianation;
 ```
 
-### 5. Turn off referential integrity
+## 5. Turn off referential integrity
 
 If the primary key of the old table is used as a foreign key  in another table then referential integrity will need to be turned off.
 
@@ -479,7 +466,7 @@ If the primary key of the old table is used as a foreign key  in another table t
 PRAGMA foreign_keys = off;
 ```
 
-### 6. Delete old table
+## 6. Delete old table
 
 Delete the old table.
 
@@ -487,7 +474,7 @@ Delete the old table.
 DROP TABLE staff;
 ```
 
-### 7. Rename new table
+## 7. Rename new table
 
 Rename the new table.
 
@@ -496,7 +483,7 @@ ALTER TABLE new_vaccination
     RENAME TO vaccination;
 ```
 
-### 8. Turn off referential integrity
+## 8. Turn off referential integrity
 
 If referential integrity was turned off, it will needed to be turned on.
 
@@ -504,9 +491,9 @@ If referential integrity was turned off, it will needed to be turned on.
 PRAGMA foreign_keys = on;
 ```
 
-## Examples
+# Examples
 
-### Display data
+## Display data
 
 Select various fields from two tables, with two search conditions and ordered on two fields.
 
@@ -519,7 +506,7 @@ SELECT pet.name, species, vaccination.name, vax_date
         vax_date DESC;
 ```
 
-### Change data
+## Change data
 
 Update vaccination records so that **Feline Leukaemia Virus** is replaced with **FLV**.
 
@@ -547,5 +534,3 @@ SELECT *
     WHERE name = "FLV"
         OR name = "Feline Leukaemia Virus";
 ```
-
-[Back to Table of Contents](#toc)
