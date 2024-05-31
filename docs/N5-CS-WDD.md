@@ -28,7 +28,7 @@ Opening tags can have attributes.
 </tag>
 ```
 
-All element  HTML documents are contained within the opening and closing `html` tags.
+All element HTML documents are contained within the opening and closing `html` tags.
 
 ``` html
 <!DOCTYPE html>
@@ -236,7 +236,7 @@ The image tag (`<img>`) has three attributes.  The first (`src`) is where the im
 
 ## Classes and IDs
 
-HTML elements can have additional attributes for `class` and `id` which are useful applying [CSS](#css) rules to specific elements, and can be used by [JavaScript](#js).
+HTML elements can have additional attributes for `class` and `id` which are useful applying CSS rules to specific elements, and can be used by JavaScript.
 
 A class can be assigned to one or more cascading Style Sheets (CSS), whereas an ID can only be applied to one element on a page.
 
@@ -268,7 +268,7 @@ An element can have an ID and a class.
 
 
 
-## Cascading Style Sheets (CSS) {#css}
+## Cascading Style Sheets (CSS)
 
 ### Information
 
@@ -405,7 +405,7 @@ h5 {color: DarkRed;
 
 
 
-## JavaScript (JS) {#js}
+## JavaScript (JS)
 
 JavaScript statements are terminated with a semicolon, **`;`**. An individual statement will probably run without a semicolon but multiple statements will not.
 
@@ -458,7 +458,7 @@ This event is triggered when the mouse is no longer over an element that has the
 </script>
 ```
 
-#### This
+### This
 
 Passing `this` as a parameter to the JS function allows the same function to be used with multiple elements.
 
