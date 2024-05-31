@@ -1,4 +1,6 @@
-# Database Design and Development
+# DDD
+
+**Database Design and Development**
 
 All the code examples use SQLite.  They will work with [Replit](https://replit.com/) and [DB Browser for SQLite](https://sqlitebrowser.org/).
 
