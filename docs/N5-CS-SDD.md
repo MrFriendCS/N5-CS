@@ -119,7 +119,7 @@ print(myAge)
 
 Concatenate means to join together.
 
-### Strings
+#### Strings
 
 A string can be concatenated with another string.
 
@@ -153,7 +153,7 @@ phrase = "I am " + str(age)
 print(phrase)
 ```
 
-### Arrays
+#### Arrays
 
 An array can be concatenated with another array.
 
@@ -179,7 +179,7 @@ print(combined)
 
 ### User input
 
-### String input
+#### String input
 
 ```python
 word1 = input("Enter the first word: ")
@@ -190,7 +190,7 @@ phrase = word1 + " " + word2
 print(phrase)
 ```
 
-### Non-string input 
+#### Non-string input 
 
 **Note:** Anything from the keyboard is a *string*.
 
@@ -215,7 +215,7 @@ print(addition)
 
 ### Selection - simple
 
-### Comparison operators
+#### Comparison operators
 
 Comparison operators are used to compare one value with another.   All of the following examples produce a Boolean answer of `True` or `False`.
 
@@ -249,7 +249,7 @@ Less than or equal to
 16 <= 18
 ```
 
-### Selection
+#### Selection
 
 Selection makes use of a comparison operator to decide what to do.
 
@@ -292,7 +292,7 @@ else:
 
 Compare more than one set of values to produce a Boolean answer of `True` or `False`.
 
-### AND
+#### AND
 
 Both comparisons must be `True` to produce a final answer of `True`.
 
@@ -303,13 +303,13 @@ Both comparisons must be `True` to produce a final answer of `True`.
 | True         | False        | False  |
 | True         | True         | True   |
 
-### Example AND
+#### Example AND
 
 ``` python
 16 <= 18 and "Night" == "Day"
 ```
 
-### OR
+#### OR
 
 One or both comparisons must be `True` to produce a final answer of `True`.
 
@@ -320,13 +320,13 @@ One or both comparisons must be `True` to produce a final answer of `True`.
 | True         | False        | True   |
 | True         | True         | True   |
 
-### Example OR
+##### Example OR
 
 ``` python
 16 <= 18 or "Night" == "Day"
 ```
 
-### NOT
+#### NOT
 
 Reverses the result of the comparison.
 
@@ -335,7 +335,7 @@ Reverses the result of the comparison.
 | False      | True   |
 | True       | False  |
 
-### Example NOT
+##### Example NOT
 
 ``` python
 not(16 <= 18)
@@ -406,7 +406,7 @@ while value < 10:
 
 ### Predefined functions
 
-### Random
+#### Random
 
 The code to produce a random number needs to be imported before it can be used.
 
@@ -420,9 +420,9 @@ myDice = random.randint(1, 6)
 print(myDice)
 ```
 
-### Round
+#### Round
 
-### Decimal Places
+##### Decimal Places
 
 The round function works with floating point values (decimals).  It returns (produces) a value that is rounded to a specified number of decimal places
 
@@ -433,7 +433,7 @@ myRound = round(myReal, 2)
 print(myRound)
 ```
 
-### Whole number
+##### Whole number
 
 The round function can also be used to return a value without any decimal places (integer).
 
@@ -457,11 +457,11 @@ print(myRound)
 
 **Note:** Python does not always round up when a value has 5 tenths.  Instead it rounds to the nearest even number!
 
-### Length
+#### Length
 
 The length function works with strings and arrays.  It returns a number of characters in a string or the number of elements in an array.
 
-### String
+##### String
 
 ``` python
 myString = "Computing"
@@ -469,7 +469,7 @@ myLength = len(myString)
 print(myLength)
 ```
 
-### Array
+##### Array
 
 ``` python
 myArrayOfIntegers = [56, 34, 2, 85, 51]
@@ -485,7 +485,7 @@ User input can be checked using a conditional loop.  If the value entered is not
 
 It can be done two different ways, initial input before the loop or within the loop.
 
-### Input before loop
+#### Input before loop
 
 The conditional loop is only entered if the value entered is invalid.
 
@@ -500,7 +500,7 @@ while dice < 1 or dice > 6:
 print("You entered " + str(dice))
 ```
 
-### Input within loop
+#### Input within loop
 
 Variable is assigned a value that will cause the loop condition to be true.
 
@@ -518,7 +518,7 @@ print("You entered " + str(dice))
 
 ### Running total within a loop
 
-### Fixed loop
+#### Fixed loop
 
 ``` python
 total = 0
@@ -531,7 +531,7 @@ for counter in range(4):
 print("The combined age is " + str(total))
 ```
 
-### Conditional loop
+#### Conditional loop
 
 ``` python
 answer = ""
@@ -550,7 +550,7 @@ print("The combined age is " + str(total))
 
 Arrays store more than one value, called elements.  Each element has a position.  Python starts counting from zero.
 
-### Putting values in
+#### Putting values in
 
 ``` python
 heights = [0.0] * 5
@@ -563,7 +563,7 @@ for index in range(len(heights)):
 print(heights)
 ```
 
-### Getting values out
+#### Getting values out
 
 Method 1 - using a loop variable (`index`)
 

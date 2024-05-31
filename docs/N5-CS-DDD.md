@@ -2,6 +2,8 @@
 
 **Database Design and Development**
 
+## Notes
+
 All the code examples use SQLite.  They will work with [Replit](https://replit.com/) and [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 **Note:** These notes are focused on N5 Computing Science so some terms might be used differently.
@@ -19,7 +21,7 @@ SQLite, and SQL, is not whitespace sensitive.  This means a statement can be all
 The statements are terminated with a semicolon, __`;`__.  An individual statement will run without a semicolon but multiple statements will not.
 
 
-### Attribute types (Data types)
+## Attribute types (Data types)
 
 SQLite has fewer data types than SQL.  However, SQL datatypes can be used and SQLite will match these to it's own datatypes.
 
@@ -32,13 +34,13 @@ SQLite has fewer data types than SQL.  However, SQL datatypes can be used and SQ
 | Time          | "13:15:00" |
 | Boolean       | TRUE, FALSE |
 
-### Example Data
+## Example Data
 
 The example [database](N5-CS-Database.db) contains the tables and records that the SQL examples will work with. The file can be opened with [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 The first 4 records of the data used in the examples are shown in the following tables:
 
-#### Table: pet
+### Table: pet
 
 | pet_id | name     | species | dob |
 | :----: | ----     | ------- | --- |
@@ -47,7 +49,7 @@ The first 4 records of the data used in the examples are shown in the following 
 | 3	     | Bo       | Rabbit  | 2011-10-13 |
 | 4      | Joscelin | Gerbil  | 2022-02-19 |
 
-#### Table: vaccination
+### Table: vaccination
 
 | vax_id | pet_id | vax_date   | name             | reaction | price |
 | :----: | :----: | --------   | ----             | :------: | ----- |
@@ -56,7 +58,7 @@ The first 4 records of the data used in the examples are shown in the following 
 | 3      | 1      | 2015-12-17 | Cat Flu          | FALSE    | 12.99 |
 | 4      | 17     | 2015-10-05 | Cat Flu          | FALSE    | 12.99 |
 
-### ER Diagram
+## ER Diagram
 
 ![N5 DDD Enitiy Relationship Diagram](N5-CS-DDD-ER.png "ER Diagram")
 

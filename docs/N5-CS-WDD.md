@@ -334,13 +334,13 @@ ID selectors use the ID name with a hash in front.
 
 ### CSS Precedence
 
-### Selectors
+#### Selectors
 
  * Element rules overwrite default rules
  * Class rules overwrite element rules
  * ID rules overwrite class rules
 
-### Location
+#### Location
 
  * External rules overwrite default rules
  * Internal rules overwrite external rules
@@ -348,30 +348,30 @@ ID selectors use the ID name with a hash in front.
 
 plify and implement internal and external Cascading Style Sheets (CSS):
 
-### selectors, classes and IDs
+### Selectors, Classes and IDs
 
-### CSS rules
+#### CSS rules
 
 CSS rules 
 
-### Single property
+#### Single property
 
 ``` css
 selector {property: value;}
 ```
 
-### Multiple properties
+#### Multiple properties
 
 ``` css
 selector {property: value;
           property: value;}
 ```
 
-### Properties
+#### Properties
 
 **Note:** All examples will use a HTML element as the selector but would work equally well with a class or ID.
 
-### Font
+#### Font
 
 ``` css
 p {font-family: sans-serif;}
@@ -379,7 +379,7 @@ p {font-family: sans-serif;}
 h1 {font-size: large;}
 ```
 
-### Alignment
+#### Alignment
 
 ``` css
 h2 {text-align: left;}
@@ -389,7 +389,7 @@ h3 {text-align: center;}
 h4 {text-align: right;}
 ```
 
-### Colour
+#### Colour
 
 The colour of the text and / or the background can be changed using one of the many predefined colours.  To see a list visit [W3Schools](https://www.w3schools.com/colors/colors_names.asp). 
 
@@ -411,7 +411,7 @@ JavaScript statements are terminated with a semicolon, **`;`**. An individual st
 
 ### Information
 
-### Comments
+#### Comments
 
 Single line comment.
 
@@ -458,7 +458,7 @@ This event is triggered when the mouse is no longer over an element that has the
 </script>
 ```
 
-### This
+#### This
 
 Passing `this` as a parameter to the JS function allows the same function to be used with multiple elements.
 
