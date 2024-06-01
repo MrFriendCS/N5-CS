@@ -102,7 +102,8 @@ Exponentiation (to the power of)
 4 ** 2
 ```
 
-Examples
+#### Examples
+
 ``` python
 myMultiplication = 3 * 2
 print(myMultiplication)
@@ -377,7 +378,9 @@ if age >= 18 and not(banned):
 
 Before a fixed loop starts, the number of times it will run ***is*** stated.
 
-Example.  Display the numbers 0 to 9, ten numbers in total.
+#### Example
+
+Display the numbers 0 to 9, ten numbers in total.
 
 ``` python
 for counter in range(10):
@@ -394,14 +397,18 @@ range(start, stop)
 range(start, stop, step)
 ```
 
-Example.  Display the numbers 1 to 9.
+#### Example
+
+Display the numbers 1 to 9.
 
 ``` python
 for counter in range(1, 10):
     print(counter)
 ```
 
-Example.  Display the odd numbers from 1 to 9.
+#### Example
+
+Display the odd numbers from 1 to 9.
 
 ``` python
 for counter in range(1, 10, 2):
@@ -605,7 +612,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTQ3Mzg1MiwxMzg5NTMzODcyLC0xOT
-k0MTE5OTQ1LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5
-MTldfQ==
+eyJoaXN0b3J5IjpbLTE0ODQxNjg4OTQsMjA0NTQ3Mzg1MiwxMz
+g5NTMzODcyLC0xOTk0MTE5OTQ1LC0yMjkzNDgyMDIsMTk2ODU4
+NTI4OCw4MTQzOTQ5MTldfQ==
 -->
