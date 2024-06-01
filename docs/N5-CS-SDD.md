@@ -310,7 +310,9 @@ Both comparisons must be `True` to produce a final answer of `True`.
 #### Example AND
 
 ``` python
-16 <= 18 and "Night" == "Day"
+myAnswer = 16 <= 18 and "Night" == "Day"
+
+print(myAnswer)
 ```
 
 #### OR
@@ -327,7 +329,9 @@ One or both comparisons must be `True` to produce a final answer of `True`.
 ##### Example OR
 
 ``` python
-16 <= 18 or "Night" == "Day"
+myAnswer = 16 <= 18 or "Night" == "Day"
+
+print(myAnswer)
 ```
 
 #### NOT
@@ -342,7 +346,9 @@ Reverses the result of the comparison.
 ##### Example NOT
 
 ``` python
-not(16 <= 18)
+myAnswer = not(16 <= 18)
+
+print(myAnswer
 ```
 
 ### Selection - complex
@@ -591,5 +597,5 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQyNjk0MDEsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbNDM4MzUyNTcxLDgxNDM5NDkxOV19
 -->
