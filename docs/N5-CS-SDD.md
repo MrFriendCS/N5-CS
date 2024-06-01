@@ -206,7 +206,7 @@ myReal = float("3.14")
 myBool = bool("True")
 ```
 
-Example:
+##### Example
 
 Inputting and value and casting it to a different datatype can be combined into one line of code.
 
@@ -259,7 +259,9 @@ Less than or equal to
 
 Selection makes use of a comparison operator to decide what to do.
 
-Example 1.  Code is only run if the comparison is `True`.
+##### Example 1
+
+Code is only run if the comparison is `True`.
 
 ``` python
 age = 21
@@ -268,7 +270,9 @@ if age >= 18:
     print("You can go to the pub.")
 ```
 
-Example 2.  One section of code is always run.
+##### Example 2
+
+One section of code is always run.
 
 ``` python
 age = 16
@@ -279,7 +283,9 @@ else:
     print("You can't go to the pub.")
 ```
 
-Example 3.  Only the section of code for the first comparison that is `True` is run.  There can be multiple `elif` statements.
+##### Example 3
+
+Only the section of code for the first comparison that is `True` is run.  There can be multiple `elif` statements.
 
 There can be multiple `elif` statements, and the `else` is optional.  Numerical values are compared in order: largest to smallest (_see below_), or smallest to largest.
 
@@ -599,7 +605,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTc3ODUyOCwxMzg5NTMzODcyLC0xOT
+eyJoaXN0b3J5IjpbMjA0NTQ3Mzg1MiwxMzg5NTMzODcyLC0xOT
 k0MTE5OTQ1LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5
 MTldfQ==
 -->
