@@ -173,7 +173,7 @@ print(combined)
 To concatenate something that is not an array, it must be cast (converted) to an array.
 
 ``` python
-myArray = []
+myArray = [16, 17]
 myInt = 18
 
 combined = myArray + [myInt]
@@ -597,6 +597,6 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTM0ODIwMiwxOTY4NTg1Mjg4LDgxND
-M5NDkxOV19
+eyJoaXN0b3J5IjpbLTE5OTQxMTk5NDUsLTIyOTM0ODIwMiwxOT
+Y4NTg1Mjg4LDgxNDM5NDkxOV19
 -->
