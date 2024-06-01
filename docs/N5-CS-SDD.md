@@ -208,6 +208,8 @@ myBool = bool("True")
 
 Example:
 
+Inputting and value and casting it to a different datatype can be combined into one line of code.
+
 ```python
 value1 = int(input("Enter the first value: "))
 value2 = int(input("Enter the second value: "))
@@ -597,6 +599,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTUzMzg3MiwtMTk5NDExOTk0NSwtMj
-I5MzQ4MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbLTI0NTc3ODUyOCwxMzg5NTMzODcyLC0xOT
+k0MTE5OTQ1LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5
+MTldfQ==
 -->
