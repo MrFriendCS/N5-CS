@@ -1,8 +1,8 @@
-# WDD
+# Web Design and Development
 
-**Web Design and Development**
+## Notes
 
-**Note:** HTML, CSS, and JavaScript use American spelling so when you see `center` or `color` they are not typos.
+HTML, CSS, and JavaScript use American spelling so when you see `center` or `color` they are not typos.
 
 ## Hypertext Markup Language (HTML) 
 
@@ -475,3 +475,6 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 ```
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTM2MzYxOTczOF19
+-->
