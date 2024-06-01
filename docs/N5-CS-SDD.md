@@ -1,12 +1,12 @@
-# SDD
+# Software Design and Development
 
-**Software Design and Development**
+## Notes
 
 All the code examples use Python.
 
 Python uses indentation (spaces at the beginning of a line) to show where code blocks are.
 
-**Note:** These notes are focused on N5 Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.
+These notes are focused on N5 Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.
 
 ## Information
 
@@ -597,6 +597,6 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTM0ODIwMiwxOTY4NTg1Mjg4LDgxND
-M5NDkxOV19
+eyJoaXN0b3J5IjpbLTk4NzQ5Mzg2NCwtMjI5MzQ4MjAyLDE5Nj
+g1ODUyODgsODE0Mzk0OTE5XX0=
 -->
