@@ -279,7 +279,7 @@ else:
 
 Example 3.  Only the section of code for the first comparison that is `True` is run.  There can be multiple `elif` statements.
 
-There can be multiple `elif` statements, and the `else` is optional.
+There can be multiple `elif` statements, and the `else` is optional.  Numerical values are compared in order: largest to smallest, or smallest to largest.
 
 ``` python
 score = 81
@@ -591,5 +591,5 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbLTEzNzY4NDA4ODAsODE0Mzk0OTE5XX0=
 -->
