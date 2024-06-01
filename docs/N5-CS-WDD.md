@@ -1,6 +1,4 @@
-# WDD
-
-**Web Design and Development**
+# Web Design and Development
 
 **Note:** HTML, CSS, and JavaScript use American spelling so when you see `center` or `color` they are not typos.
 
@@ -475,3 +473,6 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 ```
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQxMDg0NjIzM119
+-->
