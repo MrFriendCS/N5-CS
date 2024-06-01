@@ -593,10 +593,10 @@ for score in scores:
     print(score)
 ```
 
-### Multiple arrays
+#### Multiple arrays
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQxMTk5NDUsLTIyOTM0ODIwMiwxOT
-Y4NTg1Mjg4LDgxNDM5NDkxOV19
+eyJoaXN0b3J5IjpbMTM4OTUzMzg3MiwtMTk5NDExOTk0NSwtMj
+I5MzQ4MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX0=
 -->
