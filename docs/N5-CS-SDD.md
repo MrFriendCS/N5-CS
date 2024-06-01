@@ -445,6 +445,8 @@ print(myRound)
 
 ##### Whole number
 
+**Note:** Python does not always round up when a value has 5 tenths.  Instead it rounds to the nearest even number!
+
 The round function can also be used to return a value without any decimal places (integer).
 
 The following example will return a value of 4.
@@ -464,8 +466,6 @@ myReal= 4.5
 myRound = round(myReal)
 print(myRound)
 ```
-
-**Note:** Python does not always round up when a value has 5 tenths.  Instead it rounds to the nearest even number!
 
 #### Length
 
@@ -597,5 +597,6 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODU4NTI4OCw4MTQzOTQ5MTldfQ==
+eyJoaXN0b3J5IjpbLTIyOTM0ODIwMiwxOTY4NTg1Mjg4LDgxND
+M5NDkxOV19
 -->
