@@ -348,12 +348,12 @@ Reverses the result of the comparison.
 ``` python
 myAnswer = not(16 <= 18)
 
-print(myAnswer
+print(myAnswer)
 ```
 
 ### Selection - complex
 
-Complex selection makes use of logical operators.
+Complex selection uses of logical operators.
 
 ``` python
 age = 21
@@ -597,5 +597,5 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4MzUyNTcxLDgxNDM5NDkxOV19
+eyJoaXN0b3J5IjpbMTk2ODU4NTI4OCw4MTQzOTQ5MTldfQ==
 -->
