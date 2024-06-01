@@ -143,6 +143,8 @@ phrase = word1 + " " + word2
 print(phrase)
 ```
 
+#### Non-strings
+
 To concatenate something that is not a string, it must be cast (converted) to a string.
 
 ``` python
@@ -165,6 +167,8 @@ combined = part1 + part2
 
 print(combined)
 ```
+
+#### Non-arrays
 
 To concatenate something that is not an array, it must be cast (converted) to an array.
 
@@ -586,3 +590,6 @@ for score in scores:
 ### Multiple arrays
 
 A program can use more than one array, in the same way that a program can use multiple variables.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5MjQ0MjIxODldfQ==
+-->
