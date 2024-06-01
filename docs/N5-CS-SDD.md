@@ -185,6 +185,8 @@ print(combined)
 
 #### String input
 
+**Note:** Anything from the keyboard is a *string*.
+
 ```python
 word1 = input("Enter the first word: ")
 word2 = input("Enter the second word: ")
@@ -195,8 +197,6 @@ print(phrase)
 ```
 
 #### Non-string input 
-
-**Note:** Anything from the keyboard is a *string*.
 
 Values that have a different datatype must be cast from string to the correct datatype, using one of the following functions:
 
@@ -591,5 +591,5 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQ0MjIxODldfQ==
+eyJoaXN0b3J5IjpbODE0Mzk0OTE5XX0=
 -->
