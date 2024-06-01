@@ -1,6 +1,4 @@
-# DDD
-
-**Database Design and Development**
+# Database Design and Development
 
 ## Notes
 
@@ -537,3 +535,6 @@ SELECT *
     WHERE name = "FLV"
         OR name = "Feline Leukaemia Virus";
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTgxODMyNjE4NF19
+-->
