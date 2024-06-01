@@ -163,7 +163,7 @@ SELECT COUNT(*)
 
 ## GROUP BY
 
-`GROUP BY` places results of a query into logical groups and removes duplicates.  [Aggregate functions] can be used with each group.
+`GROUP BY` places results of a query into logical groups and removes duplicates.  Aggregate functions can be used with each group.
 
 The following example will return the `species` field from every record.  Values will be repeated if they are repeated in the table.
 
@@ -261,5 +261,5 @@ SELECT pet.pet_id, pet.name, species, SUM(cost * 1.2) as [inc VAT]
     ORDER BY [inc VAT] DESC;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU0NjczNDldfQ==
+eyJoaXN0b3J5IjpbLTEzMDA0NzYzNzddfQ==
 -->
