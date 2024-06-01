@@ -1,12 +1,10 @@
-# DDD
-
-**Database Design and Development**
+# Database Design and Development
 
 ## Notes
 
 All the code examples use SQLite.  They will work with [Replit](https://replit.com/) and [DB Browser for SQLite](https://sqlitebrowser.org/).
 
-**Note:** These notes are focused on N5 Computing Science so some terms might be used differently.
+These notes are focused on N5 Computing Science so some terms might be used differently.
 
 SQLite, and SQL, keywords are not case sensitive.  The following are all equally valid:
 
@@ -537,3 +535,6 @@ SELECT *
     WHERE name = "FLV"
         OR name = "Feline Leukaemia Virus";
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEyMzM5ODQ3MzZdfQ==
+-->
