@@ -1,6 +1,4 @@
-# SDD
-
-**Software Design and Development**
+# Software Design and Development
 
 All the code examples use Python.
 
@@ -612,7 +610,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQxNjg4OTQsMjA0NTQ3Mzg1MiwxMz
-g5NTMzODcyLC0xOTk0MTE5OTQ1LC0yMjkzNDgyMDIsMTk2ODU4
-NTI4OCw4MTQzOTQ5MTldfQ==
+eyJoaXN0b3J5IjpbMTQwNDU4ODczOSwtMTQ4NDE2ODg5NCwyMD
+Q1NDczODUyLDEzODk1MzM4NzIsLTE5OTQxMTk5NDUsLTIyOTM0
+ODIwMiwxOTY4NTg1Mjg4LDgxNDM5NDkxOV19
 -->
