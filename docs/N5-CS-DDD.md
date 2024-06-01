@@ -58,7 +58,7 @@ The first 4 records of the data used in the examples are shown in the following 
 
 ## ER Diagram
 
-![N5 DDD Enitiy Relationship Diagram](N5-CS-DDD-ER.png "ER Diagram")
+![N5 DDD Entity Relationship Diagram](N5-CS-DDD-ER.png "ER Diagram")
 
 
 
@@ -536,5 +536,5 @@ SELECT *
         OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM5ODQ3MzZdfQ==
+eyJoaXN0b3J5IjpbLTk1ODU5ODQzMSwtMTIzMzk4NDczNl19
 -->
