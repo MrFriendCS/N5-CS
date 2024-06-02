@@ -35,9 +35,7 @@ print("Hello world")
 print(3.14)
 ```
 
-## Computational constructs
-
-### Assign values
+## Assign values
 
 Variables are used to store values.  An assignment statement has 3 parts:
 
@@ -75,7 +73,7 @@ myArrayOfIntegers = [56, 34, 2, 85, 51]
 myArrayOfStrings = [""] * 4
 ```
 
-### Arithmetic operations
+## Arithmetic operations
 
 Addition
 ``` python
@@ -115,11 +113,11 @@ myAge = myAge + 1
 print(myAge)
 ```
 
-### Concatenation
+## Concatenation
 
 Concatenate means to join together.
 
-#### Strings
+### Strings
 
 A string can be concatenated with another string.
 
@@ -143,7 +141,7 @@ phrase = word1 + " " + word2
 print(phrase)
 ```
 
-#### Non-strings
+### Non-strings
 
 To concatenate something that is not a string, it must be cast (converted) to a string.
 
@@ -155,7 +153,7 @@ phrase = "I am " + str(age)
 print(phrase)
 ```
 
-#### Arrays
+### Arrays
 
 An array can be concatenated with another array.
 
@@ -168,7 +166,7 @@ combined = part1 + part2
 print(combined)
 ```
 
-#### Non-arrays
+### Non-arrays
 
 To concatenate something that is not an array, it must be cast (converted) to an array.
 
@@ -181,9 +179,9 @@ combined = myArray + [myInt]
 print(combined)
 ```
 
-### User input
+## User input
 
-#### String input
+### String input
 
 **Note:** Anything from the keyboard is a *string*.
 
@@ -196,7 +194,7 @@ phrase = word1 + " " + word2
 print(phrase)
 ```
 
-#### Non-string input 
+### Non-string input 
 
 Values that have a different datatype must be cast from string to the correct datatype, using one of the following functions:
 
@@ -206,7 +204,7 @@ myReal = float("3.14")
 myBool = bool("True")
 ```
 
-Example:
+#### Example
 
 ```python
 value1 = int(input("Enter the first value: "))
@@ -217,9 +215,9 @@ addition = value1 + value2
 print(addition)
 ```
 
-### Selection - simple
+## Selection - simple
 
-#### Comparison operators
+### Comparison operators
 
 Comparison operators are used to compare one value with another.   All of the following examples produce a Boolean answer of `True` or `False`.
 
@@ -253,7 +251,7 @@ Less than or equal to
 16 <= 18
 ```
 
-#### Selection
+### Selection
 
 Selection makes use of a comparison operator to decide what to do.
 
@@ -292,11 +290,11 @@ else:
     print("Oh dear!")
 ```
 
-### Logical operators
+## Logical operators
 
 Compare more than one set of values to produce a Boolean answer of `True` or `False`.
 
-#### AND
+### AND
 
 Both comparisons must be `True` to produce a final answer of `True`.
 
@@ -315,7 +313,7 @@ myAnswer = 16 <= 18 and "Night" == "Day"
 print(myAnswer)
 ```
 
-#### OR
+### OR
 
 One or both comparisons must be `True` to produce a final answer of `True`.
 
@@ -334,7 +332,7 @@ myAnswer = 16 <= 18 or "Night" == "Day"
 print(myAnswer)
 ```
 
-#### NOT
+### NOT
 
 Reverses the result of the comparison.
 
@@ -351,7 +349,7 @@ myAnswer = not(16 <= 18)
 print(myAnswer)
 ```
 
-### Selection - complex
+## Selection - complex
 
 Complex selection uses of logical operators.
 
@@ -363,7 +361,7 @@ if age >= 18 and not(banned):
     print("You can go to the pub.")
 ```
 
-###  Fixed and conditional loops
+##  Fixed and conditional loops
 
 ### Fixed loop (for)
 
@@ -414,9 +412,9 @@ while value < 10:
     print(counter)
 ```
 
-### Predefined functions
+## Predefined functions
 
-#### Random
+### Random
 
 The code to produce a random number needs to be imported before it can be used.
 
@@ -597,6 +595,6 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NzQ5Mzg2NCwtMjI5MzQ4MjAyLDE5Nj
-g1ODUyODgsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbOTg2MjQ3NzQzLC0yMjkzNDgyMDIsMTk2OD
+U4NTI4OCw4MTQzOTQ5MTldfQ==
 -->
