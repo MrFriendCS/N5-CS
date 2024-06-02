@@ -24,7 +24,7 @@ The statements are terminated with a semicolon, __`;`__.  An individual statemen
 SQLite has fewer data types than SQL.  However, SQL datatypes can be used and SQLite will match these to it's own datatypes.
 
 | Data type     | Example data |
-| ----          | ---- |
+| ---------     | ------------ |
 | Text          | "Cat", "01871" |
 | Number (INT)  | -99, 0, 99 |
 | Number (REAL) | -99.0, 0.0, 99.0 |
@@ -536,6 +536,6 @@ SELECT *
         OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDc5MjUzOSwtOTU4NTk4NDMxLC0xMj
-MzOTg0NzM2XX0=
+eyJoaXN0b3J5IjpbMTcxNTgzOTc5MCwxOTU0NzkyNTM5LC05NT
+g1OTg0MzEsLTEyMzM5ODQ3MzZdfQ==
 -->
