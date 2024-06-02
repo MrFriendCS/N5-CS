@@ -324,7 +324,7 @@ One or both comparisons must be `True` to produce a final answer of `True`.
 | True         | False        | True   |
 | True         | True         | True   |
 
-##### Example OR
+#### Example OR
 
 ``` python
 myAnswer = 16 <= 18 or "Night" == "Day"
@@ -341,7 +341,7 @@ Reverses the result of the comparison.
 | False      | True   |
 | True       | False  |
 
-##### Example NOT
+#### Example NOT
 
 ``` python
 myAnswer = not(16 <= 18)
@@ -601,6 +601,6 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0NDI4NDgyLC03NDE5NDQ5MTcsLTIyOT
-M0ODIwMiwxOTY4NTg1Mjg4LDgxNDM5NDkxOV19
+eyJoaXN0b3J5IjpbLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMj
+I5MzQ4MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX0=
 -->
