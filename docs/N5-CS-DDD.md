@@ -262,8 +262,6 @@ INSERT INTO pet ("species", "name", "pet_id")
     VALUES ("Dog", "Winston", 29);
 ```
 
-
-
 ## Modify Data
 
 **Note:** It is possible to damage the data with an `UPDATE` statement.  It is advisable to practise with a `SELECT` statement first to see if the correct record, or records, will be changed.
@@ -287,8 +285,6 @@ UPDATE pet
 
 __Caution__: without the `WHERE` clause all records would be updated!
 
-
-
 ## Remove Data
 
 **Note:** It is possible to damage the data with a `DELETE FROM` statement.  It is advisable to practise with a `SELECT` statement first to see if the correct record, or records, will be deleted.
@@ -299,8 +295,6 @@ DELETE FROM pet
 ```
 
 __Caution__: without the `WHERE` clause all records would be deleted!
-
-
 
 ## Create a table
 
@@ -377,8 +371,6 @@ CREATE TABLE repair(
     PRIMARY KEY (repair_no)
 );
 ```
-
-
 
 ## Modify a table
 
@@ -536,6 +528,6 @@ SELECT *
         OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTgzOTc5MCwxOTU0NzkyNTM5LC05NT
-g1OTg0MzEsLTEyMzM5ODQ3MzZdfQ==
+eyJoaXN0b3J5IjpbODczMDY0MTEwLDE5NTQ3OTI1MzksLTk1OD
+U5ODQzMSwtMTIzMzk4NDczNl19
 -->
