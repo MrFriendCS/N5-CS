@@ -100,7 +100,8 @@ Exponentiation (to the power of)
 4 ** 2
 ```
 
-Examples
+### Examples
+
 ``` python
 myMultiplication = 3 * 2
 print(myMultiplication)
@@ -133,7 +134,6 @@ print(word)
 Be sure to include a space between words when concatenating.
 
 ``` python
-word1 = "Hello"
 word2 = "world"
 
 phrase = word1 + " " + word2
@@ -367,7 +367,9 @@ if age >= 18 and not(banned):
 
 Before a fixed loop starts, the number of times it will run ***is*** stated.
 
-Example.  Display the numbers 0 to 9, ten numbers in total.
+#### Example
+
+Display the numbers 0 to 9, ten numbers in total.
 
 ``` python
 for counter in range(10):
@@ -384,14 +386,18 @@ range(start, stop)
 range(start, stop, step)
 ```
 
-Example.  Display the numbers 1 to 9.
+#### Example
+
+Display the numbers 1 to 9.
 
 ``` python
 for counter in range(1, 10):
     print(counter)
 ```
 
-Example.  Display the odd numbers from 1 to 9.
+#### Example
+
+Display the odd numbers from 1 to 9.
 
 ``` python
 for counter in range(1, 10, 2):
@@ -595,6 +601,6 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Nj
-g1ODUyODgsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbOTY0NDI4NDgyLC03NDE5NDQ5MTcsLTIyOT
+M0ODIwMiwxOTY4NTg1Mjg4LDgxNDM5NDkxOV19
 -->
