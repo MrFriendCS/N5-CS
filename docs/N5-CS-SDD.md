@@ -428,9 +428,9 @@ myDice = random.randint(1, 6)
 print(myDice)
 ```
 
-#### Round
+### Round
 
-##### Decimal Places
+#### Decimal Places
 
 The round function works with floating point values (decimals).  It returns (produces) a value that is rounded to a specified number of decimal places
 
@@ -441,7 +441,7 @@ myRound = round(myReal, 2)
 print(myRound)
 ```
 
-##### Whole number
+#### Whole number
 
 **Note:** Python does not always round up when a value has 5 tenths.  Instead it rounds to the nearest even number!
 
@@ -465,11 +465,11 @@ myRound = round(myReal)
 print(myRound)
 ```
 
-#### Length
+### Length
 
 The length function works with strings and arrays.  It returns a number of characters in a string or the number of elements in an array.
 
-##### String
+#### String
 
 ``` python
 myString = "Computing"
@@ -477,7 +477,7 @@ myLength = len(myString)
 print(myLength)
 ```
 
-##### Array
+#### Array
 
 ``` python
 myArrayOfIntegers = [56, 34, 2, 85, 51]
@@ -595,6 +595,6 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2MjQ3NzQzLC0yMjkzNDgyMDIsMTk2OD
-U4NTI4OCw4MTQzOTQ5MTldfQ==
+eyJoaXN0b3J5IjpbLTc0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Nj
+g1ODUyODgsODE0Mzk0OTE5XX0=
 -->
