@@ -369,7 +369,7 @@ Before a fixed loop starts, the number of times it will run ***is*** stated.
 
 #### Example
 
-Display the numbers 0 to 9, ten numbers in total.  The loop variable is `counter`
+Display the numbers 0 to 9, ten numbers in total.  The loop variable is `counter` and it holds the current value from the range function.
 
 ``` python
 for counter in range(10):
@@ -608,7 +608,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyNDcxMDc1LDc2MjQwMTk4MiwtMTQ5OD
-Q2MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4
-OCw4MTQzOTQ5MTldfQ==
+eyJoaXN0b3J5IjpbMTY5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OT
+g0NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Njg1ODUy
+ODgsODE0Mzk0OTE5XX0=
 -->
