@@ -444,6 +444,7 @@ The round function works with floating point values (decimals).  It returns (pro
 myReal = 3.14159265359
 
 myRound = round(myReal, 2)
+
 print(myRound)
 ```
 
@@ -459,6 +460,7 @@ The following example will return a value of 4.
 myReal= 3.5
 
 myRound = round(myReal)
+
 print(myRound)
 ```
 
@@ -468,6 +470,7 @@ The following example will ***also*** return a value of 4.
 myReal= 4.5
 
 myRound = round(myReal)
+
 print(myRound)
 ```
 
@@ -479,7 +482,9 @@ The length function works with strings and arrays.  It returns a number of chara
 
 ``` python
 myString = "Computing"
+
 myLength = len(myString)
+
 print(myLength)
 ```
 
@@ -487,7 +492,9 @@ print(myLength)
 
 ``` python
 myArrayOfIntegers = [56, 34, 2, 85, 51]
+
 myLength = len(myArrayOfIntegers)
+
 print(myLength)
 ```
 
@@ -601,6 +608,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMj
-I5MzQ4MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbNzYyNDAxOTgyLC0xNDk4NDYxMjQwLC03ND
+E5NDQ5MTcsLTIyOTM0ODIwMiwxOTY4NTg1Mjg4LDgxNDM5NDkx
+OV19
 -->
