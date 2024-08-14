@@ -134,6 +134,7 @@ print(word)
 Be sure to include a space between words when concatenating.
 
 ``` python
+word1 = "Hello"
 word2 = "world"
 
 phrase = word1 + " " + word2
@@ -608,7 +609,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OT
-g0NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Njg1ODUy
-ODgsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbLTE0ODQwNzM5MTAsMTY5Nzg0MzY2Miw3Nj
+I0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4
+MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX0=
 -->
