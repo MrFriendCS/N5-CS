@@ -293,7 +293,7 @@ __Caution__: without the `WHERE` clause all records would be deleted!
 | Type              | SQL |
 | ----              | --- |
 | Presence check    | NOT NULL |
-| Restricted choice | CHECK(`field`) IN ("S", "M", "L") |
+| Restricted choice | CHECK(`field`) IN (`list of values`) |
 | Field length      | CHECK(LENGTH(`field`) = 3) |
 | Range             | CHECK(`field` >=1 AND `field` <=6) |
 
@@ -508,6 +508,6 @@ SELECT *
         OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY4Nzg4ODgsODczMDY0MTEwLDE5NT
-Q3OTI1MzksLTk1ODU5ODQzMSwtMTIzMzk4NDczNl19
+eyJoaXN0b3J5IjpbMTU5OTEwMzkyMyw4NzMwNjQxMTAsMTk1ND
+c5MjUzOSwtOTU4NTk4NDMxLC0xMjMzOTg0NzM2XX0=
 -->
