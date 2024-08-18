@@ -118,8 +118,6 @@ SELECT name, species
     FROM pet;
 ```
 
-
-
 ## Filter results
 
 To limit the number of records returned, the `WHERE` keyword is used with a comparison operator.
@@ -149,8 +147,6 @@ SELECT *
     WHERE species = "Cat";
 ```
 
-
-
 ### Complex search
 
 A complex search compares two fields.
@@ -177,8 +173,6 @@ SELECT *
         OR reaction = True;
 ```
 
-
-
 ## Sort results
 
 It is possible to sort the output of a search using `ORDER BY` and stating the field, or fields.  Fields are sorted ascending, smallest to largest, by default.
@@ -197,8 +191,6 @@ SELECT *
     ORDER BY species DESC, 
         name ASC;
 ```
-
-
 
 ## Equi-join between tables
 
@@ -221,8 +213,6 @@ SELECT *
     FROM pet, vaccination
     WHERE pet.pet_id = vaccination.pet_id;
 ```
-
-
 
 ## Add New Data
 
@@ -518,6 +508,6 @@ SELECT *
         OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTIwOTM0OCw4NzMwNjQxMTAsMTk1ND
-c5MjUzOSwtOTU4NTk4NDMxLC0xMjMzOTg0NzM2XX0=
+eyJoaXN0b3J5IjpbLTExMTY4Nzg4ODgsODczMDY0MTEwLDE5NT
+Q3OTI1MzksLTk1ODU5ODQzMSwtMTIzMzk4NDczNl19
 -->
