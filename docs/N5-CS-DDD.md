@@ -2,7 +2,7 @@
 
 ## Notes
 
-All the code examples use SQLite.  They will work with [Replit](https://replit.com/) and [DB Browser for SQLite](https://sqlitebrowser.org/).
+All the code examples use SQLite.  They will work with [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 These notes are focused on N5 Computing Science so some terms might be used differently.
 
@@ -72,8 +72,6 @@ SELECT name
     WHERE type = "table";
 ```
 
-
-
 ## Information
 
 ### Comments
@@ -94,15 +92,7 @@ This comment is not displayed
 ```
 
 ### Display information
-It is possible to display simple messages.
-
-### Replit
-
-``` sql
-.print Hello World!
-```
-
-### DB Browser for SQLite
+It is possible to display simple messages (DB Browser for SQLite).
 
 ``` sql
 SELECT "Hello World!";
@@ -528,6 +518,6 @@ SELECT *
         OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczMDY0MTEwLDE5NTQ3OTI1MzksLTk1OD
-U5ODQzMSwtMTIzMzk4NDczNl19
+eyJoaXN0b3J5IjpbLTQxOTIwOTM0OCw4NzMwNjQxMTAsMTk1ND
+c5MjUzOSwtOTU4NTk4NDMxLC0xMjMzOTg0NzM2XX0=
 -->
