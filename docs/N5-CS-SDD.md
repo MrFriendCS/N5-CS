@@ -352,7 +352,7 @@ print(myAnswer)
 
 ## Selection - complex
 
-Complex selection uses of logical operators.
+Complex selection uses two or more logical operators.
 
 ``` python
 age = 21
@@ -609,7 +609,8 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQwNzM5MTAsMTY5Nzg0MzY2Miw3Nj
-I0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4
-MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbMTI2MzU0NjExMywtMTQ4NDA3MzkxMCwxNj
+k3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2MTI0MCwtNzQxOTQ0
+OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5MTldfQ
+==
 -->
