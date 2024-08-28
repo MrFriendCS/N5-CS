@@ -312,6 +312,12 @@ Both comparisons must be `True` to produce a final answer of `True`.
 print(16 <= 18 and "Night" == "Day")
 ```
 
+```
+age = 16
+time = "Night"
+
+if age <= 18 and "Night" == "Day")
+
 ### OR
 
 One or both comparisons must be `True` to produce a final answer of `True`.
@@ -341,9 +347,7 @@ Reverses the result of the comparison.
 #### Example NOT
 
 ``` python
-myAnswer = not(16 <= 18)
-
-print(myAnswer)
+print(not(16 <= 18))
 ```
 
 ## Selection - complex
@@ -605,7 +609,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQ1NjgwNjEsMTI2MzU0NjExMywtMT
+eyJoaXN0b3J5IjpbLTE5NTY5OTk1OTksMTI2MzU0NjExMywtMT
 Q4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2
 MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OC
 w4MTQzOTQ5MTldfQ==
