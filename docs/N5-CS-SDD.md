@@ -364,6 +364,15 @@ Reverses the result of the comparison.
 print(not(16 <= 18))
 ```
 
+``` python
+age = 16
+
+if not(age <= 18):
+	print("True!")
+else:
+	print("False!")
+```
+
 ## Selection - complex
 
 Complex selection uses two or more logical operators.
@@ -623,8 +632,8 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDQxNDc5NiwxMjYzNTQ2MTEzLC0xND
-g0MDczOTEwLDE2OTc4NDM2NjIsNzYyNDAxOTgyLC0xNDk4NDYx
-MjQwLC03NDE5NDQ5MTcsLTIyOTM0ODIwMiwxOTY4NTg1Mjg4LD
-gxNDM5NDkxOV19
+eyJoaXN0b3J5IjpbNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0OD
+QwNzM5MTAsMTY5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0NjEy
+NDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Njg1ODUyODgsOD
+E0Mzk0OTE5XX0=
 -->
