@@ -339,6 +339,16 @@ One or both comparisons must be `True` to produce a final answer of `True`.
 print(16 <= 18 or "Night" == "Day")
 ```
 
+``` python
+age = 16
+time = "Night"
+
+if age <= 18 or time == "Day":
+	print("True!")
+else:
+	print("False!")
+```
+
 ### NOT
 
 Reverses the result of the comparison.
@@ -613,7 +623,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDAwMzQ2NywxMjYzNTQ2MTEzLC0xND
+eyJoaXN0b3J5IjpbMTQ3MDQxNDc5NiwxMjYzNTQ2MTEzLC0xND
 g0MDczOTEwLDE2OTc4NDM2NjIsNzYyNDAxOTgyLC0xNDk4NDYx
 MjQwLC03NDE5NDQ5MTcsLTIyOTM0ODIwMiwxOTY4NTg1Mjg4LD
 gxNDM5NDkxOV19
