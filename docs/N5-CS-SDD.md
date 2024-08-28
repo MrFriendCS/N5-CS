@@ -309,9 +309,7 @@ Both comparisons must be `True` to produce a final answer of `True`.
 #### Example AND
 
 ``` python
-myAnswer = 16 <= 18 and "Night" == "Day"
-
-print(myAnswer)
+print(16 <= 18 and "Night" == "Day")
 ```
 
 ### OR
@@ -328,9 +326,7 @@ One or both comparisons must be `True` to produce a final answer of `True`.
 #### Example OR
 
 ``` python
-myAnswer = 16 <= 18 or "Night" == "Day"
-
-print(myAnswer)
+print(16 <= 18 or "Night" == "Day")
 ```
 
 ### NOT
@@ -609,8 +605,8 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzU0NjExMywtMTQ4NDA3MzkxMCwxNj
-k3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2MTI0MCwtNzQxOTQ0
-OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5MTldfQ
-==
+eyJoaXN0b3J5IjpbLTE5NTQ1NjgwNjEsMTI2MzU0NjExMywtMT
+Q4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2
+MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OC
+w4MTQzOTQ5MTldfQ==
 -->
