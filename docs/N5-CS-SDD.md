@@ -434,6 +434,8 @@ Before a conditional loop starts, the number of times it will run ***is not*** s
 
 It only runs if the comparison is `True`.  Each time the code is completed the comparison is checked again.  If it is still `True` the code is run again.
 
+### Example
+
 ``` python
 value = int(input("Enter a value: "))
 
@@ -561,7 +563,7 @@ while dice < 1 or dice > 6:
 print("You entered " + str(dice))
 ```
 
-### Running total within a loop
+### Running total
 
 #### Fixed loop
 
@@ -632,8 +634,8 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDY1MzE0NSw0NzU2ODIyNTksMTI2Mz
-U0NjExMywtMTQ4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4
-MiwtMTQ5ODQ2MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMT
-k2ODU4NTI4OCw4MTQzOTQ5MTldfQ==
+eyJoaXN0b3J5IjpbOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMjYzNT
+Q2MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2NjIsNzYyNDAxOTgy
+LC0xNDk4NDYxMjQwLC03NDE5NDQ5MTcsLTIyOTM0ODIwMiwxOT
+Y4NTg1Mjg4LDgxNDM5NDkxOV19
 -->
