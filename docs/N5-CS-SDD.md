@@ -385,7 +385,7 @@ if age >= 18 and not(banned):
     print("You can go to the pub.")
 ```
 
-##  Fixed and conditional loops
+##  Loops
 
 ### Fixed loop (for)
 
@@ -439,7 +439,7 @@ value = int(input("Enter a value: "))
 
 while value < 10:
     value = value + 1
-    print(counter)
+    print(value)
 ```
 
 ## Predefined functions
@@ -632,8 +632,8 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0OD
-QwNzM5MTAsMTY5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0NjEy
-NDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Njg1ODUyODgsOD
-E0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbMTM3NDY1MzE0NSw0NzU2ODIyNTksMTI2Mz
+U0NjExMywtMTQ4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4
+MiwtMTQ5ODQ2MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMT
+k2ODU4NTI4OCw4MTQzOTQ5MTldfQ==
 -->
