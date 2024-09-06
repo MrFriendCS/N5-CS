@@ -612,6 +612,7 @@ heights = [0.0] * 5
 for index in range(len(heights)):
     height = float(input("Enter a height: "))
 
+	# Assign value to array
     heights[index] = height
 
 print(heights)
@@ -625,7 +626,10 @@ Method 1 - using a loop variable (`index`)
 scores = [56, 34, 2, 85, 51]
 
 for index in range(len(scores)):
-    print(scores[index])
+
+	#
+	score = scores[index]
+    print(score)
 ```
 
 Method 2 - not using a loop variable
@@ -641,7 +645,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzU5NzA0OCw5MTg1NzQxNTYsNDc1Nj
+eyJoaXN0b3J5IjpbLTQzNTc4ODE2Myw5MTg1NzQxNTYsNDc1Nj
 gyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2
 Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMj
 I5MzQ4MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX0=
