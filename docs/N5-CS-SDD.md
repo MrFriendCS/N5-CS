@@ -537,13 +537,16 @@ It can be done two different ways, initial input before the loop or within the l
 The conditional loop is only entered if the value entered is invalid.
 
 ``` python
+# Input validation: Start
 dice = int(input("Enter dice value: "))
 
 while dice < 1 or dice > 6:
     print("Value must be from 1 to 6.")
     
     dice = int(input("Enter dice value: "))
+# Input validation: En
 
+# Display value - info only
 print("You entered " + str(dice))
 ```
 
@@ -634,8 +637,8 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMjYzNT
-Q2MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2NjIsNzYyNDAxOTgy
-LC0xNDk4NDYxMjQwLC03NDE5NDQ5MTcsLTIyOTM0ODIwMiwxOT
-Y4NTg1Mjg4LDgxNDM5NDkxOV19
+eyJoaXN0b3J5IjpbLTE1OTc0NDU3OTIsOTE4NTc0MTU2LDQ3NT
+Y4MjI1OSwxMjYzNTQ2MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2
+NjIsNzYyNDAxOTgyLC0xNDk4NDYxMjQwLC03NDE5NDQ5MTcsLT
+IyOTM0ODIwMiwxOTY4NTg1Mjg4LDgxNDM5NDkxOV19
 -->
