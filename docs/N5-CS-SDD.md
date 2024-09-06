@@ -544,7 +544,7 @@ while dice < 1 or dice > 6:
     print("Value must be from 1 to 6.")
     
     dice = int(input("Enter dice value: "))
-# Input validation: En
+# Input validation: End
 
 # Display value - info only
 print("You entered " + str(dice))
@@ -555,6 +555,7 @@ print("You entered " + str(dice))
 Variable is assigned a value that will cause the loop condition to be true.
 
 ``` python
+# Input validation: Start
 dice = 0
 
 while dice < 1 or dice > 6:
@@ -562,7 +563,9 @@ while dice < 1 or dice > 6:
     
     if dice < 1 or dice > 6:
         print("Value must be from 1 to 6.")
+# Input validation: End
 
+# Display value - info only
 print("You entered " + str(dice))
 ```
 
@@ -571,6 +574,7 @@ print("You entered " + str(dice))
 #### Fixed loop
 
 ``` python
+# Initialise total
 total = 0
 
 for counter in range(4):
@@ -637,8 +641,8 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc0NDU3OTIsOTE4NTc0MTU2LDQ3NT
-Y4MjI1OSwxMjYzNTQ2MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2
-NjIsNzYyNDAxOTgyLC0xNDk4NDYxMjQwLC03NDE5NDQ5MTcsLT
-IyOTM0ODIwMiwxOTY4NTg1Mjg4LDgxNDM5NDkxOV19
+eyJoaXN0b3J5IjpbMTQ5NzU5NzA0OCw5MTg1NzQxNTYsNDc1Nj
+gyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2
+Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMj
+I5MzQ4MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX0=
 -->
