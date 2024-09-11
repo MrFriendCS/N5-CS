@@ -100,9 +100,28 @@ Hold multiple values of the same data type.
 ``` python
 ["a", "g", "z","d"]
 ```
+
+##### Array of strings
+
+``` python
 ["hat", "mat", "sat"]
+```
+
+Array of integers
+
+``` python
 [47, -6, 99, 1001]
+```
+
+##### Array of real
+
+``` python
 [3.14, -89.65, 0.0]
+```
+
+##### Array of Boolean
+
+``` python
 [True, True, False]
 ```
 
@@ -722,7 +741,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTg0MTM5NSwtMjExOTIxNTQ4MiwxMD
+eyJoaXN0b3J5IjpbLTgwMTIyMjgwNSwtMjExOTIxNTQ4MiwxMD
 AyODc0Nzk3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjEx
 MywtMTQ4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMT
 Q5ODQ2MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4
