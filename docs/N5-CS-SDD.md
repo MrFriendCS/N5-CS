@@ -57,6 +57,7 @@ A string of characters.  Contained in quote marks.
 "Hello world"
 "00.1200"
 ",./#';"
+"Pa55w0rd|"
 ```
 
 #### Integer
@@ -94,8 +95,11 @@ False
 
 Hold multiple values of the same data type.
 
+##### Array of characters
+
 ``` python
 ["a", "g", "z","d"]
+```
 ["hat", "mat", "sat"]
 [47, -6, 99, 1001]
 [3.14, -89.65, 0.0]
@@ -718,9 +722,9 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MT
-g1NzQxNTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5
-MTAsMTY5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLT
-c0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Njg1ODUyODgsODE0Mzk0
-OTE5XX0=
+eyJoaXN0b3J5IjpbMTczOTg0MTM5NSwtMjExOTIxNTQ4MiwxMD
+AyODc0Nzk3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjEx
+MywtMTQ4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMT
+Q5ODQ2MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4
+NTI4OCw4MTQzOTQ5MTldfQ==
 -->
