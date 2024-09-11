@@ -49,14 +49,33 @@ A single character: letter, number, or symbol.  Contained in quote marks.
 "@"
 ```
 
-### String
+#### String
 
 A string of characters.  Contained in quote marks.
 
 ``` python
 "Hello world"
 "00.1200"
-",./
+",./#';"
+```
+
+#### Integer
+
+A whole number.  _Not_ contained in quotes.
+
+```
+1234
+98
+```
+
+#### Real
+
+A decnumber.  _Not_ contained in quotes.
+
+```
+1234
+98
+```
 
 
 
@@ -676,7 +695,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Mjg5NzA3NywxMDAyODc0Nzk3LDkxOD
+eyJoaXN0b3J5IjpbLTczOTI1MzIwMCwxMDAyODc0Nzk3LDkxOD
 U3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMTQ4NDA3Mzkx
 MCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2MTI0MCwtNz
 QxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5
