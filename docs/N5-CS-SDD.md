@@ -91,12 +91,12 @@ False
 
 ### Data structure
 
-An array can hold multiple values of the same data type.
+An array can hold multiple values of the same data type, all within square brackets (`[ ]`).
 
 #### Array of characters
 
 ``` python
-["a", "g", "z","d"]
+["a", "g", "z", "d"]
 ```
 
 #### Array of strings
@@ -739,9 +739,9 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM5Mjc5MDIsLTIxMTkyMTU0ODIsMT
-AwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNjM1NDYx
-MTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2Miw3NjI0MDE5ODIsLT
-E0OTg0NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Njg1
-ODUyODgsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbODY3ODcyNjYzLC0yMDQzOTI3OTAyLC0yMT
+E5MjE1NDgyLDEwMDI4NzQ3OTcsOTE4NTc0MTU2LDQ3NTY4MjI1
+OSwxMjYzNTQ2MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2NjIsNz
+YyNDAxOTgyLC0xNDk4NDYxMjQwLC03NDE5NDQ5MTcsLTIyOTM0
+ODIwMiwxOTY4NTg1Mjg4LDgxNDM5NDkxOV19
 -->
