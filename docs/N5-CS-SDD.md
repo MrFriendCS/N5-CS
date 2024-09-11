@@ -416,8 +416,6 @@ One or both comparisons must be `True` to produce a final answer of `True`.
 | True         | False        | True   |
 | True         | True         | True   |
 
-#### Example OR
-
 ``` python
 print(16 <= 18 or "Night" == "Day")
 ```
@@ -431,8 +429,6 @@ Reverses the result of the comparison.
 | False      | True   |
 | True       | False  |
 
-#### Example NOT
-
 ``` python
 print(not(16 <= 18))
 ```
@@ -441,6 +437,7 @@ print(not(16 <= 18))
 
 Complex selection uses logical operators.
 
+### Example 1 - AND
 
 ``` python
 age = 16
@@ -452,6 +449,8 @@ else:
 	print("False!")
 ```
 
+### Example 2 - OR
+
 ``` python
 age = 16
 time = "Night"
@@ -462,6 +461,8 @@ else:
 	print("False!")
 ```
 
+### Example 3 - NOT
+
 ``` python
 age = 16
 
@@ -470,6 +471,8 @@ if not(age <= 18):
 else:
 	print("False!")
 ```
+
+### Example 4 - Mixture
 
 ``` python
 age = 21
@@ -742,7 +745,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDE4MzQzNiw0OTMwODgzMTAsLTIwND
+eyJoaXN0b3J5IjpbMTM4ODM4Mjg2MSw0OTMwODgzMTAsLTIwND
 M5Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQx
 NTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMT
 Y5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0
