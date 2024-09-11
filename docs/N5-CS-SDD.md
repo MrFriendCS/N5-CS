@@ -494,15 +494,6 @@ if age >= 18 and not(banned):
 
 Before a fixed loop starts, the number of times it will run ***is*** stated.
 
-#### Example 1 - Stop value
-
-Display the numbers 0 to 9, ten numbers in total.  The __loop variable__ is `counter` and it holds the current value from the range function.
-
-``` python
-for counter in range(10):
-    print(counter)
-```
-
 The range function produces a sequence of values.  The last value in the sequence is always one less than the `stop` value:
 
 ``` python
@@ -511,6 +502,15 @@ range(stop)  ## Starts from 0
 range(start, stop)
 
 range(start, stop, step)
+```
+
+#### Example 1 - Stop value
+
+Display the numbers 0 to 9, ten numbers in total.  The __loop variable__ is `counter` and it holds the current value from the range function.
+
+``` python
+for counter in range(10):
+    print(counter)
 ```
 
 #### Example 2 - Start and stop values
@@ -751,10 +751,10 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTg5OTY2NSw0OTMwODgzMTAsLTIwND
-M5Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQx
-NTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMT
-Y5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0
-NDkxNywtMjI5MzQ4MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX
-0=
+eyJoaXN0b3J5IjpbMTAxNzQ4MjA2NSwtNjExODk5NjY1LDQ5Mz
+A4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0
+Nzk3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMT
+Q4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2
+MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OC
+w4MTQzOTQ5MTldfQ==
 -->
