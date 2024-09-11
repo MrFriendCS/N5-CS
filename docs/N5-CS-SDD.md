@@ -70,7 +70,7 @@ myArrayOfIntegers = [56, 34, 2, 85, 51]
 ```
 
 ``` python
-myArrayOfStrings = [""] * 4
+myArrayOfStrings = [""] * 4  
 ```
 
 ## Arithmetic operations
@@ -648,8 +648,9 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1Nj
-gyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2
-Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMj
-I5MzQ4MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbLTE5Mjk3NDg2NywxMDAyODc0Nzk3LDkxOD
+U3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMTQ4NDA3Mzkx
+MCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2MTI0MCwtNz
+QxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5
+MTldfQ==
 -->
