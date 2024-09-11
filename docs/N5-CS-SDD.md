@@ -61,21 +61,30 @@ A string of characters.  Contained in quote marks.
 
 #### Integer
 
-A whole number.  _Not_ contained in quotes.
+A whole number, positive and negative.  _Not_ contained in quotes.
 
 ```
 1234
-98
+0
+-4321
 ```
 
 #### Real
 
-A decnumber.  _Not_ contained in quotes.
+A decimal number, positive and negative.  _Not_ contained in quotes.
 
 ```
-1234
-98
+3.14
+0.0
+-3.14
 ```
+
+#### Boolean
+
+A decimal number, positive and negative.  _Not_ contained in quotes.
+
+``` python
+
 
 
 
@@ -695,7 +704,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTI1MzIwMCwxMDAyODc0Nzk3LDkxOD
+eyJoaXN0b3J5IjpbMTI0NzIzMDIwNSwxMDAyODc0Nzk3LDkxOD
 U3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMTQ4NDA3Mzkx
 MCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2MTI0MCwtNz
 QxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5
