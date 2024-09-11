@@ -378,7 +378,7 @@ Only the section of code for the first comparison that is `True` is run.  There 
 There can be multiple `elif` statements, and the `else` is optional.  Numerical values are compared in order: largest to smallest (_see below_), or smallest to largest.
 
 ``` python
-score = 51
+score = 53
 
 if score >= 80:
     print("Excellent score!")
@@ -488,7 +488,7 @@ if age >= 18 and not(banned):
 
 Before a fixed loop starts, the number of times it will run ***is*** stated.
 
-#### Example
+#### Example 1 - Stop value
 
 Display the numbers 0 to 9, ten numbers in total.  The loop variable is `counter` and it holds the current value from the range function.
 
@@ -507,7 +507,7 @@ range(start, stop)
 range(start, stop, step)
 ```
 
-#### Example
+#### Example 2 - Start and stop values
 
 Display the numbers 1 to 9.
 
@@ -516,7 +516,7 @@ for counter in range(1, 10):
     print(counter)
 ```
 
-#### Example
+#### Example 3 - Start, stop, and stop values
 
 Display the odd numbers from 1 to 9.
 
@@ -745,9 +745,9 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4NjM0ODQsLTIwNDM5Mjc5MDIsLTIxMT
-kyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5
-LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2Miw3Nj
-I0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4
-MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMT
+E5MjE1NDgyLDEwMDI4NzQ3OTcsOTE4NTc0MTU2LDQ3NTY4MjI1
+OSwxMjYzNTQ2MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2NjIsNz
+YyNDAxOTgyLC0xNDk4NDYxMjQwLC03NDE5NDQ5MTcsLTIyOTM0
+ODIwMiwxOTY4NTg1Mjg4LDgxNDM5NDkxOV19
 -->
