@@ -439,6 +439,8 @@ Complex selection uses logical operators.
 
 ### Example 1 - AND
 
+All comparisons must be `True`.
+
 ``` python
 age = 16
 time = "Night"
@@ -451,6 +453,8 @@ else:
 
 ### Example 2 - OR
 
+At least one comparison must be `True`.
+
 ``` python
 age = 16
 time = "Night"
@@ -462,6 +466,8 @@ else:
 ```
 
 ### Example 3 - NOT
+
+Rev
 
 ``` python
 age = 16
@@ -745,7 +751,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODM4Mjg2MSw0OTMwODgzMTAsLTIwND
+eyJoaXN0b3J5IjpbMTU1MzI2MDc1Miw0OTMwODgzMTAsLTIwND
 M5Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQx
 NTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMT
 Y5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0
