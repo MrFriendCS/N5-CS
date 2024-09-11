@@ -35,6 +35,14 @@ print("Hello world")
 print(3.14)
 ```
 
+## Data
+
+### Data types
+
+#### Character
+
+```
+
 ## Assign values
 
 Variables are used to store values.  An assignment statement has 3 parts:
@@ -206,7 +214,6 @@ Values that have a different datatype must be cast from string to the correct da
 ```python
 myInt = int("42")
 myReal = float("3.14")
-myBool = bool("True")
 ```
 
 #### Example
@@ -652,9 +659,9 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDkzMzI4MSwxMDAyODc0Nzk3LDkxOD
-U3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMTQ4NDA3Mzkx
-MCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2MTI0MCwtNz
-QxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5
-MTldfQ==
+eyJoaXN0b3J5IjpbLTE2NDc1MjE0NzYsMTAwMjg3NDc5Nyw5MT
+g1NzQxNTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5
+MTAsMTY5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLT
+c0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Njg1ODUyODgsODE0Mzk0
+OTE5XX0=
 -->
