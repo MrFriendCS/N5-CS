@@ -70,7 +70,7 @@ myArrayOfIntegers = [56, 34, 2, 85, 51]
 ```
 
 ``` python
-myArrayOfStrings = [""] * 4  
+myArrayOfStrings = [""] * 4  # Shorthand
 ```
 
 ## Arithmetic operations
@@ -105,10 +105,14 @@ Exponentiation (to the power of)
 ``` python
 myMultiplication = 3 * 2
 print(myMultiplication)
+```
 
+``` python
 mySquare = 3 ** 2
 print(mySquare)
+```
 
+``` python
 myAge = 21
 myAge = myAge + 1
 print(myAge)
@@ -648,7 +652,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk3NDg2NywxMDAyODc0Nzk3LDkxOD
+eyJoaXN0b3J5IjpbMTI4MDkzMzI4MSwxMDAyODc0Nzk3LDkxOD
 U3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMTQ4NDA3Mzkx
 MCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2MTI0MCwtNz
 QxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5
