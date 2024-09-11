@@ -709,21 +709,27 @@ print("The combined age is " + str(total))
 
 Arrays store more than one value, called elements.  Each element has a position.  Python starts counting from zero.
 
+Often, the loop variable is called __`index`__.
+
 #### Putting values in
 
 ``` python
 # Initialise array
 heights = [0.0] * 5
 
+# Display array
+print(heights)
+
 # Loop for each element
 for index in range(len(heights)):
 
-    
+    # Get value to assign to array
     height = float(input("Enter a height: "))
 
 	# Assign value to array
     heights[index] = height
 
+# Display array
 print(heights)
 ```
 
@@ -755,10 +761,10 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc0MzUzNDEsLTYxMTg5OTY2NSw0OT
-MwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3
-NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLT
-E0ODQwNzM5MTAsMTY5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0
-NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Njg1ODUyOD
-gsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbNjUwNzcwNDgxLC02MTE4OTk2NjUsNDkzMD
+g4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLDEwMDI4NzQ3
+OTcsOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMjYzNTQ2MTEzLC0xND
+g0MDczOTEwLDE2OTc4NDM2NjIsNzYyNDAxOTgyLC0xNDk4NDYx
+MjQwLC03NDE5NDQ5MTcsLTIyOTM0ODIwMiwxOTY4NTg1Mjg4LD
+gxNDM5NDkxOV19
 -->
