@@ -91,35 +91,33 @@ False
 
 ### Data structure
 
-#### Array
+An array can hold multiple values of the same data type.
 
-Hold multiple values of the same data type.
-
-##### Array of characters
+#### Array of characters
 
 ``` python
 ["a", "g", "z","d"]
 ```
 
-##### Array of strings
+#### Array of strings
 
 ``` python
 ["hat", "mat", "sat"]
 ```
 
-Array of integers
+#### Array of integers
 
 ``` python
 [47, -6, 99, 1001]
 ```
 
-##### Array of real
+#### Array of real
 
 ``` python
 [3.14, -89.65, 0.0]
 ```
 
-##### Array of Boolean
+#### Array of Boolean
 
 ``` python
 [True, True, False]
@@ -741,9 +739,9 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTIyMjgwNSwtMjExOTIxNTQ4MiwxMD
-AyODc0Nzk3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjEx
-MywtMTQ4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMT
-Q5ODQ2MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4
-NTI4OCw4MTQzOTQ5MTldfQ==
+eyJoaXN0b3J5IjpbLTIwNDM5Mjc5MDIsLTIxMTkyMTU0ODIsMT
+AwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNjM1NDYx
+MTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2Miw3NjI0MDE5ODIsLT
+E0OTg0NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Njg1
+ODUyODgsODE0Mzk0OTE5XX0=
 -->
