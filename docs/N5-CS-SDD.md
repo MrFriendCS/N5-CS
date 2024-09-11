@@ -307,9 +307,7 @@ addition = value1 + value2
 print(addition)
 ```
 
-## Selection - simple
-
-### Comparison operators
+## Comparison operators
 
 Comparison operators are used to compare one value with another.   All of the following examples produce a Boolean answer of `True` or `False`.
 
@@ -343,11 +341,11 @@ Less than or equal to
 16 <= 18
 ```
 
-### Selection
+## Selection - Simple
 
 Selection makes use of a comparison operator to decide what to do.
 
-#### Example 1 - if
+### Example 1 - if
 
 Code is only run if the comparison is `True`.
 
@@ -358,7 +356,7 @@ if age >= 18:
     print("You can go to the pub.")
 ```
 
-#### Example 2 - if, else
+### Example 2 - if, else
 
 One section of code is always run.
 
@@ -371,7 +369,7 @@ else:
     print("You can't go to the pub.")
 ```
 
-#### Example 3 - if, elif, else
+### Example 3 - if, elif, else
 
 Only the section of code for the first comparison that is `True` is run.  There can be multiple `elif` statements.
 
@@ -745,9 +743,10 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMT
-E5MjE1NDgyLDEwMDI4NzQ3OTcsOTE4NTc0MTU2LDQ3NTY4MjI1
-OSwxMjYzNTQ2MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2NjIsNz
-YyNDAxOTgyLC0xNDk4NDYxMjQwLC03NDE5NDQ5MTcsLTIyOTM0
-ODIwMiwxOTY4NTg1Mjg4LDgxNDM5NDkxOV19
+eyJoaXN0b3J5IjpbLTY1OTc2MjkxOSw0OTMwODgzMTAsLTIwND
+M5Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQx
+NTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMT
+Y5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0
+NDkxNywtMjI5MzQ4MjAyLDE5Njg1ODUyODgsODE0Mzk0OTE5XX
+0=
 -->
