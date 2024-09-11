@@ -758,6 +758,7 @@ scores = [56, 34, 2, 85, 51]
 
 # Loop for each element in array
 for score in scores:
+
     print(score)
 ```
 
@@ -765,7 +766,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDEzNjk5NCwtNjExODk5NjY1LDQ5Mz
+eyJoaXN0b3J5IjpbMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5Mz
 A4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0
 Nzk3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMT
 Q4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2
