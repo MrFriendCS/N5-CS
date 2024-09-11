@@ -407,16 +407,6 @@ Both comparisons must be `True` to produce a final answer of `True`.
 print(16 <= 18 and "Night" == "Day")
 ```
 
-``` python
-age = 16
-time = "Night"
-
-if age <= 18 and time == "Day":
-	print("True!")
-else:
-	print("False!")
-```
-
 ### OR
 
 One or both comparisons must be `True` to produce a final answer of `True`.
@@ -434,16 +424,6 @@ One or both comparisons must be `True` to produce a final answer of `True`.
 print(16 <= 18 or "Night" == "Day")
 ```
 
-``` python
-age = 16
-time = "Night"
-
-if age <= 18 or time == "Day":
-	print("True!")
-else:
-	print("False!")
-```
-
 ### NOT
 
 Reverses the result of the comparison.
@@ -459,18 +439,29 @@ Reverses the result of the comparison.
 print(not(16 <= 18))
 ```
 
+## Selection - Complex
+
+Complex selection uses two or more logical operators.
+
 ``` python
 age = 16
+time = "Night"
 
-if not(age <= 18):
+if age <= 18 and time == "Day":
 	print("True!")
 else:
 	print("False!")
 ```
 
-## Selection - complex
+``` python
+age = 16
+time = "Night"
 
-Complex selection uses two or more logical operators.
+if age <= 18 or time == "Day":
+	print("True!")
+else:
+	print("False!")
+```
 
 ``` python
 age = 21
@@ -743,7 +734,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTc2MjkxOSw0OTMwODgzMTAsLTIwND
+eyJoaXN0b3J5IjpbLTczODk1NzQ3Niw0OTMwODgzMTAsLTIwND
 M5Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQx
 NTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMT
 Y5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0
