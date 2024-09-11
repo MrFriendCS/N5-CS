@@ -735,11 +735,13 @@ print(heights)
 
 #### Getting values out
 
-Method 1 - using a loop variable (`index`)
+Method 1 - with a loop variable (`index`)
 
 ``` python
+# Initialise array
 scores = [56, 34, 2, 85, 51]
 
+# Loop for each element in array
 for index in range(len(scores)):
 
 	# Get value from array
@@ -748,11 +750,13 @@ for index in range(len(scores)):
     print(score)
 ```
 
-Method 2 - not using a loop variable
+Method 2 - without a loop variable
 
 ``` python
+# Initialise array
 scores = [56, 34, 2, 85, 51]
 
+# Loop for each element in array
 for score in scores:
     print(score)
 ```
@@ -761,10 +765,10 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwNzcwNDgxLC02MTE4OTk2NjUsNDkzMD
-g4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLDEwMDI4NzQ3
-OTcsOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMjYzNTQ2MTEzLC0xND
-g0MDczOTEwLDE2OTc4NDM2NjIsNzYyNDAxOTgyLC0xNDk4NDYx
-MjQwLC03NDE5NDQ5MTcsLTIyOTM0ODIwMiwxOTY4NTg1Mjg4LD
-gxNDM5NDkxOV19
+eyJoaXN0b3J5IjpbMTQzNDEzNjk5NCwtNjExODk5NjY1LDQ5Mz
+A4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0
+Nzk3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMT
+Q4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2
+MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OC
+w4MTQzOTQ5MTldfQ==
 -->
