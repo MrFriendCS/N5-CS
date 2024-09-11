@@ -712,9 +712,13 @@ Arrays store more than one value, called elements.  Each element has a position.
 #### Putting values in
 
 ``` python
+# Initialise array
 heights = [0.0] * 5
 
+# Loop for each element
 for index in range(len(heights)):
+
+    
     height = float(input("Enter a height: "))
 
 	# Assign value to array
@@ -751,10 +755,10 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzQ4MjA2NSwtNjExODk5NjY1LDQ5Mz
-A4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0
-Nzk3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMT
-Q4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2
-MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OC
-w4MTQzOTQ5MTldfQ==
+eyJoaXN0b3J5IjpbLTE2ODc0MzUzNDEsLTYxMTg5OTY2NSw0OT
+MwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3
+NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLT
+E0ODQwNzM5MTAsMTY5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0
+NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLDE5Njg1ODUyOD
+gsODE0Mzk0OTE5XX0=
 -->
