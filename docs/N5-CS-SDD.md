@@ -95,7 +95,10 @@ False
 Holds multiple values of the same data type.
 
 ``` python
-
+["a", "g", "z","d"]
+["hat", "mat", "sat"]
+[47, -6, 99, 1001]
+[3.14, 89
 ```
 
 ## Assign values
@@ -714,7 +717,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDY2OTgzNiwxMDAyODc0Nzk3LDkxOD
+eyJoaXN0b3J5IjpbLTczMjg0Njk3OSwxMDAyODc0Nzk3LDkxOD
 U3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMTQ4NDA3Mzkx
 MCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2MTI0MCwtNz
 QxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5
