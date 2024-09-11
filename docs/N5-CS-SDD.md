@@ -467,7 +467,7 @@ else:
 
 ### Example 3 - NOT
 
-Rev
+Reverses the Boolean.
 
 ``` python
 age = 16
@@ -751,7 +751,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzI2MDc1Miw0OTMwODgzMTAsLTIwND
+eyJoaXN0b3J5IjpbLTM1Mzk3ODY0MSw0OTMwODgzMTAsLTIwND
 M5Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQx
 NTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMT
 Y5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0
