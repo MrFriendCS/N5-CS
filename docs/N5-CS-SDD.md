@@ -368,7 +368,7 @@ if age >= 18:
     # True
     print("You can go to the pub.")
 else:
-    # Tru
+    # True
     print("You can't go to the pub.")
 ```
 
@@ -382,10 +382,13 @@ There can be multiple `elif` statements, and the `else` is optional.  Numerical 
 score = 53
 
 if score >= 80:
+    # True
     print("Excellent score!")
 elif score >= 50:
+    # True
     print("Well done!")
 else:
+    #  False
     print("Oh dear!")
 ```
 
@@ -769,10 +772,10 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDMyODc3LDE5MDk5MDM0NzYsLTYxMT
-g5OTY2NSw0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0
-ODIsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNj
-M1NDYxMTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2Miw3NjI0MDE5
-ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLD
-E5Njg1ODUyODgsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbLTE0ODIzMDUzMjAsMTkwOTkwMzQ3NiwtNj
+ExODk5NjY1LDQ5MzA4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIx
+NTQ4MiwxMDAyODc0Nzk3LDkxODU3NDE1Niw0NzU2ODIyNTksMT
+I2MzU0NjExMywtMTQ4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQw
+MTk4MiwtMTQ5ODQ2MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMD
+IsMTk2ODU4NTI4OCw4MTQzOTQ5MTldfQ==
 -->
