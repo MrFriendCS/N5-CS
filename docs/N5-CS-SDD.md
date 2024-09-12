@@ -368,7 +368,7 @@ if age >= 18:
     # True
     print("You can go to the pub.")
 else:
-    # True
+    # False
     print("You can't go to the pub.")
 ```
 
@@ -772,10 +772,10 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIzMDUzMjAsMTkwOTkwMzQ3NiwtNj
-ExODk5NjY1LDQ5MzA4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIx
-NTQ4MiwxMDAyODc0Nzk3LDkxODU3NDE1Niw0NzU2ODIyNTksMT
-I2MzU0NjExMywtMTQ4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQw
-MTk4MiwtMTQ5ODQ2MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMD
-IsMTk2ODU4NTI4OCw4MTQzOTQ5MTldfQ==
+eyJoaXN0b3J5IjpbLTk0MjcxODE5NSwxOTA5OTAzNDc2LC02MT
+E4OTk2NjUsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1
+NDgyLDEwMDI4NzQ3OTcsOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMj
+YzNTQ2MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2NjIsNzYyNDAx
+OTgyLC0xNDk4NDYxMjQwLC03NDE5NDQ5MTcsLTIyOTM0ODIwMi
+wxOTY4NTg1Mjg4LDgxNDM5NDkxOV19
 -->
