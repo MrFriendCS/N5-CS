@@ -129,9 +129,13 @@ Variables are used to store values.  An assignment statement has 3 parts:
 
  1. **=** is the assignment operator (an equals sign in maths)
  2. The value to be assigned is to the right of the assignment operator
- 3. The variable w the value will  is to the left of the assignment operator
+ 3. The variable that the value will assigned to is to the left of the assignment operator
 
-The value is assigned to (stored in) the variable.  The value *might* need to be calculated first before being assigned.
+```
+variableName = valueToAssign
+```
+
+The value *might* need to be calculated first before being assigned.
 
 ``` python
 myInteger = 5
@@ -772,10 +776,10 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDU5NjQ0OSwxOTA5OTAzNDc2LC02MT
-E4OTk2NjUsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1
-NDgyLDEwMDI4NzQ3OTcsOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMj
-YzNTQ2MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2NjIsNzYyNDAx
-OTgyLC0xNDk4NDYxMjQwLC03NDE5NDQ5MTcsLTIyOTM0ODIwMi
-wxOTY4NTg1Mjg4LDgxNDM5NDkxOV19
+eyJoaXN0b3J5IjpbNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMT
+g5OTY2NSw0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0
+ODIsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNj
+M1NDYxMTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2Miw3NjI0MDE5
+ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLD
+E5Njg1ODUyODgsODE0Mzk0OTE5XX0=
 -->
