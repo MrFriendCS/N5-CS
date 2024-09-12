@@ -128,8 +128,8 @@ An array can hold multiple values of the same data type, all within square brack
 Variables are used to store values.  An assignment statement has 3 parts:
 
  1. **=** is the assignment operator (an equals sign in maths)
- 2. The value to the right of the assignment operator
- 3. The variable name to the left of the assignment operator
+ 2. The value to be assigned is to the right of the assignment operator
+ 3. The variable w the value will  is to the left of the assignment operator
 
 The value is assigned to (stored in) the variable.  The value *might* need to be calculated first before being assigned.
 
@@ -772,7 +772,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjcxODE5NSwxOTA5OTAzNDc2LC02MT
+eyJoaXN0b3J5IjpbMTU0MDU5NjQ0OSwxOTA5OTAzNDc2LC02MT
 E4OTk2NjUsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1
 NDgyLDEwMDI4NzQ3OTcsOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMj
 YzNTQ2MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2NjIsNzYyNDAx
