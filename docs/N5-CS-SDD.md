@@ -353,6 +353,7 @@ Code is only run if the comparison is `True`.
 age = 21
 
 if age >= 18:
+    # True
     print("You can go to the pub.")
 ```
 
@@ -364,8 +365,10 @@ One section of code is always run.
 age = 16
 
 if age >= 18:
+    # True
     print("You can go to the pub.")
 else:
+    # Tru
     print("You can't go to the pub.")
 ```
 
@@ -402,7 +405,7 @@ Both comparisons must be `True` to produce a final answer of `True`.
 | True         | True         | True   |
 
 ``` python
-print(16 <= 18 and "Night" == "Day")
+16 <= 18 and "Night" == "Day"
 ```
 
 ### OR
@@ -417,7 +420,7 @@ One or both comparisons must be `True` to produce a final answer of `True`.
 | True         | True         | True   |
 
 ``` python
-print(16 <= 18 or "Night" == "Day")
+16 <= 18 or "Night" == "Day"
 ```
 
 ### NOT
@@ -430,7 +433,7 @@ Reverses the result of the comparison.
 | True       | False  |
 
 ``` python
-print(not(16 <= 18))
+not (16 <= 18))
 ```
 
 ## Selection - Complex
@@ -766,10 +769,10 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5Mz
-A4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0
-Nzk3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMT
-Q4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2
-MTI0MCwtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OC
-w4MTQzOTQ5MTldfQ==
+eyJoaXN0b3J5IjpbMTQyNDMyODc3LDE5MDk5MDM0NzYsLTYxMT
+g5OTY2NSw0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0
+ODIsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNj
+M1NDYxMTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2Miw3NjI0MDE5
+ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLD
+E5Njg1ODUyODgsODE0Mzk0OTE5XX0=
 -->
