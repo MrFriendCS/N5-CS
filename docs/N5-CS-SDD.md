@@ -745,7 +745,9 @@ print(heights)
 
 #### Getting values out
 
-Method 1 - with a loop variable (`index`)
+Method 1
+
+The loop variable `index` holds the current 
 
 ``` python
 # Initialise array
@@ -776,10 +778,10 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMT
-g5OTY2NSw0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0
-ODIsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNj
-M1NDYxMTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2Miw3NjI0MDE5
-ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMjI5MzQ4MjAyLD
-E5Njg1ODUyODgsODE0Mzk0OTE5XX0=
+eyJoaXN0b3J5IjpbMTQ5Njg2MTczOCw3Nzc0NzYwNTYsMTkwOT
+kwMzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMCwtMjA0MzkyNzkw
+MiwtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LDkxODU3NDE1Niw0Nz
+U2ODIyNTksMTI2MzU0NjExMywtMTQ4NDA3MzkxMCwxNjk3ODQz
+NjYyLDc2MjQwMTk4MiwtMTQ5ODQ2MTI0MCwtNzQxOTQ0OTE3LC
+0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5MTldfQ==
 -->
