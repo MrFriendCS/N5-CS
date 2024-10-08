@@ -745,7 +745,7 @@ print(heights)
 
 #### Getting values out
 
-Method 1
+##### Method 1
 
 The loop variable `index` is assigned each value in turn from the `range()` function.
 
@@ -762,7 +762,7 @@ for index in range(len(scores)):
     print(score)
 ```
 
-Method 2
+##### Method 2
 
 The loop variable `score` is assigned each value in turn from the `scores` array.
 
@@ -780,10 +780,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDMwMTE4Myw3Nzc0NzYwNTYsMTkwOT
-kwMzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMCwtMjA0MzkyNzkw
-MiwtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LDkxODU3NDE1Niw0Nz
-U2ODIyNTksMTI2MzU0NjExMywtMTQ4NDA3MzkxMCwxNjk3ODQz
-NjYyLDc2MjQwMTk4MiwtMTQ5ODQ2MTI0MCwtNzQxOTQ0OTE3LC
-0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQzOTQ5MTldfQ==
+eyJoaXN0b3J5IjpbLTEwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nz
+c0NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMx
+MCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LD
+kxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMTQ4NDA3
+MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5ODQ2MTI0MC
+wtNzQxOTQ0OTE3LC0yMjkzNDgyMDIsMTk2ODU4NTI4OCw4MTQz
+OTQ5MTldfQ==
 -->
