@@ -747,7 +747,7 @@ print(heights)
 
 Method 1
 
-The loop variable `index` holds each va from the `range()` function.
+The loop variable `index` is assigned each value in turn from the `range()` function.
 
 ``` python
 # Initialise array
@@ -762,7 +762,9 @@ for index in range(len(scores)):
     print(score)
 ```
 
-Method 2 - without a loop variable
+Method 2
+
+The loop variable `score` is assigned each value in turn from the `scores` array.
 
 ``` python
 # Initialise array
@@ -778,7 +780,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzMyMzM1Nyw3Nzc0NzYwNTYsMTkwOT
+eyJoaXN0b3J5IjpbMTAxNDMwMTE4Myw3Nzc0NzYwNTYsMTkwOT
 kwMzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMCwtMjA0MzkyNzkw
 MiwtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LDkxODU3NDE1Niw0Nz
 U2ODIyNTksMTI2MzU0NjExMywtMTQ4NDA3MzkxMCwxNjk3ODQz
