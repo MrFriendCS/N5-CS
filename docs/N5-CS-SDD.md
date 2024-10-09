@@ -666,16 +666,16 @@ It only runs if the comparison is `True`.  Each time the code is completed the c
 ### Example
 
 ``` python
-# Get value from user
+# Get value from user and cast to integer
 value = int(input("Enter a value: "))
 
 # Check value
 while value < 10:
 
-    # Increment value
+    # True: Increment value
     value = value + 1
 
-    # Display value
+    # True: Display value
     print(value)
 ```
 
@@ -942,11 +942,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ1NzAzMTMsNjY4MDEwMjY1LC0xMD
-I3NTcxNzY3LDI3NTMyNzQzNiwxNzU2NjkzMDMwLC0yMDYwODI0
-NTY2LDE1NzE1MTU0NjIsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMT
-YwOTEyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTcz
-ODc1MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nz
-g1LDEwMTQzMDExODMsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYx
-MTg5OTY2NV19
+eyJoaXN0b3J5IjpbMTg3NTc2Nzc0NCwtMTE0NDU3MDMxMyw2Nj
+gwMTAyNjUsLTEwMjc1NzE3NjcsMjc1MzI3NDM2LDE3NTY2OTMw
+MzAsLTIwNjA4MjQ1NjYsMTU3MTUxNTQ2MiwxMzY1MjAwNjkyLD
+QwOTE5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIzMjUsMjAxNDQ1
+MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MDUwMjY0MD
+EsLTEwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYwNTYsMTkw
+OTkwMzQ3Nl19
 -->
