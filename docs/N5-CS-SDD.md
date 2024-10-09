@@ -280,7 +280,7 @@ print(phrase)
 An array can be concatenated with another array.
 
 ``` python
-# Initialise arrays
+# Initialise variables
 part1 = ["Ho", "Ho"]
 part2 = ["Ho"]
 
@@ -296,12 +296,14 @@ print(combined)
 To concatenate something that is not an array, it must be cast (converted) to an array.
 
 ``` python
-
-myArray = []
+# Initialise variables
+myArray = [7, 11, 15]
 myInt = 18
 
+# Cast to array and concatenate
 combined = myArray + [myInt]
 
+# Display result
 print(combined)
 ```
 
@@ -316,7 +318,7 @@ print(combined)
 word1 = input("Enter the first word: ")
 word2 = input("Enter the second word: ")
 
-# concatenate values
+# Concatenate values
 phrase = word1 + " " + word2
 
 # Display result
@@ -851,11 +853,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3MDgxNjYzLDEzNjUyMDA2OTIsNDA5MT
-kwOTAzLDE2MDkxMjExNTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0
-LC0xNTk3Mzg3NTEwLC0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMT
-A4MzQyNjc4NSwxMDE0MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAz
-NDc2LC02MTE4OTk2NjUsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC
-0yMTE5MjE1NDgyLDEwMDI4NzQ3OTcsOTE4NTc0MTU2LDQ3NTY4
-MjI1OV19
+eyJoaXN0b3J5IjpbMTU3MTUxNTQ2MiwxMzY1MjAwNjkyLDQwOT
+E5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIzMjUsMjAxNDQ1MzIw
+NCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MDUwMjY0MDEsLT
+EwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYwNTYsMTkwOTkw
+MzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMCwtMjA0MzkyNzkwMi
+wtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LDkxODU3NDE1Niw0NzU2
+ODIyNTldfQ==
 -->
