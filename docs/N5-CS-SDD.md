@@ -575,10 +575,16 @@ It only runs if the comparison is `True`.  Each time the code is completed the c
 ### Example
 
 ``` python
+# Get value from user
 value = int(input("Enter a value: "))
 
+# Check value
 while value < 10:
+
+    # Increment value
     value = value + 1
+
+    # Display value
     print(value)
 ```
 
@@ -591,10 +597,13 @@ The code to produce a random number needs to be imported before it can be used.
 The code can be used to produce a random integer, with the lowest and highest possible values specified.
 
 ``` python
+# Get extra code
 import random
 
+# Pick a random integer
 myDice = random.randint(1, 6)
 
+# Disp
 print(myDice)
 ```
 
@@ -805,11 +814,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2OTU0OTgzLDE2MDkxMjExNTMsMjEwMD
-c4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NTEwLC0zNDMxOTY3
-MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMDE0MzAxMTgzLD
-c3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4OTk2NjUsNDkzMDg4
-MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLDEwMDI4NzQ3OT
-csOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMjYzNTQ2MTEzLC0xNDg0
-MDczOTEwXX0=
+eyJoaXN0b3J5IjpbMTQ1ODE1NDQwOCwxNjA5MTIxMTUzLDIxMD
+A3ODIzMjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2
+NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAxNDMwMTE4My
+w3Nzc0NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5MzA4
+ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0Nz
+k3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMTQ4
+NDA3MzkxMF19
 -->
