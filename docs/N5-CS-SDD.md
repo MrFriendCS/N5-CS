@@ -421,7 +421,7 @@ age = 21
 # Check value
 if age >= 18:
     
-    # Display message
+    # True: display message
     print("You can go to the pub.")
 ```
 
@@ -433,12 +433,15 @@ One section of code is always run.
 # Initialise variable
 age = 16
 
-# check v
+# check value
 if age >= 18:
-    # True
+    
+    # True: display message
     print("You can go to the pub.")
+    
 else:
-    # False
+
+    # False: display message
     print("You can't go to the pub.")
 ```
 
@@ -449,16 +452,24 @@ Only the section of code for the first comparison that is `True` is run.  There 
 There can be multiple `elif` statements, and the `else` is optional.  Numerical values are compared in order: largest to smallest (_see below_), or smallest to largest.
 
 ``` python
+# Initialise variable
 score = 53
 
+# Check value
 if score >= 80:
-    # True
+
+    # True: display message
     print("Excellent score!")
+
+# Check value
 elif score >= 50:
-    # True
+
+    # True: display message
     print("Well done!")
+    
 else:
-    #  False
+    
+    # True: display message
     print("Oh dear!")
 ```
 
@@ -888,7 +899,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTc5OTk1MSwtMjA2MDgyNDU2NiwxNT
+eyJoaXN0b3J5IjpbMTgyMDI0NzQ1MCwtMjA2MDgyNDU2NiwxNT
 cxNTE1NDYyLDEzNjUyMDA2OTIsNDA5MTkwOTAzLDE2MDkxMjEx
 NTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NTEwLC
 0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMDE0
