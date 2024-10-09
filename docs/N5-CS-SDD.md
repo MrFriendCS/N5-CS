@@ -339,7 +339,7 @@ print(combined)
 word1 = input("Enter the first word: ")
 word2 = input("Enter the second word: ")
 
-# Concatenate values
+# Concatenate strings
 phrase = word1 + " " + word2
 
 # Display result
@@ -365,7 +365,7 @@ myReal = float("3.14")
 value1 = int(input("Enter the first value: "))
 value2 = int(input("Enter the second value: "))
 
-# Add values
+# Add integers
 addition = value1 + value2
 
 # Display result
@@ -942,11 +942,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Mzk3ODg5NCwyNzUzMjc0MzYsMTc1Nj
-Y5MzAzMCwtMjA2MDgyNDU2NiwxNTcxNTE1NDYyLDEzNjUyMDA2
-OTIsNDA5MTkwOTAzLDE2MDkxMjExNTMsMjEwMDc4MjMyNSwyMD
-E0NDUzMjA0LC0xNTk3Mzg3NTEwLC0zNDMxOTY3MTgsMTcwNTAy
-NjQwMSwtMTA4MzQyNjc4NSwxMDE0MzAxMTgzLDc3NzQ3NjA1Ni
-wxOTA5OTAzNDc2LC02MTE4OTk2NjUsNDkzMDg4MzEwLC0yMDQz
-OTI3OTAyXX0=
+eyJoaXN0b3J5IjpbLTEwMjc1NzE3NjcsMjc1MzI3NDM2LDE3NT
+Y2OTMwMzAsLTIwNjA4MjQ1NjYsMTU3MTUxNTQ2MiwxMzY1MjAw
+NjkyLDQwOTE5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIzMjUsMj
+AxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MDUw
+MjY0MDEsLTEwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYwNT
+YsMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMCwtMjA0
+MzkyNzkwMl19
 -->
