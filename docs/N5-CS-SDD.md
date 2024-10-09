@@ -735,13 +735,16 @@ print("You entered " + str(dice))
 # Initialise total
 total = 0
 
+# Loop required number of times
 for counter in range(4):
-	# Get value
+
+	# Get value from user and cast
     age = int(input("Enter an age: "))
 
 	# Add value to total
     total = total + age
 
+# Display result
 print("The combined age is " + str(total))
 ```
 
@@ -825,7 +828,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTEwMDE1NzAsNDA5MTkwOTAzLDE2MD
+eyJoaXN0b3J5IjpbLTEzMzY0NDAxMDUsNDA5MTkwOTAzLDE2MD
 kxMjExNTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3
 NTEwLC0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NS
 wxMDE0MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4
