@@ -672,7 +672,9 @@ value = int(input("Enter a value: "))
 # Check value
 while value < 10:
 
-    # True: Increment value
+    # True: do the following
+
+    # Increment value
     value = value + 1
 
     # True: Display value
@@ -794,7 +796,7 @@ The conditional loop is only entered if the value entered is invalid.
 # Get value from user and cast
 dice = int(input("Enter dice value: "))
 
-# Check value
+# Check values
 while dice < 1 or dice > 6:
 
     # Display meaningful error message
@@ -942,11 +944,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTc2Nzc0NCwtMTE0NDU3MDMxMyw2Nj
-gwMTAyNjUsLTEwMjc1NzE3NjcsMjc1MzI3NDM2LDE3NTY2OTMw
-MzAsLTIwNjA4MjQ1NjYsMTU3MTUxNTQ2MiwxMzY1MjAwNjkyLD
-QwOTE5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIzMjUsMjAxNDQ1
-MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MDUwMjY0MD
-EsLTEwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYwNTYsMTkw
-OTkwMzQ3Nl19
+eyJoaXN0b3J5IjpbLTEyOTE4MzQ0NDksLTExNDQ1NzAzMTMsNj
+Y4MDEwMjY1LC0xMDI3NTcxNzY3LDI3NTMyNzQzNiwxNzU2Njkz
+MDMwLC0yMDYwODI0NTY2LDE1NzE1MTU0NjIsMTM2NTIwMDY5Mi
+w0MDkxOTA5MDMsMTYwOTEyMTE1MywyMTAwNzgyMzI1LDIwMTQ0
+NTMyMDQsLTE1OTczODc1MTAsLTM0MzE5NjcxOCwxNzA1MDI2ND
+AxLC0xMDgzNDI2Nzg1LDEwMTQzMDExODMsNzc3NDc2MDU2LDE5
+MDk5MDM0NzZdfQ==
 -->
