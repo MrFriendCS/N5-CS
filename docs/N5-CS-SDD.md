@@ -594,10 +594,14 @@ else:
 ### Example 4 - Mixture
 
 ``` python
+# Initialise variables
 age = 21
 banned = False
 
+# check values
 if age >= 18 and not(banned):
+
+    # Both True: display message
     print("You can go to the pub.")
 ```
 
@@ -622,7 +626,10 @@ range(start, stop, step)
 Display the numbers 0 to 9, ten numbers in total.  The __loop variable__ is `counter` and it holds the current value from the range function.
 
 ``` python
+# Fixed loop: 
 for counter in range(10):
+
+    # Display loop variable
     print(counter)
 ```
 
@@ -925,7 +932,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2ODc0OTQ0LC0yMDYwODI0NTY2LDE1Nz
+eyJoaXN0b3J5IjpbNjQzMjIyOTk1LC0yMDYwODI0NTY2LDE1Nz
 E1MTU0NjIsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOTEyMTE1
 MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLT
 M0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQz
