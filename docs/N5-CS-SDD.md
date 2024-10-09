@@ -235,22 +235,27 @@ Concatenate means to join together.
 A string can be concatenated with another string.
 
 ``` python
+# Initialise variables
 part1 = "Ho"
 part2 = "use"
 
+# Concatenate strings
 word = part1 + part2
 
+# Display result
 print(word)
 ```
 
 Be sure to include a space between words when concatenating.
 
 ``` python
+# Initialise variables
 word1 = "Hello"
 word2 = "world"
 
 phrase = word1 + " " + word2
 
+# Display result
 print(phrase)
 ```
 
@@ -838,11 +843,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDA0OTczMTMsMTM2NTIwMDY5Miw0MD
-kxOTA5MDMsMTYwOTEyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NTMy
-MDQsLTE1OTczODc1MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC
-0xMDgzNDI2Nzg1LDEwMTQzMDExODMsNzc3NDc2MDU2LDE5MDk5
-MDM0NzYsLTYxMTg5OTY2NSw0OTMwODgzMTAsLTIwNDM5Mjc5MD
-IsLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1
-NjgyMjU5XX0=
+eyJoaXN0b3J5IjpbMjAzNjU3OTc4MywxMzY1MjAwNjkyLDQwOT
+E5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIzMjUsMjAxNDQ1MzIw
+NCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MDUwMjY0MDEsLT
+EwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYwNTYsMTkwOTkw
+MzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMCwtMjA0MzkyNzkwMi
+wtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LDkxODU3NDE1Niw0NzU2
+ODIyNTldfQ==
 -->
