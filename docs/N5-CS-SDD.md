@@ -751,15 +751,23 @@ print("The combined age is " + str(total))
 #### Conditional loop
 
 ``` python
+# Initialise variables
 answer = ""
 total = 0
 
+# Chack answer
 while answer != "no":
-    age = int(input("Enter an age: "))
-    total = total + age
 
+    # Get value from user and cast
+    age = int(input("Enter an age: "))
+    
+    # Add value to total
+    total = total + age
+    
+    # Get answer from user
     answer = input("Enter another age? ")
 
+# Display result
 print("The combined age is " + str(total))
 ```
 
@@ -828,11 +836,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY0NDAxMDUsNDA5MTkwOTAzLDE2MD
-kxMjExNTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3
-NTEwLC0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NS
-wxMDE0MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4
-OTk2NjUsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1ND
-gyLDEwMDI4NzQ3OTcsOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMjYz
-NTQ2MTEzXX0=
+eyJoaXN0b3J5IjpbLTc0ODAxMzkyNCw0MDkxOTA5MDMsMTYwOT
+EyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1
+MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LD
+EwMTQzMDExODMsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5
+OTY2NSw0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0OD
+IsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNjM1
+NDYxMTNdfQ==
 -->
