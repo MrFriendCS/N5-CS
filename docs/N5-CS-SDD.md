@@ -30,6 +30,7 @@ This comment is not displayed
 ### Display information
 
 ``` python
+# 
 print("Hello world")
 
 print(3.14)
@@ -706,7 +707,7 @@ It can be done two different ways, initial input before the loop or within the l
 
 #### Input before loop
 
-This approach can be easier to use when the input validation is within another loop, as the 
+This approach can be easier to use when the input validation is within another loop.
 
 The conditional loop is only entered if the value entered is invalid.
 
@@ -779,7 +780,7 @@ print("The combined age is " + str(total))
 answer = ""
 total = 0
 
-# Chack answer
+# Chack answer - loop until False
 while answer != "no":
 
     # Get value from user and cast
@@ -862,11 +863,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODI3NzI5MDUsLTIwNjA4MjQ1NjYsMT
-U3MTUxNTQ2MiwxMzY1MjAwNjkyLDQwOTE5MDkwMywxNjA5MTIx
-MTUzLDIxMDA3ODIzMjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMC
-wtMzQzMTk2NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAx
-NDMwMTE4Myw3Nzc0NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5Nj
-Y1LDQ5MzA4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4Miwx
-MDAyODc0Nzk3XX0=
+eyJoaXN0b3J5IjpbMTU3OTA2MzI1NywtMjA2MDgyNDU2NiwxNT
+cxNTE1NDYyLDEzNjUyMDA2OTIsNDA5MTkwOTAzLDE2MDkxMjEx
+NTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NTEwLC
+0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMDE0
+MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4OTk2Nj
+UsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLDEw
+MDI4NzQ3OTddfQ==
 -->
