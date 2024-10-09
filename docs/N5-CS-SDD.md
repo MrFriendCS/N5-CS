@@ -723,22 +723,26 @@ The round function can also be used to return a value without any decimal places
 The following example will return a value of 4.
 
 ``` python
+# Initialise variable
 myReal= 3.5
 
 # Round to zero decimal places
 myRound = round(myReal)
 
+# Display result
 print(myRound)
 ```
 
 The following example will ***also*** return a value of 4.
 
 ``` python
+# Initialise variable
 myReal= 4.5
 
 # Round to zero decimal places
 myRound = round(myReal)
 
+# Display result
 print(myRound)
 ```
 
@@ -938,11 +942,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4ODY5OTc0LC0yMDYwODI0NTY2LDE1Nz
-E1MTU0NjIsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOTEyMTE1
-MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLT
-M0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQz
-MDExODMsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5OTY2NS
-w0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0ODIsMTAw
-Mjg3NDc5N119
+eyJoaXN0b3J5IjpbMTc1NjY5MzAzMCwtMjA2MDgyNDU2NiwxNT
+cxNTE1NDYyLDEzNjUyMDA2OTIsNDA5MTkwOTAzLDE2MDkxMjEx
+NTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NTEwLC
+0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMDE0
+MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4OTk2Nj
+UsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLDEw
+MDI4NzQ3OTddfQ==
 -->
