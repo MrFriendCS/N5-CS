@@ -687,15 +687,16 @@ It can be done two different ways, initial input before the loop or within the l
 The conditional loop is only entered if the value entered is invalid.
 
 ``` python
-# Get value from user
+# Get value from user and cast
 dice = int(input("Enter dice value: "))
 
 # Check value
 while dice < 1 or dice > 6:
-    # Display error message
+
+    # Display meaningful error message
     print("Value must be from 1 to 6.")
     
-    # Get value from user
+    # Get value from user and cast
     dice = int(input("Enter dice value: "))
 
 # Display value - info only
@@ -707,13 +708,19 @@ print("You entered " + str(dice))
 Variable is assigned a value that will cause the loop condition to be true.
 
 ``` python
-# Input validation: Start
+# Assign value - not valid
 dice = 0
 
+# Check value
 while dice < 1 or dice > 6:
+
+    # Get value from user and cast
     dice = int(input("Enter dice value: "))
     
+    # Check value
     if dice < 1 or dice > 6:
+
+        #
         print("Value must be from 1 to 6.")
 # Input validation: End
 
@@ -819,11 +826,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5MTkwOTAzLDE2MDkxMjExNTMsMjEwMD
-c4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NTEwLC0zNDMxOTY3
-MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMDE0MzAxMTgzLD
-c3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4OTk2NjUsNDkzMDg4
-MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLDEwMDI4NzQ3OT
-csOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMjYzNTQ2MTEzLC0xNDg0
-MDczOTEwXX0=
+eyJoaXN0b3J5IjpbMTU2ODcxMTE5Niw0MDkxOTA5MDMsMTYwOT
+EyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1
+MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LD
+EwMTQzMDExODMsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5
+OTY2NSw0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0OD
+IsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNjM1
+NDYxMTNdfQ==
 -->
