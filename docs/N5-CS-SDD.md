@@ -30,9 +30,10 @@ This comment is not displayed
 ### Display information
 
 ``` python
-# 
+# Display text
 print("Hello world")
 
+# Dispplay a number
 print(3.14)
 ```
 
@@ -141,10 +142,12 @@ The value *might* need to be calculated first before being assigned.
 ### Data types
 
 ``` python
+# Assign an integer value
 myInteger = 5
 ```
 
 ``` python
+# Assign a real 
 myReal = 3.14
 ```
 
@@ -863,11 +866,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTA2MzI1NywtMjA2MDgyNDU2NiwxNT
-cxNTE1NDYyLDEzNjUyMDA2OTIsNDA5MTkwOTAzLDE2MDkxMjEx
-NTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NTEwLC
-0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMDE0
-MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4OTk2Nj
-UsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLDEw
-MDI4NzQ3OTddfQ==
+eyJoaXN0b3J5IjpbMTI5NDMyNzU0LC0yMDYwODI0NTY2LDE1Nz
+E1MTU0NjIsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOTEyMTE1
+MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLT
+M0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQz
+MDExODMsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5OTY2NS
+w0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0ODIsMTAw
+Mjg3NDc5N119
 -->
