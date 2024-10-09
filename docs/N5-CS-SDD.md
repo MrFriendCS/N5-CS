@@ -723,7 +723,7 @@ print("You entered " + str(dice))
 Variable is assigned a value that will cause the loop condition to be true.
 
 ``` python
-# Assign value - not valid
+# Initialise variable - not valid
 dice = 0
 
 # Check value
@@ -747,7 +747,7 @@ print("You entered " + str(dice))
 #### Fixed loop
 
 ``` python
-# Initialise total
+# Initialise variable
 total = 0
 
 # Loop required number of times
@@ -795,7 +795,7 @@ Often, the loop variable is called __`index`__.
 #### Putting values in
 
 ``` python
-# Initialise array
+# Initialise variable
 heights = [0.0] * 5
 
 # Display array
@@ -853,11 +853,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTUxNTQ2MiwxMzY1MjAwNjkyLDQwOT
-E5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIzMjUsMjAxNDQ1MzIw
-NCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MDUwMjY0MDEsLT
-EwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYwNTYsMTkwOTkw
-MzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMCwtMjA0MzkyNzkwMi
-wtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LDkxODU3NDE1Niw0NzU2
-ODIyNTldfQ==
+eyJoaXN0b3J5IjpbMzQ4MTU3NjgsMTU3MTUxNTQ2MiwxMzY1Mj
+AwNjkyLDQwOTE5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIzMjUs
+MjAxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MD
+UwMjY0MDEsLTEwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYw
+NTYsMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMCwtMj
+A0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LDkxODU3
+NDE1Nl19
 -->
