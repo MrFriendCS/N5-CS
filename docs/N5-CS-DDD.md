@@ -293,9 +293,9 @@ __Caution__: without the `WHERE` clause all records would be deleted!
 | Type              | SQL |
 | ----              | --- |
 | Presence check    | NOT NULL |
-| Restricted choice | CHECK(`field`) IN (`list of values`) |
-| Field length      | CHECK(LENGTH(`field`) = 3) |
-| Range             | CHECK(`field` >=1 AND `field` <=6) |
+| Restricted choice | CHECK (`field`) IN (`list of values`) |
+| Field length      | CHECK (LENGTH(`field`) = 3) |
+| Range             | CHECK (`field` >=1 AND `field` <=6) |
 
 ### Example
 
@@ -326,7 +326,8 @@ __Caution__: without the `WHERE` clause all records would be deleted!
 
 ``` sql
 CREATE TABLE vehicle(
-    veh_reg VARCHAR(8) NOT NULL CHECK(LENGTH(veh_reg >= 4)),
+    veh_reg VARCHAR(8) NOT NULL 
+        CHECK(LENGTH(veh_reg >= 4)),
     make VARCHAR(20),
     model VARCHAR(20),
     colour VARCHAR(15) NOT NULL,
@@ -405,7 +406,7 @@ CREATE TABLE new_vaccination (
     reaction BOOL NOT NULL,
     price REAL NOT NULL 
         CHECK(price >= 10 
-            AND price <= 100),
+          AND price <= 100),
     FOREIGN KEY(pet_id) 
         REFERENCES pet(pet_id)
     PRIMARY KEY(vax_id),
@@ -474,7 +475,7 @@ Select various fields from two tables, with two search conditions and ordered on
 SELECT pet.name, species, vaccination.name, vax_date
     FROM pet, vaccination
     WHERE pet.pet_id = vaccination.pet_id
-        AND species = "Rabbit"
+         AND species = "Rabbit"
     ORDER BY pet.name ASC,
         vax_date DESC;
 ```
@@ -505,10 +506,10 @@ UPDATE vaccination
 SELECT *
     FROM vaccination
     WHERE name = "FLV"
-        OR name = "Feline Leukaemia Virus";
+       OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExMzY5MjQ3LDE1OTkxMDM5MjMsODczMD
-Y0MTEwLDE5NTQ3OTI1MzksLTk1ODU5ODQzMSwtMTIzMzk4NDcz
-Nl19
+eyJoaXN0b3J5IjpbLTEyNDUwMzc5MDksMTU5OTEwMzkyMyw4Nz
+MwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4NDMxLC0xMjMzOTg0
+NzM2XX0=
 -->
