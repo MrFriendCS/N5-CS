@@ -603,7 +603,7 @@ import random
 # Pick a random integer
 myDice = random.randint(1, 6)
 
-# Disp
+# Display value
 print(myDice)
 ```
 
@@ -616,6 +616,7 @@ The round function works with floating point values (decimals).  It returns (pro
 ``` python
 myReal = 3.14159265359
 
+# Round to 2 decimal places
 myRound = round(myReal, 2)
 
 print(myRound)
@@ -632,6 +633,7 @@ The following example will return a value of 4.
 ``` python
 myReal= 3.5
 
+# Round to zero decimal places
 myRound = round(myReal)
 
 print(myRound)
@@ -642,6 +644,7 @@ The following example will ***also*** return a value of 4.
 ``` python
 myReal= 4.5
 
+# Round to zero decimal places
 myRound = round(myReal)
 
 print(myRound)
@@ -684,7 +687,7 @@ It can be done two different ways, initial input before the loop or within the l
 The conditional loop is only entered if the value entered is invalid.
 
 ``` python
-# Input validation: Start
+# Get value from user
 dice = int(input("Enter dice value: "))
 
 while dice < 1 or dice > 6:
@@ -814,11 +817,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODE1NDQwOCwxNjA5MTIxMTUzLDIxMD
-A3ODIzMjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2
-NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAxNDMwMTE4My
-w3Nzc0NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5MzA4
-ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0Nz
-k3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMTQ4
-NDA3MzkxMF19
+eyJoaXN0b3J5IjpbLTE5NDA0NTk5MDksMTYwOTEyMTE1MywyMT
+AwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLTM0MzE5
+NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQzMDExOD
+MsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5OTY2NSw0OTMw
+ODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3ND
+c5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0
+ODQwNzM5MTBdfQ==
 -->
