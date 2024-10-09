@@ -174,7 +174,7 @@ myArrayOfStrings = [""] * 4  # Shorthand
 
 #### Individual value
 
-Elements in an array are numbered, starting at zero.  They accessed using the subscript operator `[0]`, and the index position of the element.
+Elements in an array are numbered, starting at zero.  They  are accessed using the subscript operator `[ ]` and the index position of the element.
 
 ``` python
 myArrayOfIntegers[0] = 65
@@ -796,11 +796,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjI5NzQ0NDEsMjEwMDc4MjMyNSwyMD
-E0NDUzMjA0LC0xNTk3Mzg3NTEwLC0zNDMxOTY3MTgsMTcwNTAy
-NjQwMSwtMTA4MzQyNjc4NSwxMDE0MzAxMTgzLDc3NzQ3NjA1Ni
-wxOTA5OTAzNDc2LC02MTE4OTk2NjUsNDkzMDg4MzEwLC0yMDQz
-OTI3OTAyLC0yMTE5MjE1NDgyLDEwMDI4NzQ3OTcsOTE4NTc0MT
-U2LDQ3NTY4MjI1OSwxMjYzNTQ2MTEzLC0xNDg0MDczOTEwLDE2
-OTc4NDM2NjJdfQ==
+eyJoaXN0b3J5IjpbMTYwOTEyMTE1MywyMTAwNzgyMzI1LDIwMT
+Q0NTMyMDQsLTE1OTczODc1MTAsLTM0MzE5NjcxOCwxNzA1MDI2
+NDAxLC0xMDgzNDI2Nzg1LDEwMTQzMDExODMsNzc3NDc2MDU2LD
+E5MDk5MDM0NzYsLTYxMTg5OTY2NSw0OTMwODgzMTAsLTIwNDM5
+Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQxNT
+YsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMTY5
+Nzg0MzY2Ml19
 -->
