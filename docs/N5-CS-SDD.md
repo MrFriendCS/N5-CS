@@ -930,7 +930,7 @@ for index in range(len(scores)):
 The loop variable `score` is assigned each value in turn from the `scores` array.
 
 ``` python
-# Initialise array
+# Initialise variable
 scores = [56, 34, 2, 85, 51]
 
 # Loop for each element in array
@@ -944,11 +944,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTE4MzQ0NDksLTExNDQ1NzAzMTMsNj
-Y4MDEwMjY1LC0xMDI3NTcxNzY3LDI3NTMyNzQzNiwxNzU2Njkz
-MDMwLC0yMDYwODI0NTY2LDE1NzE1MTU0NjIsMTM2NTIwMDY5Mi
-w0MDkxOTA5MDMsMTYwOTEyMTE1MywyMTAwNzgyMzI1LDIwMTQ0
-NTMyMDQsLTE1OTczODc1MTAsLTM0MzE5NjcxOCwxNzA1MDI2ND
-AxLC0xMDgzNDI2Nzg1LDEwMTQzMDExODMsNzc3NDc2MDU2LDE5
-MDk5MDM0NzZdfQ==
+eyJoaXN0b3J5IjpbLTE0ODQ2MDg5MzQsLTEyOTE4MzQ0NDksLT
+ExNDQ1NzAzMTMsNjY4MDEwMjY1LC0xMDI3NTcxNzY3LDI3NTMy
+NzQzNiwxNzU2NjkzMDMwLC0yMDYwODI0NTY2LDE1NzE1MTU0Nj
+IsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOTEyMTE1MywyMTAw
+NzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLTM0MzE5Nj
+cxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQzMDExODMs
+Nzc3NDc2MDU2XX0=
 -->
