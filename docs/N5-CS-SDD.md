@@ -123,7 +123,7 @@ An array can hold multiple values of the same data type, all within square brack
 [True, True, False]
 ```
 
-## Assign values
+## Variables
 
 Variables are used to store values.  An assignment statement has 3 parts:
 
@@ -156,6 +156,9 @@ myString = "Hello"
 ``` python
 myBoolean = True
 ```
+
+
+## Arrays
 
 ``` python
 myArrayOfIntegers = [56, 34, 2, 85, 51]
@@ -782,11 +785,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMD
-gzNDI2Nzg1LDEwMTQzMDExODMsNzc3NDc2MDU2LDE5MDk5MDM0
-NzYsLTYxMTg5OTY2NSw0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLT
-IxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1Njgy
-MjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2Mi
-w3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMjI5
-MzQ4MjAyXX0=
+eyJoaXN0b3J5IjpbLTE1OTczODc1MTAsLTM0MzE5NjcxOCwxNz
+A1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQzMDExODMsNzc3NDc2
+MDU2LDE5MDk5MDM0NzYsLTYxMTg5OTY2NSw0OTMwODgzMTAsLT
+IwNDM5Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1
+NzQxNTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MT
+AsMTY5Nzg0MzY2Miw3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0
+MTk0NDkxN119
 -->
