@@ -318,8 +318,8 @@ To concatenate something that is not an array, it must be cast (converted) to an
 
 ``` python
 # Initialise variables
-myArray = [7, 11, 15]
-myInt = 18
+myArray = [0, 1, 1, 2, 3, 5]
+myInt = 8
 
 # Cast to array and concatenate
 combined = myArray + [myInt]
@@ -942,11 +942,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1MzI3NDM2LDE3NTY2OTMwMzAsLTIwNj
-A4MjQ1NjYsMTU3MTUxNTQ2MiwxMzY1MjAwNjkyLDQwOTE5MDkw
-MywxNjA5MTIxMTUzLDIxMDA3ODIzMjUsMjAxNDQ1MzIwNCwtMT
-U5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MDUwMjY0MDEsLTEwODM0
-MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYwNTYsMTkwOTkwMzQ3Ni
-wtNjExODk5NjY1LDQ5MzA4ODMxMCwtMjA0MzkyNzkwMiwtMjEx
-OTIxNTQ4Ml19
+eyJoaXN0b3J5IjpbLTQ5Mzk3ODg5NCwyNzUzMjc0MzYsMTc1Nj
+Y5MzAzMCwtMjA2MDgyNDU2NiwxNTcxNTE1NDYyLDEzNjUyMDA2
+OTIsNDA5MTkwOTAzLDE2MDkxMjExNTMsMjEwMDc4MjMyNSwyMD
+E0NDUzMjA0LC0xNTk3Mzg3NTEwLC0zNDMxOTY3MTgsMTcwNTAy
+NjQwMSwtMTA4MzQyNjc4NSwxMDE0MzAxMTgzLDc3NzQ3NjA1Ni
+wxOTA5OTAzNDc2LC02MTE4OTk2NjUsNDkzMDg4MzEwLC0yMDQz
+OTI3OTAyXX0=
 -->
