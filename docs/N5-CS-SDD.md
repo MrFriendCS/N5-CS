@@ -626,7 +626,7 @@ range(start, stop, step)
 Display the numbers 0 to 9, ten numbers in total.  The __loop variable__ is `counter` and it holds the current value from the range function.
 
 ``` python
-# Fixed loop: 
+# Fixed loop: Stop value
 for counter in range(10):
 
     # Display loop variable
@@ -638,7 +638,10 @@ for counter in range(10):
 Display the numbers 1 to 9.
 
 ``` python
+# Fixed loop: Start, Stop values
 for counter in range(1, 10):
+
+    # Display loop variable
     print(counter)
 ```
 
@@ -647,7 +650,10 @@ for counter in range(1, 10):
 Display the odd numbers from 1 to 9.
 
 ``` python
+# Fixed loop: Start, Stop, Step values
 for counter in range(1, 10, 2):
+
+    # Display loop variable
     print(counter)
 ```
 
@@ -932,7 +938,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzMjIyOTk1LC0yMDYwODI0NTY2LDE1Nz
+eyJoaXN0b3J5IjpbNTU4ODY5OTc0LC0yMDYwODI0NTY2LDE1Nz
 E1MTU0NjIsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOTEyMTE1
 MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLT
 M0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQz
