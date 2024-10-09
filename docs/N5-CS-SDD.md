@@ -578,7 +578,7 @@ Reverses the Boolean.
 # Initialise variable
 age = 16
 
-# Check value - brackets added for clarity
+# Check value (brackets added for clarity)
 if not (age <= 18):
 
     # True: display message
@@ -942,11 +942,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4MDEwMjY1LC0xMDI3NTcxNzY3LDI3NT
-MyNzQzNiwxNzU2NjkzMDMwLC0yMDYwODI0NTY2LDE1NzE1MTU0
-NjIsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOTEyMTE1MywyMT
-AwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLTM0MzE5
-NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQzMDExOD
-MsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5OTY2NSw0OTMw
-ODgzMTBdfQ==
+eyJoaXN0b3J5IjpbLTExNDQ1NzAzMTMsNjY4MDEwMjY1LC0xMD
+I3NTcxNzY3LDI3NTMyNzQzNiwxNzU2NjkzMDMwLC0yMDYwODI0
+NTY2LDE1NzE1MTU0NjIsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMT
+YwOTEyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTcz
+ODc1MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nz
+g1LDEwMTQzMDExODMsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYx
+MTg5OTY2NV19
 -->
