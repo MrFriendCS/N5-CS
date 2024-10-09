@@ -162,6 +162,8 @@ myBoolean = True
 
 ### Data structures
 
+#### All values
+
 ``` python
 myArrayOfIntegers = [56, 34, 2, 85, 51]
 ```
@@ -170,6 +172,13 @@ myArrayOfIntegers = [56, 34, 2, 85, 51]
 myArrayOfStrings = [""] * 4  # Shorthand
 ```
 
+#### Individual value
+
+Elements in an array are accessed using the subscript operator `[ ]`,
+
+``` python
+myArrayOfIntegers[0] = 65
+```
 
 
 ## Arithmetic operations
@@ -787,11 +796,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTA5NDk2LDIxMDA3ODIzMjUsMjAxND
-Q1MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MDUwMjY0
-MDEsLTEwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYwNTYsMT
-kwOTkwMzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMCwtMjA0Mzky
-NzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LDkxODU3NDE1Ni
-w0NzU2ODIyNTksMTI2MzU0NjExMywtMTQ4NDA3MzkxMCwxNjk3
-ODQzNjYyXX0=
+eyJoaXN0b3J5IjpbLTIxMDAzNDA1ODEsMjEwMDc4MjMyNSwyMD
+E0NDUzMjA0LC0xNTk3Mzg3NTEwLC0zNDMxOTY3MTgsMTcwNTAy
+NjQwMSwtMTA4MzQyNjc4NSwxMDE0MzAxMTgzLDc3NzQ3NjA1Ni
+wxOTA5OTAzNDc2LC02MTE4OTk2NjUsNDkzMDg4MzEwLC0yMDQz
+OTI3OTAyLC0yMTE5MjE1NDgyLDEwMDI4NzQ3OTcsOTE4NTc0MT
+U2LDQ3NTY4MjI1OSwxMjYzNTQ2MTEzLC0xNDg0MDczOTEwLDE2
+OTc4NDM2NjJdfQ==
 -->
