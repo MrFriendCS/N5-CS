@@ -299,9 +299,11 @@ print(combined)
 **Note:** Anything from the keyboard is a *string*.
 
 ```python
+# Get values from user
 word1 = input("Enter the first word: ")
 word2 = input("Enter the second word: ")
 
+# concat
 phrase = word1 + " " + word2
 
 print(phrase)
@@ -796,11 +798,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTEyMTE1MywyMTAwNzgyMzI1LDIwMT
-Q0NTMyMDQsLTE1OTczODc1MTAsLTM0MzE5NjcxOCwxNzA1MDI2
-NDAxLC0xMDgzNDI2Nzg1LDEwMTQzMDExODMsNzc3NDc2MDU2LD
-E5MDk5MDM0NzYsLTYxMTg5OTY2NSw0OTMwODgzMTAsLTIwNDM5
-Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQxNT
-YsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMTY5
-Nzg0MzY2Ml19
+eyJoaXN0b3J5IjpbLTI4Mjc2OTY4OCwxNjA5MTIxMTUzLDIxMD
+A3ODIzMjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2
+NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAxNDMwMTE4My
+w3Nzc0NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5MzA4
+ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0Nz
+k3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMywtMTQ4
+NDA3MzkxMF19
 -->
