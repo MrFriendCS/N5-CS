@@ -438,7 +438,8 @@ if age >= 18:
     
     # True: display message
     print("You can go to the pub.")
-    
+
+# Otherwise
 else:
 
     # False: display message
@@ -466,10 +467,11 @@ elif score >= 50:
 
     # True: display message
     print("Well done!")
-    
+
+# Otherwise
 else:
     
-    # True: display message
+    # All False: display message
     print("Oh dear!")
 ```
 
@@ -529,10 +531,14 @@ Complex selection uses logical operators.
 All comparisons must be `True`.
 
 ``` python
+# Initialise variables
 age = 16
 time = "Night"
 
+# Check values
 if age <= 18 and time == "Day":
+
+
 	print("True!")
 else:
 	print("False!")
@@ -543,9 +549,11 @@ else:
 At least one comparison must be `True`.
 
 ``` python
+# Initialise variables
 age = 16
 time = "Night"
 
+# check values
 if age <= 18 or time == "Day":
 	print("True!")
 else:
@@ -899,7 +907,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDI0NzQ1MCwtMjA2MDgyNDU2NiwxNT
+eyJoaXN0b3J5IjpbLTMyOTk3NDkyNiwtMjA2MDgyNDU2NiwxNT
 cxNTE1NDYyLDEzNjUyMDA2OTIsNDA5MTkwOTAzLDE2MDkxMjEx
 NTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NTEwLC
 0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMDE0
