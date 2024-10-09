@@ -690,11 +690,13 @@ The conditional loop is only entered if the value entered is invalid.
 # Get value from user
 dice = int(input("Enter dice value: "))
 
+# Check value
 while dice < 1 or dice > 6:
+    # Display error message
     print("Value must be from 1 to 6.")
     
+    # Get value from user
     dice = int(input("Enter dice value: "))
-# Input validation: End
 
 # Display value - info only
 print("You entered " + str(dice))
@@ -817,11 +819,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA0NTk5MDksMTYwOTEyMTE1MywyMT
-AwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLTM0MzE5
-NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQzMDExOD
-MsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5OTY2NSw0OTMw
-ODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0ODIsMTAwMjg3ND
-c5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNjM1NDYxMTMsLTE0
-ODQwNzM5MTBdfQ==
+eyJoaXN0b3J5IjpbNDA5MTkwOTAzLDE2MDkxMjExNTMsMjEwMD
+c4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NTEwLC0zNDMxOTY3
+MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMDE0MzAxMTgzLD
+c3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4OTk2NjUsNDkzMDg4
+MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLDEwMDI4NzQ3OT
+csOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMjYzNTQ2MTEzLC0xNDg0
+MDczOTEwXX0=
 -->
