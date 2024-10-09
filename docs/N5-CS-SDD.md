@@ -165,7 +165,7 @@ myArrayOfIntegers = [56, 34, 2, 85, 51]
 myArrayOfStrings = [""] * 4  # Shorthand
 ```
 
-See how to work with [individual elements](#putting-values-in) of an array
+For further information see the standard algorithm: [Traversing a 1D array](#traversing-a-1-d-array).
 
 ## Arithmetic operations
 
@@ -782,11 +782,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMD
-E0MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4OTk2
-NjUsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLD
-EwMDI4NzQ3OTcsOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMjYzNTQ2
-MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2NjIsNzYyNDAxOTgyLC
-0xNDk4NDYxMjQwLC03NDE5NDQ5MTcsLTIyOTM0ODIwMiwxOTY4
-NTg1Mjg4XX0=
+eyJoaXN0b3J5IjpbLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMD
+gzNDI2Nzg1LDEwMTQzMDExODMsNzc3NDc2MDU2LDE5MDk5MDM0
+NzYsLTYxMTg5OTY2NSw0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLT
+IxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1Njgy
+MjU5LDEyNjM1NDYxMTMsLTE0ODQwNzM5MTAsMTY5Nzg0MzY2Mi
+w3NjI0MDE5ODIsLTE0OTg0NjEyNDAsLTc0MTk0NDkxNywtMjI5
+MzQ4MjAyXX0=
 -->
