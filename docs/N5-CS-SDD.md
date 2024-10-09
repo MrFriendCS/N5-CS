@@ -342,32 +342,32 @@ Comparison operators are used to compare one value with another.   All of the fo
 
 Equality (the same as)
 ``` python
-16 == 18
+16 == 18  # False
 ```
 
 Inequality (not the same as)
 ``` python
-16 != 18
+16 != 18  # True
 ```
 
 Greater than
 ``` python
-16 > 18
+16 > 18  # False
 ```
 
 Greater than or equal to
 ``` python
-16 >= 18
+16 >= 18  # False
 ```
 
 Less than
 ``` python
-16 < 18
+16 < 18  # True
 ```
 
 Less than or equal to
 ``` python
-16 <= 18
+16 <= 18  # True
 ```
 
 ## Selection - Simple
@@ -838,11 +838,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOT
-EyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1
-MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LD
-EwMTQzMDExODMsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5
-OTY2NSw0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0OD
-IsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1NjgyMjU5LDEyNjM1
-NDYxMTNdfQ==
+eyJoaXN0b3J5IjpbLTEyMDA0OTczMTMsMTM2NTIwMDY5Miw0MD
+kxOTA5MDMsMTYwOTEyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NTMy
+MDQsLTE1OTczODc1MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC
+0xMDgzNDI2Nzg1LDEwMTQzMDExODMsNzc3NDc2MDU2LDE5MDk5
+MDM0NzYsLTYxMTg5OTY2NSw0OTMwODgzMTAsLTIwNDM5Mjc5MD
+IsLTIxMTkyMTU0ODIsMTAwMjg3NDc5Nyw5MTg1NzQxNTYsNDc1
+NjgyMjU5XX0=
 -->
