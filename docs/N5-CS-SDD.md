@@ -672,20 +672,26 @@ The length function works with strings and arrays.  It returns a number of chara
 #### String
 
 ``` python
+# Initialise variable
 myString = "Computing"
 
+# Get number of characters in string
 myLength = len(myString)
 
+# Display result
 print(myLength)
 ```
 
 #### Array
 
 ``` python
+# Initialise variable
 myArrayOfIntegers = [56, 34, 2, 85, 51]
 
+# Get number of elements in array
 myLength = len(myArrayOfIntegers)
 
+# Display result
 print(myLength)
 ```
 
@@ -853,7 +859,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzAxNTYyOTEsMTU3MTUxNTQ2MiwxMz
+eyJoaXN0b3J5IjpbLTIwNjA4MjQ1NjYsMTU3MTUxNTQ2MiwxMz
 Y1MjAwNjkyLDQwOTE5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIz
 MjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LD
 E3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0
