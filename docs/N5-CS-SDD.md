@@ -160,7 +160,7 @@ myBoolean = True
 ```
 
 
-## Arrays
+### Data structures
 
 ``` python
 myArrayOfIntegers = [56, 34, 2, 85, 51]
@@ -787,11 +787,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMz
-QzMTk2NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAxNDMw
-MTE4Myw3Nzc0NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5NjY1LD
-Q5MzA4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAy
-ODc0Nzk3LDkxODU3NDE1Niw0NzU2ODIyNTksMTI2MzU0NjExMy
-wtMTQ4NDA3MzkxMCwxNjk3ODQzNjYyLDc2MjQwMTk4MiwtMTQ5
-ODQ2MTI0MF19
+eyJoaXN0b3J5IjpbMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNT
+k3Mzg3NTEwLC0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQy
+Njc4NSwxMDE0MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAzNDc2LC
+02MTE4OTk2NjUsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5
+MjE1NDgyLDEwMDI4NzQ3OTcsOTE4NTc0MTU2LDQ3NTY4MjI1OS
+wxMjYzNTQ2MTEzLC0xNDg0MDczOTEwLDE2OTc4NDM2NjIsNzYy
+NDAxOTgyXX0=
 -->
