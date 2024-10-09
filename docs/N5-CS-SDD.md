@@ -147,19 +147,22 @@ myInteger = 5
 ```
 
 ``` python
-# Assign a real 
+# Assign a real value
 myReal = 3.14
 ```
 
 ``` python
+# Assign a character
 myCharacter = "&"
 ```
 
 ``` python
+# Assign a string
 myString = "Hello"
 ```
 
 ``` python
+# Assign a Boolean value
 myBoolean = True
 ```
 
@@ -169,11 +172,13 @@ myBoolean = True
 #### All values
 
 ``` python
+# Assign an array of integers
 myArrayOfIntegers = [56, 34, 2, 85, 51]
 ```
 
 ``` python
-myArrayOfStrings = [""] * 4  # Shorthand
+# Assign an array of strings - Shorthand
+myArrayOfStrings = [""] * 4
 ```
 
 #### Individual value
@@ -181,6 +186,7 @@ myArrayOfStrings = [""] * 4  # Shorthand
 Elements in an array are numbered, starting at zero.  They  are accessed using the subscript operator `[ ]` and the index position of the element.
 
 ``` python
+# Assig
 myArrayOfIntegers[0] = 65
 ```
 
@@ -866,11 +872,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDMyNzU0LC0yMDYwODI0NTY2LDE1Nz
-E1MTU0NjIsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOTEyMTE1
-MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLT
-M0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQz
-MDExODMsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5OTY2NS
-w0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0ODIsMTAw
-Mjg3NDc5N119
+eyJoaXN0b3J5IjpbLTExOTUxODQwNzAsLTIwNjA4MjQ1NjYsMT
+U3MTUxNTQ2MiwxMzY1MjAwNjkyLDQwOTE5MDkwMywxNjA5MTIx
+MTUzLDIxMDA3ODIzMjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMC
+wtMzQzMTk2NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAx
+NDMwMTE4Myw3Nzc0NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5Nj
+Y1LDQ5MzA4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4Miwx
+MDAyODc0Nzk3XX0=
 -->
