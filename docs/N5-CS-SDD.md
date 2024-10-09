@@ -821,7 +821,7 @@ print(heights)
 The loop variable `index` is assigned each value in turn from the `range()` function.
 
 ``` python
-# Initialise array
+# Initialise variable
 scores = [56, 34, 2, 85, 51]
 
 # Loop for each element in array
@@ -830,7 +830,7 @@ for index in range(len(scores)):
 	# Get value from array
 	score = scores[index]
 	
-	# Display surrent value
+	# Display current value
     print(score)
 ```
 
@@ -845,7 +845,7 @@ scores = [56, 34, 2, 85, 51]
 # Loop for each element in array
 for score in scores:
 
-    # Display surrent value
+    # Display current value
     print(score)
 ```
 
@@ -853,11 +853,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MTU3NjgsMTU3MTUxNTQ2MiwxMzY1Mj
-AwNjkyLDQwOTE5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIzMjUs
-MjAxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MD
-UwMjY0MDEsLTEwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYw
-NTYsMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMCwtMj
-A0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LDkxODU3
-NDE1Nl19
+eyJoaXN0b3J5IjpbLTE5NzAxNTYyOTEsMTU3MTUxNTQ2MiwxMz
+Y1MjAwNjkyLDQwOTE5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIz
+MjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LD
+E3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0
+NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMC
+wtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LDkx
+ODU3NDE1Nl19
 -->
