@@ -786,7 +786,7 @@ heights = [0.0] * 5
 # Display array
 print(heights)
 
-# Loop for each element
+# Loop for each element in array
 for index in range(len(heights)):
 
     # Get value to assign to array
@@ -815,6 +815,7 @@ for index in range(len(scores)):
 	# Get value from array
 	score = scores[index]
 	
+	# Display surrent value
     print(score)
 ```
 
@@ -829,6 +830,7 @@ scores = [56, 34, 2, 85, 51]
 # Loop for each element in array
 for score in scores:
 
+    # Display surrent value
     print(score)
 ```
 
@@ -836,7 +838,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODAxMzkyNCw0MDkxOTA5MDMsMTYwOT
+eyJoaXN0b3J5IjpbLTkyMDQzNzAxNCw0MDkxOTA5MDMsMTYwOT
 EyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1
 MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LD
 EwMTQzMDExODMsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5
