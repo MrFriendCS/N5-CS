@@ -315,7 +315,7 @@ print(phrase)
 Values that have a different datatype must be cast from string to the correct datatype, using one of the following functions:
 
 ```python
-# Cast sting to integer
+# Cast string to integer
 myInt = int("42")
 
 # Cast string to real
@@ -838,7 +838,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDQzNzAxNCw0MDkxOTA5MDMsMTYwOT
+eyJoaXN0b3J5IjpbMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOT
 EyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1
 MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LD
 EwMTQzMDExODMsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5
