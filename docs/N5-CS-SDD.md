@@ -629,6 +629,7 @@ print(myDice)
 The round function works with floating point values (decimals).  It returns (produces) a value that is rounded to a specified number of decimal places
 
 ``` python
+# Initialise variable
 myReal = 3.14159265359
 
 # Round to 2 decimal places
@@ -704,6 +705,8 @@ User input can be checked using a conditional loop.  If the value entered is not
 It can be done two different ways, initial input before the loop or within the loop.
 
 #### Input before loop
+
+
 
 The conditional loop is only entered if the value entered is invalid.
 
@@ -859,11 +862,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA4MjQ1NjYsMTU3MTUxNTQ2MiwxMz
-Y1MjAwNjkyLDQwOTE5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIz
-MjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LD
-E3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0
-NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMC
-wtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAyODc0Nzk3LDkx
-ODU3NDE1Nl19
+eyJoaXN0b3J5IjpbLTE3Nzc5NzY0NTAsLTIwNjA4MjQ1NjYsMT
+U3MTUxNTQ2MiwxMzY1MjAwNjkyLDQwOTE5MDkwMywxNjA5MTIx
+MTUzLDIxMDA3ODIzMjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMC
+wtMzQzMTk2NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAx
+NDMwMTE4Myw3Nzc0NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5Nj
+Y1LDQ5MzA4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4Miwx
+MDAyODc0Nzk3XX0=
 -->
