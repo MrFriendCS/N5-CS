@@ -538,9 +538,13 @@ time = "Night"
 # Check values
 if age <= 18 and time == "Day":
 
-
+    # Both True: display message
 	print("True!")
+
+# Otherwise
 else:
+
+    # Either False: display message
 	print("False!")
 ```
 
@@ -553,10 +557,16 @@ At least one comparison must be `True`.
 age = 16
 time = "Night"
 
-# check values
+# Check values
 if age <= 18 or time == "Day":
+
+    # Either True: display message
 	print("True!")
+
+# Otherwise
 else:
+
+    # 
 	print("False!")
 ```
 
@@ -907,11 +917,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTk3NDkyNiwtMjA2MDgyNDU2NiwxNT
-cxNTE1NDYyLDEzNjUyMDA2OTIsNDA5MTkwOTAzLDE2MDkxMjEx
-NTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NTEwLC
-0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMDE0
-MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4OTk2Nj
-UsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLDEw
-MDI4NzQ3OTddfQ==
+eyJoaXN0b3J5IjpbOTQ1NTY4OTcsLTIwNjA4MjQ1NjYsMTU3MT
+UxNTQ2MiwxMzY1MjAwNjkyLDQwOTE5MDkwMywxNjA5MTIxMTUz
+LDIxMDA3ODIzMjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMz
+QzMTk2NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAxNDMw
+MTE4Myw3Nzc0NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5NjY1LD
+Q5MzA4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAy
+ODc0Nzk3XX0=
 -->
