@@ -33,7 +33,7 @@ This comment is not displayed
 # Display text
 print("Hello world")
 
-# Dispplay a number
+# Display a number
 print(3.14)
 ```
 
@@ -942,11 +942,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NjY5MzAzMCwtMjA2MDgyNDU2NiwxNT
-cxNTE1NDYyLDEzNjUyMDA2OTIsNDA5MTkwOTAzLDE2MDkxMjEx
-NTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NTEwLC
-0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMDE0
-MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4OTk2Nj
-UsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLDEw
-MDI4NzQ3OTddfQ==
+eyJoaXN0b3J5IjpbMjc1MzI3NDM2LDE3NTY2OTMwMzAsLTIwNj
+A4MjQ1NjYsMTU3MTUxNTQ2MiwxMzY1MjAwNjkyLDQwOTE5MDkw
+MywxNjA5MTIxMTUzLDIxMDA3ODIzMjUsMjAxNDQ1MzIwNCwtMT
+U5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MDUwMjY0MDEsLTEwODM0
+MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYwNTYsMTkwOTkwMzQ3Ni
+wtNjExODk5NjY1LDQ5MzA4ODMxMCwtMjA0MzkyNzkwMiwtMjEx
+OTIxNTQ4Ml19
 -->
