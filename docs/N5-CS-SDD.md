@@ -566,7 +566,7 @@ if age <= 18 or time == "Day":
 # Otherwise
 else:
 
-    # 
+    # Both False: display message
 	print("False!")
 ```
 
@@ -575,11 +575,19 @@ else:
 Reverses the Boolean.
 
 ``` python
+# Initialise variable
 age = 16
 
-if not(age <= 18):
+# Check value
+if not (age <= 18):
+
+    # True: display message
 	print("True!")
+
+# otherwise
 else:
+
+    # False: display message
 	print("False!")
 ```
 
@@ -917,11 +925,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ1NTY4OTcsLTIwNjA4MjQ1NjYsMTU3MT
-UxNTQ2MiwxMzY1MjAwNjkyLDQwOTE5MDkwMywxNjA5MTIxMTUz
-LDIxMDA3ODIzMjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMz
-QzMTk2NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAxNDMw
-MTE4Myw3Nzc0NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5NjY1LD
-Q5MzA4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4MiwxMDAy
-ODc0Nzk3XX0=
+eyJoaXN0b3J5IjpbMzM2ODc0OTQ0LC0yMDYwODI0NTY2LDE1Nz
+E1MTU0NjIsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOTEyMTE1
+MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLT
+M0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQz
+MDExODMsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5OTY2NS
+w0OTMwODgzMTAsLTIwNDM5Mjc5MDIsLTIxMTkyMTU0ODIsMTAw
+Mjg3NDc5N119
 -->
