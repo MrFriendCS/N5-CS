@@ -578,7 +578,7 @@ Reverses the Boolean.
 # Initialise variable
 age = 16
 
-# Check value
+# Check value - brackets added for clarity
 if not (age <= 18):
 
     # True: display message
@@ -598,8 +598,8 @@ else:
 age = 21
 banned = False
 
-# check values
-if age >= 18 and not(banned):
+# Check values
+if age >= 18 and not banned:
 
     # Both True: display message
     print("You can go to the pub.")
@@ -942,11 +942,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjc1NzE3NjcsMjc1MzI3NDM2LDE3NT
-Y2OTMwMzAsLTIwNjA4MjQ1NjYsMTU3MTUxNTQ2MiwxMzY1MjAw
-NjkyLDQwOTE5MDkwMywxNjA5MTIxMTUzLDIxMDA3ODIzMjUsMj
-AxNDQ1MzIwNCwtMTU5NzM4NzUxMCwtMzQzMTk2NzE4LDE3MDUw
-MjY0MDEsLTEwODM0MjY3ODUsMTAxNDMwMTE4Myw3Nzc0NzYwNT
-YsMTkwOTkwMzQ3NiwtNjExODk5NjY1LDQ5MzA4ODMxMCwtMjA0
-MzkyNzkwMl19
+eyJoaXN0b3J5IjpbNjY4MDEwMjY1LC0xMDI3NTcxNzY3LDI3NT
+MyNzQzNiwxNzU2NjkzMDMwLC0yMDYwODI0NTY2LDE1NzE1MTU0
+NjIsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOTEyMTE1MywyMT
+AwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLTM0MzE5
+NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQzMDExOD
+MsNzc3NDc2MDU2LDE5MDk5MDM0NzYsLTYxMTg5OTY2NSw0OTMw
+ODgzMTBdfQ==
 -->
