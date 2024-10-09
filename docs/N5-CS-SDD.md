@@ -415,10 +415,13 @@ Selection makes use of a comparison operator to decide what to do.
 Code is only run if the comparison is `True`.
 
 ``` python
+# Initialise variable
 age = 21
 
+# Check value
 if age >= 18:
-    # True
+    
+    # Display message
     print("You can go to the pub.")
 ```
 
@@ -427,8 +430,10 @@ if age >= 18:
 One section of code is always run.
 
 ``` python
+# Initialise variable
 age = 16
 
+# check v
 if age >= 18:
     # True
     print("You can go to the pub.")
@@ -883,11 +888,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTUzMTc5OTUsLTIwNjA4MjQ1NjYsMT
-U3MTUxNTQ2MiwxMzY1MjAwNjkyLDQwOTE5MDkwMywxNjA5MTIx
-MTUzLDIxMDA3ODIzMjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMC
-wtMzQzMTk2NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAx
-NDMwMTE4Myw3Nzc0NzYwNTYsMTkwOTkwMzQ3NiwtNjExODk5Nj
-Y1LDQ5MzA4ODMxMCwtMjA0MzkyNzkwMiwtMjExOTIxNTQ4Miwx
-MDAyODc0Nzk3XX0=
+eyJoaXN0b3J5IjpbMTIzNTc5OTk1MSwtMjA2MDgyNDU2NiwxNT
+cxNTE1NDYyLDEzNjUyMDA2OTIsNDA5MTkwOTAzLDE2MDkxMjEx
+NTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NTEwLC
+0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwxMDE0
+MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4OTk2Nj
+UsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLDEw
+MDI4NzQ3OTddfQ==
 -->
