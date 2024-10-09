@@ -165,7 +165,7 @@ myArrayOfIntegers = [56, 34, 2, 85, 51]
 myArrayOfStrings = [""] * 4  # Shorthand
 ```
 
-See [putting values in](#Putting%20value%0in)
+See how to work with [individual elements](#Putting%20value%0in) of an array
 
 ## Arithmetic operations
 
@@ -782,7 +782,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTQ5MjExMSwtMTA4MzQyNjc4NSwxMD
+eyJoaXN0b3J5IjpbLTcwMzEyNDA2OCwtMTA4MzQyNjc4NSwxMD
 E0MzAxMTgzLDc3NzQ3NjA1NiwxOTA5OTAzNDc2LC02MTE4OTk2
 NjUsNDkzMDg4MzEwLC0yMDQzOTI3OTAyLC0yMTE5MjE1NDgyLD
 EwMDI4NzQ3OTcsOTE4NTc0MTU2LDQ3NTY4MjI1OSwxMjYzNTQ2
