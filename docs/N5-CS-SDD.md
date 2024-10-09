@@ -706,7 +706,7 @@ It can be done two different ways, initial input before the loop or within the l
 
 #### Input before loop
 
-
+This approach can be easier to use when the input validation is within another loop, as the 
 
 The conditional loop is only entered if the value entered is invalid.
 
@@ -862,7 +862,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc5NzY0NTAsLTIwNjA4MjQ1NjYsMT
+eyJoaXN0b3J5IjpbLTEyODI3NzI5MDUsLTIwNjA4MjQ1NjYsMT
 U3MTUxNTQ2MiwxMzY1MjAwNjkyLDQwOTE5MDkwMywxNjA5MTIx
 MTUzLDIxMDA3ODIzMjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMC
 wtMzQzMTk2NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAx
