@@ -186,7 +186,7 @@ myArrayOfStrings = [""] * 4
 Elements in an array are numbered, starting at zero.  They  are accessed using the subscript operator `[ ]` and the index position of the element.
 
 ``` python
-# Assig
+# Assign a value to an element
 myArrayOfIntegers[0] = 65
 ```
 
@@ -221,18 +221,29 @@ Exponentiation (to the power of)
 ### Examples
 
 ``` python
+# Initialise variable
 myMultiplication = 3 * 2
+
+# Display result
 print(myMultiplication)
 ```
 
 ``` python
+# Initialise variable
 mySquare = 3 ** 2
+
+# Display result
 print(mySquare)
 ```
 
 ``` python
+# Initialise variable
 myAge = 21
+
+# Increment value
 myAge = myAge + 1
+
+# Display result
 print(myAge)
 ```
 
@@ -872,7 +883,7 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTUxODQwNzAsLTIwNjA4MjQ1NjYsMT
+eyJoaXN0b3J5IjpbLTEwNTUzMTc5OTUsLTIwNjA4MjQ1NjYsMT
 U3MTUxNTQ2MiwxMzY1MjAwNjkyLDQwOTE5MDkwMywxNjA5MTIx
 MTUzLDIxMDA3ODIzMjUsMjAxNDQ1MzIwNCwtMTU5NzM4NzUxMC
 wtMzQzMTk2NzE4LDE3MDUwMjY0MDEsLTEwODM0MjY3ODUsMTAx
