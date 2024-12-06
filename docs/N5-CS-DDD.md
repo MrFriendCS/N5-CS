@@ -338,18 +338,18 @@ CREATE TABLE vehicle(
 ``` sql
 CREATE TABLE repair(
     repairNo INT NOT NULL,
-    veheg VARCHAR(8) NOT NULL,
-    repair_date DATE,
-    cost_estimate REAL 
-        CHECK(cost_estimate >= 0),
-    cost_actual REAL 
-        CHECK(cost_actual >= 0),
+    vehReg VARCHAR(8) NOT NULL,
+    repairDate DATE,
+    costEstimate REAL 
+        CHECK(costEstimate >= 0),
+    costActual REAL 
+        CHECK(costActual >= 0),
     completed BOOL NOT NULL,
     paid VARCHAR(7) NOT NULL
         CHECK(paid IN ("Nothing", "Part", "All")),
-    FOREIGN KEY (veh_reg)
-        REFERENCES vehicle(veh_reg),
-    PRIMARY KEY (repair_no)
+    PRIMARY KEY (repairNo),
+    FOREIGN KEY (vehReg)
+        REFERENCES vehicle(vehReg)
 );
 ```
 
@@ -379,16 +379,16 @@ SELECT sql
 The output will look similar to:
 
 ``` sql
-CREATE TABLE "vaccination" (
-    vax_id INT NOT NULL,
-    pet_id INT NOT NULL,
-    vax_date DATE NOT NULL,
+CREATE TABLE Vaccination (
+    vaxID INT NOT NULL,
+    petID INT NOT NULL,
+    vaxDate DATE NOT NULL,
     name VARCHAR(30) NOT NULL,
     reaction BOOL NOT NULL,
     price REAL NOT NULL,
-    FOREIGN KEY(pet_id) 
-        REFERENCES pet(pet_id),
-    PRIMARY KEY(vax_id)
+    PRIMARY KEY(vaxID),
+    FOREIGN KEY(petID) 
+        REFERENCES pet(petID)
 )
 ```
 
@@ -509,7 +509,7 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTIyNTU5ODUsLTEyNDUwMzc5MDksMT
-U5OTEwMzkyMyw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4
-NDMxLC0xMjMzOTg0NzM2XX0=
+eyJoaXN0b3J5IjpbMTU0MzM5MTExMywtMTI0NTAzNzkwOSwxNT
+k5MTAzOTIzLDg3MzA2NDExMCwxOTU0NzkyNTM5LC05NTg1OTg0
+MzEsLTEyMzM5ODQ3MzZdfQ==
 -->
