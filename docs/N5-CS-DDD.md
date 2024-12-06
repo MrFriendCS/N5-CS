@@ -397,19 +397,19 @@ CREATE TABLE Vaccination (
 Create a new table with the required changes made.
 
 ``` sql
-CREATE TABLE new_vaccination (
-    vax_id INT NOT NULL,
-    pet_id INT NOT NULL,
-    vax_date DATE NOT NULL,
+CREATE TABLE newVaccination (
+    vaxID INT NOT NULL,
+    petID INT NOT NULL,
+    vaxDate DATE NOT NULL,
     name VARCHAR(30) NOT NULL 
-        CHECK(LENGTH(namen) >= 2),
+        CHECK(LENGTH(name) >= 2),
     reaction BOOL NOT NULL,
     price REAL NOT NULL 
         CHECK(price >= 10 
           AND price <= 100),
-    FOREIGN KEY(pet_id) 
-        REFERENCES pet(pet_id)
-    PRIMARY KEY(vax_id),
+    PRIMARY KEY(vaxID),
+    FOREIGN KEY(petID) 
+        REFERENCES pet(petID)
 );
 ```
 
@@ -418,9 +418,9 @@ CREATE TABLE new_vaccination (
 Copy the data from the old table into the new table.
 
 ``` sql
-INSERT INTO new_vaccianation
+INSERT INTO newVaccianation
     SELECT *
-    FROM vaccination;
+    FROM Vaccination;
 ```
 
 ### 4. Check data
@@ -429,7 +429,7 @@ Check that the data has been copied into the new table.
 
 ``` sql
 SELECT *
-    FROM new_vaccianation;
+    FROM newVaccianation;
 ```
 
 ### 5. Turn off referential integrity
@@ -445,7 +445,7 @@ PRAGMA foreign_keys = off;
 Delete the old table.
 
 ``` sql
-DROP TABLE staff;
+DROP TABLE Staff;
 ```
 
 ### 7. Rename new table
@@ -509,7 +509,7 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzM5MTExMywtMTI0NTAzNzkwOSwxNT
-k5MTAzOTIzLDg3MzA2NDExMCwxOTU0NzkyNTM5LC05NTg1OTg0
-MzEsLTEyMzM5ODQ3MzZdfQ==
+eyJoaXN0b3J5IjpbNjU1NDA4NzA0LC0xMjQ1MDM3OTA5LDE1OT
+kxMDM5MjMsODczMDY0MTEwLDE5NTQ3OTI1MzksLTk1ODU5ODQz
+MSwtMTIzMzk4NDczNl19
 -->
