@@ -49,12 +49,12 @@ The first 4 records of the data used in the examples are shown in the following 
 
 ### Table: Vaccination
 
-| vaxI | petID | vax_date   | name             | reaction | price |
-| :----: | :----: | --------   | ----             | :------: | ----- |
-| 1      | 13     | 2019-09-03 | Distemper        | TRUE     | 45.00 |
-| 2      | 5      | 2020-06-23 | Canine hepatitis | FALSE    | 35.50 |
-| 3      | 1      | 2015-12-17 | Cat Flu          | FALSE    | 12.99 |
-| 4      | 17     | 2015-10-05 | Cat Flu          | FALSE    | 12.99 |
+| vaxID | petID | vaxDate    | name             | reaction | price |
+| :---: | :---: | -------    | ----             | :------: | ----- |
+| 1     | 13    | 2019-09-03 | Distemper        | TRUE     | 45.00 |
+| 2     | 5     | 2020-06-23 | Canine hepatitis | FALSE    | 35.50 |
+| 3     | 1     | 2015-12-17 | Cat Flu          | FALSE    | 12.99 |
+| 4     | 17    | 2015-10-05 | Cat Flu          | FALSE    | 12.99 |
 
 ## ER Diagram
 
@@ -143,7 +143,7 @@ A simple search compares a field in a record with a value.  If the comparison is
 
 ``` sql
 SELECT *
-    FROM vaccination
+    FROM Vaccination
     WHERE species = "Cat";
 ```
 
@@ -157,7 +157,7 @@ If both comparisons are `True` then the required fields of that record are displ
 
 ``` sql
 SELECT *
-    FROM vaccination
+    FROM Vaccination
     WHERE name = "Distemper"
       AND reaction = True;
 ```
@@ -168,7 +168,7 @@ If either comparison is `True` then the required fields of that record are displ
 
 ``` sql
 SELECT *
-    FROM vaccination
+    FROM Vaccination
     WHERE name = "Distemper"
        OR reaction = True;
 ```
@@ -179,7 +179,7 @@ It is possible to sort the output of a search using `ORDER BY` and stating the f
 
 ``` sql
 SELECT *
-    FROM pet
+    FROM Pet
     ORDER BY species ASC;
 ```
 
@@ -187,7 +187,7 @@ To change the sort order of a field to descending the keyword `DESC` used.  The 
 
 ``` sql
 SELECT *
-    FROM pet
+    FROM Pet
     ORDER BY species DESC, 
         name ASC;
 ```
@@ -210,7 +210,7 @@ SELECT *
 
 ``` sql
 SELECT *
-    FROM pet, vaccination
+    FROM Pet, Vaccination
     WHERE pet.pet_id = vaccination.pet_id;
 ```
 
@@ -509,7 +509,7 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ3ODUxNTksLTEyNDUwMzc5MDksMT
+eyJoaXN0b3J5IjpbLTEwMjM4NTk0MTMsLTEyNDUwMzc5MDksMT
 U5OTEwMzkyMyw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4
 NDMxLC0xMjMzOTg0NzM2XX0=
 -->
