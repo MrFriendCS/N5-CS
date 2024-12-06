@@ -38,18 +38,18 @@ The example [database](N5-CS-Database.db) contains the tables and records that t
 
 The first 4 records of the data used in the examples are shown in the following tables:
 
-### Table: pet
+### Table: Pet
 
-| pet_id | name     | species | dob |
-| :----: | ----     | ------- | --- |
-| 1      | Hans     | Cat     | 2015-09-22 |
-| 2      | Minnnie  | Gerbil  | 2021-05-24 |
-| 3	     | Bo       | Rabbit  | 2011-10-13 |
-| 4      | Joscelin | Gerbil  | 2022-02-19 |
+| petID | name     | species | dob |
+| :---: | ----     | ------- | --- |
+| 1     | Hans     | Cat     | 2015-09-22 |
+| 2     | Minnnie  | Gerbil  | 2021-05-24 |
+| 3	    | Bo       | Rabbit  | 2011-10-13 |
+| 4     | Joscelin | Gerbil  | 2022-02-19 |
 
-### Table: vaccination
+### Table: Vaccination
 
-| vax_id | pet_id | vax_date   | name             | reaction | price |
+| vaxI | petID | vax_date   | name             | reaction | price |
 | :----: | :----: | --------   | ----             | :------: | ----- |
 | 1      | 13     | 2019-09-03 | Distemper        | TRUE     | 45.00 |
 | 2      | 5      | 2020-06-23 | Canine hepatitis | FALSE    | 35.50 |
@@ -509,7 +509,7 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDUwMzc5MDksMTU5OTEwMzkyMyw4Nz
-MwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4NDMxLC0xMjMzOTg0
-NzM2XX0=
+eyJoaXN0b3J5IjpbLTE1OTQ3ODUxNTksLTEyNDUwMzc5MDksMT
+U5OTEwMzkyMyw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4
+NDMxLC0xMjMzOTg0NzM2XX0=
 -->
