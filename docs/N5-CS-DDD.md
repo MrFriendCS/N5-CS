@@ -238,7 +238,7 @@ INSERT INTO Pet
 If a partial record is added then the field names must be stated.  The values must be in the same order as the fields.
 
 ``` sql
-INSERT INTO Pet ("species", "name", "petID")
+INSERT INTO Pet (species, name, petID)
     VALUES ("Dog", "Winston", 29);
 ```
 
@@ -509,7 +509,7 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODg0NzMsLTEyNDUwMzc5MDksMTU5OT
-EwMzkyMyw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4NDMx
-LC0xMjMzOTg0NzM2XX0=
+eyJoaXN0b3J5IjpbMTk0MTE0MTI5MywxMDM4ODQ3MywtMTI0NT
+AzNzkwOSwxNTk5MTAzOTIzLDg3MzA2NDExMCwxOTU0NzkyNTM5
+LC05NTg1OTg0MzEsLTEyMzM5ODQ3MzZdfQ==
 -->
