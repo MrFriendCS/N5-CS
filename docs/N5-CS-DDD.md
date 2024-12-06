@@ -159,7 +159,7 @@ If both comparisons are `True` then the required fields of that record are displ
 SELECT *
     FROM Vaccination
     WHERE name = "Distemper"
-      AND reaction = True;
+      AND reaction = TRUE;
 ```
 
 ### OR
@@ -170,7 +170,7 @@ If either comparison is `True` then the required fields of that record are displ
 SELECT *
     FROM Vaccination
     WHERE name = "Distemper"
-       OR reaction = True;
+       OR reaction = TRUE;
 ```
 
 ## Sort results
@@ -509,7 +509,7 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTE0MTI5MywxMDM4ODQ3MywtMTI0NT
-AzNzkwOSwxNTk5MTAzOTIzLDg3MzA2NDExMCwxOTU0NzkyNTM5
-LC05NTg1OTg0MzEsLTEyMzM5ODQ3MzZdfQ==
+eyJoaXN0b3J5IjpbLTgxNjY5NDQ4MywxOTQxMTQxMjkzLDEwMz
+g4NDczLC0xMjQ1MDM3OTA5LDE1OTkxMDM5MjMsODczMDY0MTEw
+LDE5NTQ3OTI1MzksLTk1ODU5ODQzMSwtMTIzMzk4NDczNl19
 -->
