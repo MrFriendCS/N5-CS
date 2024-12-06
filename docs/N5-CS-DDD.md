@@ -238,7 +238,7 @@ INSERT INTO Pet
 If a partial record is added then the field names must be stated.  The values must be in the same order as the fields.
 
 ``` sql
-INSERT INTO Pet ("species", "name", "pet_id")
+INSERT INTO Pet ("species", "name", "petID")
     VALUES ("Dog", "Winston", 29);
 ```
 
@@ -445,7 +445,7 @@ PRAGMA foreign_keys = off;
 Delete the old table.
 
 ``` sql
-DROP TABLE Staff;
+DROP TABLE Vaccination;
 ```
 
 ### 7. Rename new table
@@ -453,8 +453,8 @@ DROP TABLE Staff;
 Rename the new table.
 
 ``` sql
-ALTER TABLE new_vaccination
-    RENAME TO vaccination;
+ALTER TABLE newVaccination
+    RENAME TO Vaccination;
 ```
 
 ### 8. Turn off referential integrity
@@ -472,12 +472,12 @@ PRAGMA foreign_keys = on;
 Select various fields from two tables, with two search conditions and ordered on two fields.
 
 ``` sql
-SELECT pet.name, species, vaccination.name, vax_date
-    FROM pet, vaccination
-    WHERE pet.pet_id = vaccination.pet_id
+SELECT pet.name, species, vaccination.name, vaxDate
+    FROM Pet, Vaccination
+    WHERE pet.petID = vaccination.petID
          AND species = "Rabbit"
     ORDER BY pet.name ASC,
-        vax_date DESC;
+        vaxDate DESC;
 ```
 
 ### Change data
@@ -488,14 +488,14 @@ Update vaccination records so that **Feline Leukaemia Virus** is replaced with *
 
 ``` sql
 SELECT *
-    FROM vaccination
+    FROM Vaccination
     WHERE name = "Feline Leukaemia Virus";
 ```
 
 * Create an `UPDATE` statement to update the correct records.
 
 ``` sql
-UPDATE vaccination
+UPDATE Vaccination
     SET name = "FLV"
     WHERE name = "Feline Leukaemia Virus";
 ```
@@ -504,12 +504,12 @@ UPDATE vaccination
 
 ``` sql
 SELECT *
-    FROM vaccination
+    FROM Vaccination
     WHERE name = "FLV"
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1NDA4NzA0LC0xMjQ1MDM3OTA5LDE1OT
-kxMDM5MjMsODczMDY0MTEwLDE5NTQ3OTI1MzksLTk1ODU5ODQz
-MSwtMTIzMzk4NDczNl19
+eyJoaXN0b3J5IjpbMTAzODg0NzMsLTEyNDUwMzc5MDksMTU5OT
+EwMzkyMyw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4NDMx
+LC0xMjMzOTg0NzM2XX0=
 -->
