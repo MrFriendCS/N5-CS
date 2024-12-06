@@ -257,10 +257,10 @@ UPDATE Pet
 ### Multiple  values changed
 
 ``` sql
-UPDATE et
+UPDATE Pet
     SET name = "Churchill", 
         species = "Cat"
-    WHERE pet_id = 29;
+    WHERE petID = 29;
 ```
 
 __Caution__: without the `WHERE` clause all records would be updated!
@@ -270,8 +270,8 @@ __Caution__: without the `WHERE` clause all records would be updated!
 **Note:** It is possible to damage the data with a `DELETE FROM` statement.  It is advisable to practise with a `SELECT` statement first to see if the correct record, or records, will be deleted.
 
 ``` sql
-DELETE FROM pet
-    WHERE pet_id = 29;
+DELETE FROM Pet
+    WHERE petID = 29;
 ```
 
 __Caution__: without the `WHERE` clause all records would be deleted!
@@ -301,44 +301,44 @@ __Caution__: without the `WHERE` clause all records would be deleted!
 
 ### Data dictionaries
 
-### Entity: vehicle
+### Entity: Vehicle
 
 | Attribute | Key   | Type    | Size  | Req'd | Validation |
 | --------- | :---: | ----    | :---: | :---: | ---------- |
-| veh_reg   | PK    | text    | 8     | Y     | length: >=4 |
+| vehReg    | PK    | text    | 8     | Y     | length: >=4 |
 | make      |       | text    | 20    | N     | |
 | model     |       | text    | 20    | N     | |
 | colour    |       | text    | 15    | Y     | |
 
 ### Entity: repair
 
-| Attribute     | Key   | Type    | Size  | Req'd | Validation |
-| ---------     | :---: | ----    | :---: | :---: | ---------- |
-| repair_no     | PK    | number  |       | Y     | |
-| veh_reg       | FK    | text    | 8     | Y     | Exists in vehicle table |
-| repair_date   |       | date    |       | N     | |
-| cost_estimate |       | number  |       | N     | range: >= 0.00 |
-| cost_actual   |       | number  |       | N     | range: >= 0.00 |
-| completed     |       | boolean |       | Y     | |
-| paid          |       | text    | 7     | Y     | Restricted choice: Nothing, Part, All |
+| Attribute    | Key   | Type    | Size  | Req'd | Validation |
+| ---------    | :---: | ----    | :---: | :---: | ---------- |
+| repairNo     | PK    | number  |       | Y     | |
+| vehReg       | FK    | text    | 8     | Y     | Exists in vehicle table |
+| repairDate   |       | date    |       | N     | |
+| costEstimate |       | number  |       | N     | range: >= 0.00 |
+| costActual   |       | number  |       | N     | range: >= 0.00 |
+| completed    |       | boolean |       | Y     | |
+| paid         |       | text    | 7     | Y     | Restricted choice: Nothing, Part, All |
 
 ### SQL
 
 ``` sql
 CREATE TABLE vehicle(
-    veh_reg VARCHAR(8) NOT NULL 
-        CHECK(LENGTH(veh_reg >= 4)),
+    vehReg VARCHAR(8) NOT NULL 
+        CHECK(LENGTH(vehReg >= 4)),
     make VARCHAR(20),
     model VARCHAR(20),
     colour VARCHAR(15) NOT NULL,
-    PRIMARY KEY (veh_reg)
+    PRIMARY KEY (vehReg)
 );
 ```
 
 ``` sql
 CREATE TABLE repair(
-    repair_no INT NOT NULL,
-    veh_reg VARCHAR(8) NOT NULL,
+    repairNo INT NOT NULL,
+    veheg VARCHAR(8) NOT NULL,
     repair_date DATE,
     cost_estimate REAL 
         CHECK(cost_estimate >= 0),
@@ -509,7 +509,7 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzAyMjg5OCwtMTI0NTAzNzkwOSwxNT
-k5MTAzOTIzLDg3MzA2NDExMCwxOTU0NzkyNTM5LC05NTg1OTg0
-MzEsLTEyMzM5ODQ3MzZdfQ==
+eyJoaXN0b3J5IjpbLTE5NTIyNTU5ODUsLTEyNDUwMzc5MDksMT
+U5OTEwMzkyMyw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4
+NDMxLC0xMjMzOTg0NzM2XX0=
 -->
