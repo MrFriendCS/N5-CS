@@ -25,7 +25,7 @@ SQLite has fewer data types than SQL.  However, SQL datatypes can be used and SQ
 
 | Data type     | Example data |
 | ---------     | ------------ |
-| Text          | "Cat", "01871" |
+| Text          | "Cat", "01871 810100" |
 | Number (INT)  | -99, 0, 99 |
 | Number (REAL) | -99.0, 0.0, 99.0 |
 | Date          | "2024-02-29" |
@@ -108,14 +108,14 @@ To display all the fields the __`*`__ symbol is used.
 
 ``` sql
 SELECT *
-    FROM pet;
+    FROM Pet;
 ```
 
 To select one, or more fields, their names are used.
 
 ``` sql
 SELECT name, species
-    FROM pet;
+    FROM Pet;
 ```
 
 ## Filter results
@@ -201,7 +201,7 @@ Tables are joined using the primary key of one table and the foreign key of the 
 ``` sql
 SELECT *
     FROM table1, table2
-    WHERE table1.primary_key = table2.foreign_key;
+    WHERE table1.primaryKey = table2.foreignKey;
 ```
 
 ### Example
@@ -211,7 +211,7 @@ SELECT *
 ``` sql
 SELECT *
     FROM Pet, Vaccination
-    WHERE pet.pet_id = vaccination.pet_id;
+    WHERE pet.petID = vaccination.petID;
 ```
 
 ## Add New Data
@@ -221,14 +221,14 @@ It is possible to insert a record, multiple records, or partial records into a t
 ### Single record
 
 ``` sql
-INSERT INTO pet
+INSERT INTO Pet
     VALUES (26, "Tiger", "Cat", "2022-04-17");
 ```
 
 ### Multiple records
 
 ``` sql
-INSERT INTO pet
+INSERT INTO Pet
     VALUES (27, "Bill", "Ferret", "2022-05-01"),
            (28, "Ben", "Ferret", "2022-05-01");
 ```
@@ -238,7 +238,7 @@ INSERT INTO pet
 If a partial record is added then the field names must be stated.  The values must be in the same order as the fields.
 
 ``` sql
-INSERT INTO pet ("species", "name", "pet_id")
+INSERT INTO Pet ("species", "name", "pet_id")
     VALUES ("Dog", "Winston", 29);
 ```
 
@@ -249,15 +249,15 @@ INSERT INTO pet ("species", "name", "pet_id")
 ### Single value changed
 
 ``` sql
-UPDATE pet
+UPDATE Pet
     SET dob = "2022-04-01"
-    WHERE pet_id = 29;
+    WHERE petID = 29;
 ```
 
 ### Multiple  values changed
 
 ``` sql
-UPDATE pet
+UPDATE et
     SET name = "Churchill", 
         species = "Cat"
     WHERE pet_id = 29;
@@ -509,7 +509,7 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjM4NTk0MTMsLTEyNDUwMzc5MDksMT
-U5OTEwMzkyMyw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4
-NDMxLC0xMjMzOTg0NzM2XX0=
+eyJoaXN0b3J5IjpbMTkzNzAyMjg5OCwtMTI0NTAzNzkwOSwxNT
+k5MTAzOTIzLDg3MzA2NDExMCwxOTU0NzkyNTM5LC05NTg1OTg0
+MzEsLTEyMzM5ODQ3MzZdfQ==
 -->
