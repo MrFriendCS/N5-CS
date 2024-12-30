@@ -334,9 +334,9 @@ __Caution__: without the `WHERE` clause all records would be deleted!
 ### SQL
 
 ``` sql
-CREATE TABLE vehicle(
+CREATE TABLE Vehicle (
     vehReg VARCHAR(8) NOT NULL 
-        CHECK(LENGTH(vehReg >= 4)),
+        CHECK (LENGTH(vehReg >= 4)),
     make VARCHAR(20),
     model VARCHAR(20),
     colour VARCHAR(15) NOT NULL,
@@ -345,14 +345,14 @@ CREATE TABLE vehicle(
 ```
 
 ``` sql
-CREATE TABLE repair(
+CREATE TABLE Repair (
     repairNo INT NOT NULL,
     vehReg VARCHAR(8) NOT NULL,
     repairDate DATE,
     costEstimate REAL 
-        CHECK(costEstimate >= 0),
+        CHECK (costEstimate >= 0),
     costActual REAL 
-        CHECK(costActual >= 0),
+        CHECK (costActual >= 0),
     completed BOOL NOT NULL,
     paid VARCHAR(7) NOT NULL
         CHECK(paid IN ("Nothing", "Part", "All")),
@@ -519,8 +519,8 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzk2MjQ3NiwtODE2Njk0NDgzLDE5ND
-ExNDEyOTMsMTAzODg0NzMsLTEyNDUwMzc5MDksMTU5OTEwMzky
-Myw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4NDMxLC0xMj
-MzOTg0NzM2XX0=
+eyJoaXN0b3J5IjpbLTIxMzgwODM4MTYsLTgxNjY5NDQ4MywxOT
+QxMTQxMjkzLDEwMzg4NDczLC0xMjQ1MDM3OTA5LDE1OTkxMDM5
+MjMsODczMDY0MTEwLDE5NTQ3OTI1MzksLTk1ODU5ODQzMSwtMT
+IzMzk4NDczNl19
 -->
