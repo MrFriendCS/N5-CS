@@ -196,6 +196,7 @@ SELECT *
              name ASC;
 ```
 
+
 ## Equi-join between tables
 
 Tables are joined using the primary key of one table and the foreign key of the other table.
@@ -217,6 +218,7 @@ SELECT *
     FROM Pet, Vaccination
     WHERE pet.petID = vaccination.petID;
 ```
+
 
 ## Add New Data
 
@@ -246,6 +248,7 @@ INSERT INTO Pet (species, name, petID)
     VALUES ("Dog", "Winston", 29);
 ```
 
+
 ## Modify Data
 
 **Note:** It is possible to damage the data with an `UPDATE` statement.  It is advisable to practise with a `SELECT` statement first to see if the correct record, or records, will be changed.
@@ -268,6 +271,7 @@ UPDATE Pet
 ```
 
 __Caution__: without the `WHERE` clause all records would be updated!
+
 
 ## Remove Data
 
@@ -358,6 +362,7 @@ CREATE TABLE repair(
 );
 ```
 
+
 ## Modify a table
 
 Modifying a table involves a number of steps:
@@ -399,7 +404,7 @@ CREATE TABLE Vaccination (
 
 ### 2. Create new table
 
-Create a new table with the required changes made.
+Create a new table by copying and pasting the original  with the required changes made.
 
 ``` sql
 CREATE TABLE newVaccination (
@@ -514,8 +519,8 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEwMzk0NzgxLC04MTY2OTQ0ODMsMTk0MT
-E0MTI5MywxMDM4ODQ3MywtMTI0NTAzNzkwOSwxNTk5MTAzOTIz
-LDg3MzA2NDExMCwxOTU0NzkyNTM5LC05NTg1OTg0MzEsLTEyMz
-M5ODQ3MzZdfQ==
+eyJoaXN0b3J5IjpbLTE1MjgxNjU2ODIsLTgxNjY5NDQ4MywxOT
+QxMTQxMjkzLDEwMzg4NDczLC0xMjQ1MDM3OTA5LDE1OTkxMDM5
+MjMsODczMDY0MTEwLDE5NTQ3OTI1MzksLTk1ODU5ODQzMSwtMT
+IzMzk4NDczNl19
 -->
