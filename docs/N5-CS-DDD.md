@@ -32,6 +32,7 @@ SQLite has fewer data types than SQL.  However, SQL datatypes can be used and SQ
 | Time          | "13:15:00" |
 | Boolean       | TRUE, FALSE |
 
+
 ## Example Data
 
 The example [database](N5-CS-Database.db) contains the tables and records that the SQL examples will work with. The file can be opened with [DB Browser for SQLite](https://sqlitebrowser.org/).
@@ -56,10 +57,10 @@ The first 4 records of the data used in the examples are shown in the following 
 | 3     | 1     | 2015-12-17 | Cat Flu          | FALSE    | 12.99 |
 | 4     | 17    | 2015-10-05 | Cat Flu          | FALSE    | 12.99 |
 
+
 ## ER Diagram
 
 ![N5 DDD Entity Relationship Diagram](N5-CS-DDD.png "ER Diagram")
-
 
 
 ### Views tables
@@ -71,6 +72,7 @@ SELECT name
     FROM sqlite_schema
     WHERE type = "table";
 ```
+
 
 ## Information
 
@@ -117,6 +119,7 @@ To select one, or more fields, their names are used.
 SELECT name, species
     FROM Pet;
 ```
+
 
 ## Filter results
 
@@ -172,6 +175,7 @@ SELECT *
     WHERE name = "Distemper"
        OR reaction = TRUE;
 ```
+
 
 ## Sort results
 
@@ -275,6 +279,7 @@ DELETE FROM Pet
 ```
 
 __Caution__: without the `WHERE` clause all records would be deleted!
+
 
 ## Create a table
 
@@ -509,8 +514,8 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODYxOTA4OSwtODE2Njk0NDgzLDE5ND
-ExNDEyOTMsMTAzODg0NzMsLTEyNDUwMzc5MDksMTU5OTEwMzky
-Myw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4NDMxLC0xMj
-MzOTg0NzM2XX0=
+eyJoaXN0b3J5IjpbOTEwMzk0NzgxLC04MTY2OTQ0ODMsMTk0MT
+E0MTI5MywxMDM4ODQ3MywtMTI0NTAzNzkwOSwxNTk5MTAzOTIz
+LDg3MzA2NDExMCwxOTU0NzkyNTM5LC05NTg1OTg0MzEsLTEyMz
+M5ODQ3MzZdfQ==
 -->
