@@ -336,7 +336,7 @@ __Caution__: without the `WHERE` clause all records would be deleted!
 ``` sql
 CREATE TABLE Vehicle (
     vehReg VARCHAR(8) NOT NULL 
-        CHECK (LENGTH(vehReg >= 4)),
+        CHECK (LENGTH (vehReg >= 4)),
     make VARCHAR(20),
     model VARCHAR(20),
     colour VARCHAR(15) NOT NULL,
@@ -355,10 +355,10 @@ CREATE TABLE Repair (
         CHECK (costActual >= 0),
     completed BOOL NOT NULL,
     paid VARCHAR(7) NOT NULL
-        CHECK(paid IN ("Nothing", "Part", "All")),
+        CHECK (paid IN ("Nothing", "Part", "All")),
     PRIMARY KEY (repairNo),
     FOREIGN KEY (vehReg)
-        REFERENCES vehicle(vehReg)
+        REFERENCES Vehicle (vehReg)
 );
 ```
 
@@ -407,19 +407,19 @@ CREATE TABLE Vaccination (
 Create a new table by copying and pasting the output of Step 1, with the required changes made.
 
 ``` sql
-CREATE TABLE newVaccination (
+CREATE TABLE NewVaccination (
     vaxID INT NOT NULL,
     petID INT NOT NULL,
     vaxDate DATE NOT NULL,
     name VARCHAR(30) NOT NULL 
-        CHECK(LENGTH(name) >= 2),
+        CHECK (LENGTH (name) >= 2),
     reaction BOOL NOT NULL,
     price REAL NOT NULL 
-        CHECK(price >= 10 
-          AND price <= 100),
-    PRIMARY KEY(vaxID),
-    FOREIGN KEY(petID) 
-        REFERENCES pet(petID)
+        CHECK (price >= 10 
+           AND price <= 100),
+    PRIMARY KEY (vaxID),
+    FOREIGN KEY (petID) 
+        REFERENCES Pet (petID)
 );
 ```
 
@@ -428,7 +428,7 @@ CREATE TABLE newVaccination (
 Copy the data from the old table into the new table.
 
 ``` sql
-INSERT INTO newVaccianation
+INSERT INTO NewVaccianation
     SELECT *
     FROM Vaccination;
 ```
@@ -439,7 +439,7 @@ Check that the data has been copied into the new table.
 
 ``` sql
 SELECT *
-    FROM newVaccianation;
+    FROM NewVaccianation;
 ```
 
 ### 5. Turn off referential integrity
@@ -519,8 +519,8 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzgwODM4MTYsLTgxNjY5NDQ4MywxOT
-QxMTQxMjkzLDEwMzg4NDczLC0xMjQ1MDM3OTA5LDE1OTkxMDM5
-MjMsODczMDY0MTEwLDE5NTQ3OTI1MzksLTk1ODU5ODQzMSwtMT
-IzMzk4NDczNl19
+eyJoaXN0b3J5IjpbMjA5MzQzODA4OCwtODE2Njk0NDgzLDE5ND
+ExNDEyOTMsMTAzODg0NzMsLTEyNDUwMzc5MDksMTU5OTEwMzky
+Myw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4NDMxLC0xMj
+MzOTg0NzM2XX0=
 -->
