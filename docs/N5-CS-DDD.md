@@ -463,11 +463,11 @@ DROP TABLE Vaccination;
 Rename the new table.
 
 ``` sql
-ALTER TABLE newVaccination
+ALTER TABLE NewVaccination
     RENAME TO Vaccination;
 ```
 
-### 8. Turn off referential integrity
+### 8. Turn on referential integrity
 
 If referential integrity was turned off, it will needed to be turned on.
 
@@ -482,12 +482,12 @@ PRAGMA foreign_keys = on;
 Select various fields from two tables, with two search conditions and ordered on two fields.
 
 ``` sql
-SELECT pet.name, species, vaccination.name, vaxDate
+SELECT Pet.name, species, Vaccination.name, vaxDate
     FROM Pet, Vaccination
-    WHERE pet.petID = vaccination.petID
-         AND species = "Rabbit"
-    ORDER BY pet.name ASC,
-        vaxDate DESC;
+    WHERE Pet.petID = Vaccination.petID
+      AND species = "Rabbit"
+    ORDER BY Pet.name ASC,
+             vaxDate DESC;
 ```
 
 ### Change data
@@ -519,7 +519,7 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzQzODA4OCwtODE2Njk0NDgzLDE5ND
+eyJoaXN0b3J5IjpbMTIzOTQ4NzQ1MiwtODE2Njk0NDgzLDE5ND
 ExNDEyOTMsMTAzODg0NzMsLTEyNDUwMzc5MDksMTU5OTEwMzky
 Myw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4NDMxLC0xMj
 MzOTg0NzM2XX0=
