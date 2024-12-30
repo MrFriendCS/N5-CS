@@ -396,15 +396,15 @@ CREATE TABLE Vaccination (
     name VARCHAR(30) NOT NULL,
     reaction BOOL NOT NULL,
     price REAL NOT NULL,
-    PRIMARY KEY(vaxID),
-    FOREIGN KEY(petID) 
-        REFERENCES pet(petID)
+    PRIMARY KEY (vaxID),
+    FOREIGN KEY (petID) 
+        REFERENCES pet (petID)
 )
 ```
 
 ### 2. Create new table
 
-Create a new table by copying and pasting the original  with the required changes made.
+Create a new table by copying and pasting the output of Step 1, with the required changes made.
 
 ``` sql
 CREATE TABLE newVaccination (
@@ -519,8 +519,8 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjgxNjU2ODIsLTgxNjY5NDQ4MywxOT
-QxMTQxMjkzLDEwMzg4NDczLC0xMjQ1MDM3OTA5LDE1OTkxMDM5
-MjMsODczMDY0MTEwLDE5NTQ3OTI1MzksLTk1ODU5ODQzMSwtMT
-IzMzk4NDczNl19
+eyJoaXN0b3J5IjpbLTE0Nzk2MjQ3NiwtODE2Njk0NDgzLDE5ND
+ExNDEyOTMsMTAzODg0NzMsLTEyNDUwMzc5MDksMTU5OTEwMzky
+Myw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4NDMxLC0xMj
+MzOTg0NzM2XX0=
 -->
