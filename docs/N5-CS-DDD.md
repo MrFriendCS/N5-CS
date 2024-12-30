@@ -151,7 +151,7 @@ SELECT *
 
 A complex search compares two fields.
 
-### AND
+#### AND
 
 If both comparisons are `True` then the required fields of that record are displayed.
 
@@ -162,7 +162,7 @@ SELECT *
       AND reaction = TRUE;
 ```
 
-### OR
+#### OR
 
 If either comparison is `True` then the required fields of that record are displayed.
 
@@ -189,7 +189,7 @@ To change the sort order of a field to descending the keyword `DESC` used.  The 
 SELECT *
     FROM Pet
     ORDER BY species DESC, 
-        name ASC;
+             name ASC;
 ```
 
 ## Equi-join between tables
@@ -509,7 +509,8 @@ SELECT *
        OR name = "Feline Leukaemia Virus";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNjY5NDQ4MywxOTQxMTQxMjkzLDEwMz
-g4NDczLC0xMjQ1MDM3OTA5LDE1OTkxMDM5MjMsODczMDY0MTEw
-LDE5NTQ3OTI1MzksLTk1ODU5ODQzMSwtMTIzMzk4NDczNl19
+eyJoaXN0b3J5IjpbLTk2ODYxOTA4OSwtODE2Njk0NDgzLDE5ND
+ExNDEyOTMsMTAzODg0NzMsLTEyNDUwMzc5MDksMTU5OTEwMzky
+Myw4NzMwNjQxMTAsMTk1NDc5MjUzOSwtOTU4NTk4NDMxLC0xMj
+MzOTg0NzM2XX0=
 -->
