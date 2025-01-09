@@ -401,7 +401,6 @@ h5 {color: DarkRed;
 ```
 
 
-
 ## JavaScript (JS)
 
 JavaScript statements are terminated with a semicolon, **`;`**. An individual statement will probably run without a semicolon but multiple statements will not.
@@ -473,6 +472,6 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTc0OTM1NSwtMTQwMDYyNjYyLC0zNj
-M2MTk3MzhdfQ==
+eyJoaXN0b3J5IjpbLTI3OTc3MTQ5LC0xNDAwNjI2NjIsLTM2Mz
+YxOTczOF19
 -->
