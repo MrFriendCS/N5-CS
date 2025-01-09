@@ -327,7 +327,7 @@ Class selectors use the class name with a dot in front.
 ID selectors use the ID name with a hash in front.
 
 ``` css
-##otherPara {property: value;}
+#otherPara {property: value;}
 ```
 
 ### CSS Precedence
@@ -344,7 +344,6 @@ ID selectors use the ID name with a hash in front.
  * Internal rules overwrite external rules
  * Inline rules overwrite internal rules
 
-plify and implement internal and external Cascading Style Sheets (CSS):
 
 ### Selectors, Classes and IDs
 
@@ -474,6 +473,6 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQ3Mjg3MjEsLTE0MDA2MjY2MiwtMz
-YzNjE5NzM4XX0=
+eyJoaXN0b3J5IjpbLTgwOTc0OTM1NSwtMTQwMDYyNjYyLC0zNj
+M2MTk3MzhdfQ==
 -->
