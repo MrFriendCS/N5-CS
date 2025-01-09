@@ -28,7 +28,7 @@ Opening tags can have attributes.
 </tag>
 ```
 
-All element HTML documents are contained within the opening and closing `html` tags.
+All elements in a HTML document are contained within the opening and closing `html` tags.
 
 ``` html
 <!DOCTYPE html>
@@ -476,5 +476,5 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzYxOTczOF19
+eyJoaXN0b3J5IjpbNzQxMjY1ODg2LC0zNjM2MTk3MzhdfQ==
 -->
