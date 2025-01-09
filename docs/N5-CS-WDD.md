@@ -212,7 +212,7 @@ To ensure that media is displayed / played correctly the `type` attribute is use
 
 ### Image
 
-The image tag (`<img>`) has three attributes.  The first (`src`) is where the image is located, and can use relative or absolute addressing.  The second (`alt`) is the alternative text that will be displayed if the image can't be displayed, and is used by screen readers.
+The image tag (`<img>`) has two attributes.  The first (`src`) is where the image is located, and can use relative or absolute addressing.  The second (`alt`) is the alternative text that will be displayed if the image can't be displayed, and is used by screen readers.
 
 ``` html
 <img src="laptop.jpg" alt="Laptop on a table">
@@ -236,7 +236,7 @@ The image tag (`<img>`) has three attributes.  The first (`src`) is where the im
 
 ## Classes and IDs
 
-HTML elements can have additional attributes for `class` and `id` which are useful applying CSS rules to specific elements, and can be used by JavaScript.
+HTML elements can have additional attributes for `class` and `id` which are used for applying CSS rules to specific elements, and can be used by JavaScript.
 
 A class can be assigned to one or more cascading Style Sheets (CSS), whereas an ID can only be applied to one element on a page.
 
@@ -272,7 +272,7 @@ An element can have an ID and a class.
 
 ### Information
 
-### Comments
+#### Comments
 
 Single line comment.
 
@@ -476,5 +476,6 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA2MjY2MiwtMzYzNjE5NzM4XX0=
+eyJoaXN0b3J5IjpbMjAxOTQ5NTg3MSwtMTQwMDYyNjYyLC0zNj
+M2MTk3MzhdfQ==
 -->
