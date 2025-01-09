@@ -184,7 +184,7 @@ The `<div>` tag is used to divide the webpage into different parts.
 ### External
 
 
-Link to an external website, using absolute adressing
+Link to an external website, using absolute addressing.
 
 ``` html
 <a href="https://mrfriendcs.github.io/">N5 CS Help</a>
@@ -476,5 +476,5 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzMwNDE0MiwtMzYzNjE5NzM4XX0=
+eyJoaXN0b3J5IjpbLTE0MDA2MjY2MiwtMzYzNjE5NzM4XX0=
 -->
