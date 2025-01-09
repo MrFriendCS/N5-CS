@@ -270,9 +270,7 @@ An element can have an ID and a class.
 
 ## Cascading Style Sheets (CSS)
 
-### Information
-
-#### Comments
+### Comments
 
 Single line comment.
 
@@ -476,6 +474,6 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTQ5NTg3MSwtMTQwMDYyNjYyLC0zNj
-M2MTk3MzhdfQ==
+eyJoaXN0b3J5IjpbLTE4NTQ3Mjg3MjEsLTE0MDA2MjY2MiwtMz
+YzNjE5NzM4XX0=
 -->
