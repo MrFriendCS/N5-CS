@@ -525,7 +525,7 @@ Reverses the result of the comparison.
 | True       | False  |
 
 ``` python
-not (16 <= 18))  # not (
+not (16 <= 18))  # not (True) => False
 ```
 
 ## Selection - Complex
@@ -950,11 +950,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzNzY4Mjk1LC0yMDEwNjUyNjEwLC0xND
-g0NjA4OTM0LC0xMjkxODM0NDQ5LC0xMTQ0NTcwMzEzLDY2ODAx
-MDI2NSwtMTAyNzU3MTc2NywyNzUzMjc0MzYsMTc1NjY5MzAzMC
-wtMjA2MDgyNDU2NiwxNTcxNTE1NDYyLDEzNjUyMDA2OTIsNDA5
-MTkwOTAzLDE2MDkxMjExNTMsMjEwMDc4MjMyNSwyMDE0NDUzMj
-A0LC0xNTk3Mzg3NTEwLC0zNDMxOTY3MTgsMTcwNTAyNjQwMSwt
-MTA4MzQyNjc4NV19
+eyJoaXN0b3J5IjpbLTExMDEwMjg2NzQsLTIwMTA2NTI2MTAsLT
+E0ODQ2MDg5MzQsLTEyOTE4MzQ0NDksLTExNDQ1NzAzMTMsNjY4
+MDEwMjY1LC0xMDI3NTcxNzY3LDI3NTMyNzQzNiwxNzU2NjkzMD
+MwLC0yMDYwODI0NTY2LDE1NzE1MTU0NjIsMTM2NTIwMDY5Miw0
+MDkxOTA5MDMsMTYwOTEyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NT
+MyMDQsLTE1OTczODc1MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAx
+LC0xMDgzNDI2Nzg1XX0=
 -->
