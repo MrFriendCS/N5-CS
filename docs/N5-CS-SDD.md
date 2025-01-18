@@ -177,6 +177,10 @@ myArrayOfIntegers = [56, 34, 2, 85, 51]
 ```
 
 ``` python
+# Assign an array with many values - split over lines
+myLongArray = ["Monday", "Tuesday", "Wednesday", 
+
+``` python
 # Assign an array of strings - Shorthand
 myArrayOfStrings = [""] * 4
 ```
@@ -944,11 +948,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQ2MDg5MzQsLTEyOTE4MzQ0NDksLT
-ExNDQ1NzAzMTMsNjY4MDEwMjY1LC0xMDI3NTcxNzY3LDI3NTMy
-NzQzNiwxNzU2NjkzMDMwLC0yMDYwODI0NTY2LDE1NzE1MTU0Nj
-IsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYwOTEyMTE1MywyMTAw
-NzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczODc1MTAsLTM0MzE5Nj
-cxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1LDEwMTQzMDExODMs
-Nzc3NDc2MDU2XX0=
+eyJoaXN0b3J5IjpbMTY2OTgxMjY5LC0xNDg0NjA4OTM0LC0xMj
+kxODM0NDQ5LC0xMTQ0NTcwMzEzLDY2ODAxMDI2NSwtMTAyNzU3
+MTc2NywyNzUzMjc0MzYsMTc1NjY5MzAzMCwtMjA2MDgyNDU2Ni
+wxNTcxNTE1NDYyLDEzNjUyMDA2OTIsNDA5MTkwOTAzLDE2MDkx
+MjExNTMsMjEwMDc4MjMyNSwyMDE0NDUzMjA0LC0xNTk3Mzg3NT
+EwLC0zNDMxOTY3MTgsMTcwNTAyNjQwMSwtMTA4MzQyNjc4NSwx
+MDE0MzAxMTgzXX0=
 -->
