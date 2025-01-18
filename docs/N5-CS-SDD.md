@@ -497,7 +497,7 @@ Both comparisons must be `True` to produce a final answer of `True`.
 | True         | True         | True   |
 
 ``` python
-16 <= 18 and "Night" == "Day"
+16 <= 18 and "Night" == "Day"  # True and False => False
 ```
 
 ### OR
@@ -512,7 +512,7 @@ One or both comparisons must be `True` to produce a final answer of `True`.
 | True         | True         | True   |
 
 ``` python
-16 <= 18 or "Night" == "Day"
+16 <= 18 or "Night" == "Day"  # True or False => True
 ```
 
 ### NOT
@@ -525,7 +525,7 @@ Reverses the result of the comparison.
 | True       | False  |
 
 ``` python
-not (16 <= 18))
+not (16 <= 18))  # not (
 ```
 
 ## Selection - Complex
@@ -950,11 +950,11 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTA2NTI2MTAsLTE0ODQ2MDg5MzQsLT
-EyOTE4MzQ0NDksLTExNDQ1NzAzMTMsNjY4MDEwMjY1LC0xMDI3
-NTcxNzY3LDI3NTMyNzQzNiwxNzU2NjkzMDMwLC0yMDYwODI0NT
-Y2LDE1NzE1MTU0NjIsMTM2NTIwMDY5Miw0MDkxOTA5MDMsMTYw
-OTEyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NTMyMDQsLTE1OTczOD
-c1MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAxLC0xMDgzNDI2Nzg1
-LDEwMTQzMDExODNdfQ==
+eyJoaXN0b3J5IjpbODkzNzY4Mjk1LC0yMDEwNjUyNjEwLC0xND
+g0NjA4OTM0LC0xMjkxODM0NDQ5LC0xMTQ0NTcwMzEzLDY2ODAx
+MDI2NSwtMTAyNzU3MTc2NywyNzUzMjc0MzYsMTc1NjY5MzAzMC
+wtMjA2MDgyNDU2NiwxNTcxNTE1NDYyLDEzNjUyMDA2OTIsNDA5
+MTkwOTAzLDE2MDkxMjExNTMsMjEwMDc4MjMyNSwyMDE0NDUzMj
+A0LC0xNTk3Mzg3NTEwLC0zNDMxOTY3MTgsMTcwNTAyNjQwMSwt
+MTA4MzQyNjc4NV19
 -->
