@@ -39,7 +39,7 @@ All elements in a HTML document are contained within the opening and closing `ht
 
 ### Information
 
-### Comments
+#### Comments
 
 Single line comment.
 
@@ -56,7 +56,7 @@ This comment is not displayed
 -->
 ```
 
-### Display information
+#### Display information
 
 Without HTML tags information is displayed as plain text, but with tags it will have the formatting associated with the tag.
 
@@ -84,9 +84,9 @@ A HTML documen has two main parts:
 </html>
 ```
 
-### Head
+#### Head
 
-### Title
+#### Title
 
 The webpage title will be displayed on the browser tab:
 
@@ -94,9 +94,9 @@ The webpage title will be displayed on the browser tab:
 <title>My Web Page</title>
 ```
 
-### Style
+#### Style
 
-#### Internal
+##### Internal
 
 The [CSS](#css) for a webpage can be internal using the `style` tag.
 
@@ -106,7 +106,7 @@ The [CSS](#css) for a webpage can be internal using the `style` tag.
 </style>
 ```
 
-#### External
+##### External
 
 The [CSS](#css) for a webpage can be in an external file using the `link` element.
 
@@ -132,7 +132,7 @@ There are six levels of heading.
 <h6>Lowest leveleast heading level</h6>
 ```
 
-### Paragraph
+#### Paragraph
 
 ``` html
 <p>A paragraph of text.</p>
@@ -140,11 +140,11 @@ There are six levels of heading.
 <p>Plus another paragraph of text.</p>
 ```
 
-### Lists
+#### Lists
 
 Lists can be ordered (`ol`) or unordered `ul`).  Both types of lists contain list items (`li`).
 
-### Ordered list - Numbered
+##### Ordered list - Numbered
 
 
 ``` html
@@ -155,7 +155,7 @@ Lists can be ordered (`ol`) or unordered `ul`).  Both types of lists contain lis
 </ol>
 ```
 
-### Unorderd list - Bullet points
+##### Unorderd list - Bullet points
 
 
 ``` html
@@ -184,7 +184,7 @@ The `<div>` tag is used to divide the webpage into different parts.
 
 ### Anchor (Hyperlinks)
 
-### External
+#### External
 
 
 Link to an external website, using absolute addressing.
@@ -193,8 +193,7 @@ Link to an external website, using absolute addressing.
 <a href="https://mrfriendcs.github.io/">N5 CS Help</a>
 ```
 
-### Internal
-
+#### Internal
 
 Link to another webpage, in the same folder, using relative addressing.
 
@@ -475,6 +474,6 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4ODYyNTUsLTI3OTc3MTQ5LC0xNDAwNj
-I2NjIsLTM2MzYxOTczOF19
+eyJoaXN0b3J5IjpbLTEwNzYxNTkxMTYsLTI3OTc3MTQ5LC0xND
+AwNjI2NjIsLTM2MzYxOTczOF19
 -->
