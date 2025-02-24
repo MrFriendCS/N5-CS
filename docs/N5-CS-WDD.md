@@ -94,7 +94,9 @@ The webpage title will be displayed on the browser tab:
 <title>My Web Page</title>
 ```
 
-### StyleLink
+### Style
+
+#### Internal
 
 The [CSS](#css) for a webpage can be internal using the `style` tag.
 
@@ -104,7 +106,7 @@ The [CSS](#css) for a webpage can be internal using the `style` tag.
 </style>
 ```
 
-### 
+#### External
 
 The [CSS](#css) for a webpage can be in an external file using the `link` element.
 
@@ -117,7 +119,8 @@ ___Note___: A few HTML elements do not have a closing tag, and `link` is one of 
 
 
 ### Body
-### Heading
+
+#### Heading
 
 There are six levels of heading.
 
@@ -472,6 +475,6 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTc3MTQ5LC0xNDAwNjI2NjIsLTM2Mz
-YxOTczOF19
+eyJoaXN0b3J5IjpbODc4ODYyNTUsLTI3OTc3MTQ5LC0xNDAwNj
+I2NjIsLTM2MzYxOTczOF19
 -->
