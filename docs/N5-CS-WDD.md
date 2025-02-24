@@ -291,7 +291,7 @@ This comment is not displayed
 
 ### CSS rules
 
-Rules are terminated with a semicolon, **`;`**. A rule with a single property will be valid without a semicolon but a rmultiple rules will not.
+Rules are terminated with a semicolon, **`;`**. A rule with a single property will be valid without a semicolon but a rule with multiple properties will not.
 
 #### Single property
 
@@ -329,7 +329,7 @@ Class selectors use the class name with a dot in front.
 ID selectors use the ID name with a hash in front.
 
 ``` css
-#otherPara {property: value;}
+#importantPara {property: value;}
 ```
 
 ### CSS Precedence
@@ -473,6 +473,6 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTgxMzc1MCwxMzg2NDI4Mjc5LC0yNz
-k3NzE0OSwtMTQwMDYyNjYyLC0zNjM2MTk3MzhdfQ==
+eyJoaXN0b3J5IjpbLTE2OTE2OTcyMTIsMTM4NjQyODI3OSwtMj
+c5NzcxNDksLTE0MDA2MjY2MiwtMzYzNjE5NzM4XX0=
 -->
