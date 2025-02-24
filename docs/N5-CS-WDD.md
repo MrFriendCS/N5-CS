@@ -370,6 +370,15 @@ h5 {color: DarkRed;
 
 #### Size
 
+``` css
+img {width: 50%;
+     height: 50%;}
+```
+
+``` css
+video {width: 360p;
+       height: 50%;}
+```
 
 
 
@@ -458,7 +467,7 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODgxMDIyODIsLTE2OTE2OTcyMTIsMT
-M4NjQyODI3OSwtMjc5NzcxNDksLTE0MDA2MjY2MiwtMzYzNjE5
-NzM4XX0=
+eyJoaXN0b3J5IjpbLTE4NjU4NTA0OSwtMTY5MTY5NzIxMiwxMz
+g2NDI4Mjc5LC0yNzk3NzE0OSwtMTQwMDYyNjYyLC0zNjM2MTk3
+MzhdfQ==
 -->
