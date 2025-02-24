@@ -382,6 +382,7 @@ h5 {color: DarkRed;
  * Internal rules overwrite external rules
  * Inline rules overwrite internal rules
 
+
 ## JavaScript (JS)
 
 JavaScript statements are terminated with a semicolon, **`;`**. An individual statement will probably run without a semicolon but multiple statements will not.
@@ -452,7 +453,7 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjUxNDg2MTMsLTE2OTE2OTcyMTIsMT
-M4NjQyODI3OSwtMjc5NzcxNDksLTE0MDA2MjY2MiwtMzYzNjE5
-NzM4XX0=
+eyJoaXN0b3J5IjpbLTQ4ODAyNjc1LC0xNjkxNjk3MjEyLDEzOD
+Y0MjgyNzksLTI3OTc3MTQ5LC0xNDAwNjI2NjIsLTM2MzYxOTcz
+OF19
 -->
