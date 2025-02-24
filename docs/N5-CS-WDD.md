@@ -368,7 +368,7 @@ selector {property: value;
 
 #### Properties
 
-**Note:** All examples will use a HTML element as the selector but would work equally well with a class or ID.
+**Note:** All examples will use a HTML element as the selector but would work equally well with class or ID selectors.
 
 #### Font
 
@@ -473,6 +473,7 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE2OTcyMTIsMTM4NjQyODI3OSwtMj
-c5NzcxNDksLTE0MDA2MjY2MiwtMzYzNjE5NzM4XX0=
+eyJoaXN0b3J5IjpbLTI4ODI4OTU3NywtMTY5MTY5NzIxMiwxMz
+g2NDI4Mjc5LC0yNzk3NzE0OSwtMTQwMDYyNjYyLC0zNjM2MTk3
+MzhdfQ==
 -->
