@@ -291,7 +291,7 @@ This comment is not displayed
 
 ### CSS rules
 
-Rules are terminated with a semicolon, **`;`**. A rule will be applied without a semicolon but multiple rules will not.
+Rules are terminated with a semicolon, **`;`**. A single rule will be valid without a semicolon but multiple rules will not.
 
 #### Single property
 
@@ -474,6 +474,6 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQ1MjU4MDgsLTI3OTc3MTQ5LC0xND
-AwNjI2NjIsLTM2MzYxOTczOF19
+eyJoaXN0b3J5IjpbMTM4NjQyODI3OSwtMjc5NzcxNDksLTE0MD
+A2MjY2MiwtMzYzNjE5NzM4XX0=
 -->
