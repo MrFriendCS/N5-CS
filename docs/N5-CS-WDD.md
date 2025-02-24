@@ -472,8 +472,7 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 </script>
 ```
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjQyODI3OSwtMjc5NzcxNDksLTE0MD
-A2MjY2MiwtMzYzNjE5NzM4XX0=
+eyJoaXN0b3J5IjpbLTEyMDczNzU5OTEsMTM4NjQyODI3OSwtMj
+c5NzcxNDksLTE0MDA2MjY2MiwtMzYzNjE5NzM4XX0=
 -->
