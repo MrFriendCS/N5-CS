@@ -368,6 +368,11 @@ h5 {color: DarkRed;
     background-color: Cornsilk;}
 ```
 
+#### Size
+
+
+
+
 ### CSS Precedence
 
 #### Selectors
@@ -453,7 +458,7 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODAyNjc1LC0xNjkxNjk3MjEyLDEzOD
-Y0MjgyNzksLTI3OTc3MTQ5LC0xNDAwNjI2NjIsLTM2MzYxOTcz
-OF19
+eyJoaXN0b3J5IjpbLTIwODgxMDIyODIsLTE2OTE2OTcyMTIsMT
+M4NjQyODI3OSwtMjc5NzcxNDksLTE0MDA2MjY2MiwtMzYzNjE5
+NzM4XX0=
 -->
