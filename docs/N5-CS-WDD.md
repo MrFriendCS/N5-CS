@@ -332,6 +332,42 @@ ID selectors use the ID name with a hash in front.
 #importantPara {property: value;}
 ```
 
+### Properties
+
+**Note:** All examples will use a HTML element as the selector but would work equally well with class or ID selectors.
+
+#### Font
+
+``` css
+p {font-family: sans-serif;}
+
+h1 {font-size: large;}
+```
+
+#### Alignment
+
+``` css
+h2 {text-align: left;}
+
+h3 {text-align: center;}
+
+h4 {text-align: right;}
+```
+
+#### Colour
+
+The colour of the text and / or the background can be changed using one of the many predefined colours.  To see a list visit [W3Schools](https://www.w3schools.com/colors/colors_names.asp). 
+
+To change the colour, the properties are:
+
+* __text__: `color`
+* __background__: `background-color`
+
+``` css
+h5 {color: DarkRed;
+    background-color: Cornsilk;}
+```
+
 ### CSS Precedence
 
 #### Selectors
@@ -345,11 +381,6 @@ ID selectors use the ID name with a hash in front.
  * External rules overwrite default rules
  * Internal rules overwrite external rules
  * Inline rules overwrite internal rules
-
-
-
-```
-
 
 ## JavaScript (JS)
 
@@ -421,7 +452,7 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjYyMDE1OCwtMTY5MTY5NzIxMiwxMz
-g2NDI4Mjc5LC0yNzk3NzE0OSwtMTQwMDYyNjYyLC0zNjM2MTk3
-MzhdfQ==
+eyJoaXN0b3J5IjpbLTIwMjUxNDg2MTMsLTE2OTE2OTcyMTIsMT
+M4NjQyODI3OSwtMjc5NzcxNDksLTE0MDA2MjY2MiwtMzYzNjE5
+NzM4XX0=
 -->
