@@ -2,7 +2,7 @@
 
 ## Notes
 
-HTML, CSS, and JavaScript use American spelling so when you see `center` or `color` they are not typos.
+HTML, CSS, and JavaScript use American spelling so when you see `center` or `color` they are not mistakes.
 
 ## Hypertext Markup Language (HTML) 
 
@@ -370,7 +370,7 @@ h5 {color: DarkRed;
 
 #### Size
 
-There is ___no___ space between the value and the unit.
+There is ___no___ space between a value and the unit.
 
 ``` css
 img {width: 50%;
@@ -468,7 +468,7 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjYwMDkxOCwtMTY5MTY5NzIxMiwxMz
-g2NDI4Mjc5LC0yNzk3NzE0OSwtMTQwMDYyNjYyLC0zNjM2MTk3
-MzhdfQ==
+eyJoaXN0b3J5IjpbLTEwOTQ3OTgzOTAsLTY0NjYwMDkxOCwtMT
+Y5MTY5NzIxMiwxMzg2NDI4Mjc5LC0yNzk3NzE0OSwtMTQwMDYy
+NjYyLC0zNjM2MTk3MzhdfQ==
 -->
