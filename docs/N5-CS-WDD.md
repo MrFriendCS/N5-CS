@@ -212,7 +212,7 @@ To ensure that media is displayed / played correctly the `type` attribute is use
 | mp3 | audio/mpeg |
 | mp4 | video/mp4 |
 
-### Image
+#### Image
 
 The image tag (`<img>`) has two attributes.  The first (`src`) is where the image is located, and can use relative or absolute addressing.  The second (`alt`) is the alternative text that will be displayed if the image can't be displayed, and is used by screen readers.
 
@@ -220,7 +220,7 @@ The image tag (`<img>`) has two attributes.  The first (`src`) is where the imag
 <img src="laptop.jpg" alt="Laptop on a table">
 ```
 
-### Audio
+#### Audio
 
 ``` html
 <audio controls src="clapping.mp3">  
@@ -228,7 +228,7 @@ The image tag (`<img>`) has two attributes.  The first (`src`) is where the imag
 </audio>
 ```
 
-### Video
+#### Video
 
 ``` html
 <video controls src="clapping.mp4">  
@@ -236,13 +236,13 @@ The image tag (`<img>`) has two attributes.  The first (`src`) is where the imag
 </video>
 ```
 
-## Classes and IDs
+### Classes and IDs
 
 HTML elements can have additional attributes for `class` and `id` which are used for applying CSS rules to specific elements, and can be used by JavaScript.
 
 A class can be assigned to one or more cascading Style Sheets (CSS), whereas an ID can only be applied to one element on a page.
 
-### Classes
+#### Classes
 
 ``` html
 <p class="highlight">A paragraph.</p>
@@ -250,7 +250,7 @@ A class can be assigned to one or more cascading Style Sheets (CSS), whereas an 
 <p class="highlight">Plus another.</p>
 ```
 
-### IDs
+#### IDs
 
 ``` html
 <p id="main">A paragraph.</p>
@@ -258,7 +258,7 @@ A class can be assigned to one or more cascading Style Sheets (CSS), whereas an 
 <p>Plus another.</p>
 ```
 
-### Classes and IDs
+#### Classes and IDs
 
 An element can have an ID and a class.
 
@@ -293,13 +293,13 @@ This comment is not displayed
 
 Rules are terminated with a semicolon, **`;`**. A rule will be applied without a semicolon but multiple rules will not.
 
-### Single property
+#### Single property
 
 ``` css
 selector {property: value;}
 ```
 
-### Multiple properties
+#### Multiple properties
 
 ``` css
 selector {property: value;
@@ -308,7 +308,7 @@ selector {property: value;
 
 ### Selectors
 
-### Element selectors
+#### Element selectors
 
 Element selectors are HTML tags without the angle brackets.  All elements of that type will have their formatting modified by the CSS rule(s).
 
@@ -316,7 +316,7 @@ Element selectors are HTML tags without the angle brackets.  All elements of tha
 p {property: value;}
 ```
 
-### Class selectors
+#### Class selectors
 
 Class selectors use the class name with a dot in front.
 
@@ -324,7 +324,7 @@ Class selectors use the class name with a dot in front.
 .mainPara {property: value;}
 ```
 
-### ID selectors
+#### ID selectors
 
 ID selectors use the ID name with a hash in front.
 
@@ -474,6 +474,6 @@ Passing `this` as a parameter to the JS function allows the same function to be 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYxNTkxMTYsLTI3OTc3MTQ5LC0xND
+eyJoaXN0b3J5IjpbLTE5MjQ1MjU4MDgsLTI3OTc3MTQ5LC0xND
 AwNjI2NjIsLTM2MzYxOTczOF19
 -->
