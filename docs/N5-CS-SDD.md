@@ -1,5 +1,6 @@
 # Software Design and Development
 
+
 ## Notes
 
 All the code examples use Python.
@@ -8,7 +9,9 @@ Python uses indentation (spaces at the beginning of a line) to show where code b
 
 These notes are focused on N5 Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.
 
+
 ## Information
+
 
 ### Comments
 
@@ -27,6 +30,7 @@ This comment is not displayed
 """
 ```
 
+
 ### Display information
 
 ``` python
@@ -37,9 +41,12 @@ print("Hello world")
 print(3.14)
 ```
 
+
 ## Data
 
+
 ### Data types
+
 
 #### Character
 
@@ -50,6 +57,7 @@ A single character: letter, number, or symbol.  Contained in quote marks.
 "1"
 "@"
 ```
+
 
 #### String
 
@@ -62,6 +70,7 @@ A string of characters.  Contained in quote marks.
 "Pa55w0rd|"
 ```
 
+
 #### Integer
 
 A whole number, positive and negative.  _Not_ contained in quotes.
@@ -71,6 +80,7 @@ A whole number, positive and negative.  _Not_ contained in quotes.
 0
 -4321
 ```
+
 
 #### Real
 
@@ -82,6 +92,7 @@ A decimal number, positive and negative.  _Not_ contained in quotes.
 -3.14
 ```
 
+
 #### Boolean
 
 A binary choice.  _Not_ contained in quotes.
@@ -91,9 +102,11 @@ True
 False
 ```
 
+
 ### Data structure
 
 An array can hold multiple values of the same data type, all within square brackets (`[ ]`).
+
 
 #### Array of characters
 
@@ -101,11 +114,13 @@ An array can hold multiple values of the same data type, all within square brack
 ["a", "g", "z", "d"]
 ```
 
+
 #### Array of strings
 
 ``` python
 ["hat", "mat", "sat"]
 ```
+
 
 #### Array of integers
 
@@ -113,17 +128,20 @@ An array can hold multiple values of the same data type, all within square brack
 [47, -6, 99, 1001]
 ```
 
+
 #### Array of real
 
 ``` python
 [3.14, -89.65, 0.0]
 ```
 
+
 #### Array of Boolean
 
 ``` python
 [True, True, False]
 ```
+
 
 ## Assignment
 
@@ -138,6 +156,7 @@ variableName = valueToAssign
 ```
 
 The value *might* need to be calculated first before being assigned.
+
 
 ### Data types
 
@@ -169,6 +188,7 @@ myBoolean = True
 
 ### Data structures
 
+
 #### All values
 
 ``` python
@@ -187,6 +207,7 @@ myLongArray = ["Monday", "Tuesday", "Wednesday", "Thursday",
 myArrayOfStrings = [""] * 4
 ```
 
+
 #### Individual value
 
 Elements in an array are numbered, starting at zero.  They  are accessed using the subscript operator `[ ]` and the index position of the element.
@@ -195,6 +216,7 @@ Elements in an array are numbered, starting at zero.  They  are accessed using t
 # Assign a value to an element
 myArrayOfIntegers[0] = 65
 ```
+
 
 
 ## Arithmetic operations
@@ -223,6 +245,7 @@ Exponentiation (to the power of)
 ``` python
 4 ** 2
 ```
+
 
 ### Examples
 
@@ -253,9 +276,11 @@ myAge = myAge + 1
 print(myAge)
 ```
 
+
 ## Concatenation
 
 Concatenate means to join together.
+
 
 ### Strings
 
@@ -287,6 +312,7 @@ phrase = word1 + " " + word2
 print(phrase)
 ```
 
+
 ### Non-strings
 
 To concatenate something that is not a string, it must be cast (converted) to a string.
@@ -301,6 +327,7 @@ phrase = "I am " + str(age)
 # Display result
 print(phrase)
 ```
+
 
 ### Arrays
 
@@ -318,6 +345,7 @@ combined = part1 + part2
 print(combined)
 ```
 
+
 ### Non-arrays
 
 To concatenate something that is not an array, it must be cast (converted) to an array.
@@ -334,7 +362,9 @@ combined = myArray + [myInt]
 print(combined)
 ```
 
+
 ## User input
+
 
 ### String input
 
@@ -352,6 +382,7 @@ phrase = word1 + " " + word2
 print(phrase)
 ```
 
+
 ### Non-string input 
 
 Values that have a different datatype must be cast from string to the correct datatype, using one of the following functions:
@@ -363,6 +394,7 @@ myInt = int("42")
 # Cast string to real
 myReal = float("3.14")
 ```
+
 
 #### Example
 
@@ -377,6 +409,7 @@ addition = value1 + value2
 # Display result
 print(addition)
 ```
+
 
 ## Comparison operators
 
@@ -416,6 +449,7 @@ Less than or equal to
 
 Selection makes use of a comparison operator to decide what to do.
 
+
 ### Example 1 - if
 
 Code is only run if the comparison is `True`.
@@ -430,6 +464,7 @@ if age >= 18:
     # True: display message
     print("You can go to the pub.")
 ```
+
 
 ### Example 2 - if, else
 
@@ -452,7 +487,8 @@ else:
     print("You can't go to the pub.")
 ```
 
-### Example 3 - if, elif, else
+
+### Example 4 - if, elif, else
 
 Only the section of code for the first comparison that is `True` is run.  There can be multiple `elif` statements.
 
@@ -481,9 +517,41 @@ else:
     print("Oh dear!")
 ```
 
+
+### Example 4 - if, elif, else
+
+Only the section of code for the first comparison that is `True` is run.  There can be multiple `elif` statements.
+
+There can be multiple `elif` statements, and the `else` is optional.  Numerical values are compared in order: largest to smallest (_see below_), or smallest to largest.
+
+``` python
+# Initialise variable
+score = 53
+
+# Check value
+if score >= 80:
+
+    # True: display message
+    print("Excellent score!")
+
+# Check value
+elif score >= 50:
+
+    # True: display message
+    print("Well done!")
+
+# Otherwise
+else:
+    
+    # All False: display message
+    print("Oh dear!")
+```
+
+
 ## Logical operators
 
 Compare more than one set of values to produce a Boolean answer of `True` or `False`.
+
 
 ### AND
 
@@ -500,6 +568,7 @@ Both comparisons must be `True` to produce a final answer of `True`.
 16 <= 18 and "Night" == "Day"  # True and False => False
 ```
 
+
 ### OR
 
 One or both comparisons must be `True` to produce a final answer of `True`.
@@ -514,6 +583,7 @@ One or both comparisons must be `True` to produce a final answer of `True`.
 ``` python
 16 <= 18 or "Night" == "Day"  # True or False => True
 ```
+
 
 ### NOT
 
@@ -554,6 +624,7 @@ else:
 	print("False!")
 ```
 
+
 ### Example 2 - OR
 
 At least one comparison must be `True`.
@@ -576,6 +647,7 @@ else:
 	print("False!")
 ```
 
+
 ### Example 3 - NOT
 
 Reverses the Boolean.
@@ -597,6 +669,7 @@ else:
 	print("False!")
 ```
 
+
 ### Example 4 - Mixture
 
 ``` python
@@ -611,7 +684,9 @@ if age >= 18 and not banned:
     print("You can go to the pub.")
 ```
 
+
 ##  Loops
+
 
 ### Fixed loop (for)
 
@@ -627,6 +702,7 @@ range(start, stop)
 range(start, stop, step)
 ```
 
+
 #### Example 1 - Stop value
 
 Display the numbers 0 to 9, ten numbers in total.  The __loop variable__ is `counter` and it holds the current value from the range function.
@@ -638,6 +714,7 @@ for counter in range(10):
     # Display loop variable
     print(counter)
 ```
+
 
 #### Example 2 - Start and stop values
 
@@ -651,6 +728,7 @@ for counter in range(1, 10):
     print(counter)
 ```
 
+
 #### Example 3 - Start, stop, and stop values
 
 Display the odd numbers from 1 to 9.
@@ -663,11 +741,13 @@ for counter in range(1, 10, 2):
     print(counter)
 ```
 
+
 ### Conditional loop (while)
 
 Before a conditional loop starts, the number of times it will run ***is not*** stated.
 
 It only runs if the comparison is `True`.  Each time the code is completed the comparison is checked again.  If it is still `True` the code is run again.
+
 
 ### Example
 
@@ -687,7 +767,9 @@ while value < 10:
     print(value)
 ```
 
+
 ## Predefined functions
+
 
 ### Random
 
@@ -706,7 +788,9 @@ myDice = random.randint(1, 6)
 print(myDice)
 ```
 
+
 ### Round
+
 
 #### Decimal Places
 
@@ -721,6 +805,7 @@ myRound = round(myReal, 2)
 
 print(myRound)
 ```
+
 
 #### Whole number
 
@@ -754,9 +839,11 @@ myRound = round(myReal)
 print(myRound)
 ```
 
+
 ### Length
 
 The length function works with strings and arrays.  It returns a number of characters in a string or the number of elements in an array.
+
 
 #### String
 
@@ -771,6 +858,7 @@ myLength = len(myString)
 print(myLength)
 ```
 
+
 #### Array
 
 ``` python
@@ -784,13 +872,16 @@ myLength = len(myArrayOfIntegers)
 print(myLength)
 ```
 
+
 ## Standard algorithms
+
 
 ### Input validation
 
 User input can be checked using a conditional loop.  If the value entered is not acceptable an error message is displayed and the value re-entered until it is.
 
 It can be done two different ways, initial input before the loop or within the loop.
+
 
 #### Input before loop
 
@@ -814,6 +905,7 @@ while dice < 1 or dice > 6:
 # Display value - info only
 print("You entered " + str(dice))
 ```
+
 
 #### Input within loop
 
@@ -839,7 +931,9 @@ while dice < 1 or dice > 6:
 print("You entered " + str(dice))
 ```
 
+
 ### Running total
+
 
 #### Fixed loop
 
@@ -859,6 +953,7 @@ for counter in range(4):
 # Display result
 print("The combined age is " + str(total))
 ```
+
 
 #### Conditional loop
 
@@ -883,11 +978,13 @@ while answer != "no":
 print("The combined age is " + str(total))
 ```
 
+
 ### Traversing a 1-D array
 
 Arrays store more than one value, called elements.  Each element has a position.  Python starts counting from zero.
 
 Often, the loop variable is called __`index`__.
+
 
 #### Putting values in
 
@@ -911,7 +1008,9 @@ for index in range(len(heights)):
 print(heights)
 ```
 
+
 #### Getting values out
+
 
 ##### Method 1
 
@@ -931,6 +1030,7 @@ for index in range(len(scores)):
     print(score)
 ```
 
+
 ##### Method 2
 
 The loop variable `score` is assigned each value in turn from the `scores` array.
@@ -946,15 +1046,7 @@ for score in scores:
     print(score)
 ```
 
+
 ### Multiple arrays
 
 A program can use more than one array, in the same way that a program can use multiple variables.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDEwMjg2NzQsLTIwMTA2NTI2MTAsLT
-E0ODQ2MDg5MzQsLTEyOTE4MzQ0NDksLTExNDQ1NzAzMTMsNjY4
-MDEwMjY1LC0xMDI3NTcxNzY3LDI3NTMyNzQzNiwxNzU2NjkzMD
-MwLC0yMDYwODI0NTY2LDE1NzE1MTU0NjIsMTM2NTIwMDY5Miw0
-MDkxOTA5MDMsMTYwOTEyMTE1MywyMTAwNzgyMzI1LDIwMTQ0NT
-MyMDQsLTE1OTczODc1MTAsLTM0MzE5NjcxOCwxNzA1MDI2NDAx
-LC0xMDgzNDI2Nzg1XX0=
--->
