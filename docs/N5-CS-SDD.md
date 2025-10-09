@@ -488,11 +488,11 @@ else:
 ```
 
 
-### Example 4 - Nested if
+### Example 3 - Nested if
 
-Only the section of code for the first comparison that is `True` is run.  There can be multiple `if` statements.
+Only the section of code for the first comparison that is `True` is run.  There can be multiple `if` statements, and the `else` is optional.
 
-There can be multiple `if` statements, and the `else` is optional.  Numerical values are compared in order: largest to smallest (_see below_), or smallest to largest.
+Numerical values are compared in order: largest to smallest (_see below_), or smallest to largest.
 
 ``` python
 # Initialise variable
@@ -506,17 +506,19 @@ if score >= 80:
 
 else:
 
-# Check value
-elif score >= 50:
+  # Nested if
 
-    # True: display message
-    print("Well done!")
+	# Check value
+	if score >= 50:
 
-# Otherwise
-else:
-    
-    # All False: display message
-    print("Oh dear!")
+	    # True: display message
+	    print("Well done!")
+
+	# Otherwise
+	else:
+	    
+	    # All False: display message
+	    print("Oh dear!")
 ```
 
 
@@ -1053,5 +1055,5 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3NTI4OTc3XX0=
+eyJoaXN0b3J5IjpbMzU2MjI4NjYyXX0=
 -->
