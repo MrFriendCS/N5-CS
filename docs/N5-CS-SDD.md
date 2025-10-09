@@ -488,11 +488,11 @@ else:
 ```
 
 
-### Example 4 - if, elif, else
+### Example 4 - Nested if
 
-Only the section of code for the first comparison that is `True` is run.  There can be multiple `elif` statements.
+Only the section of code for the first comparison that is `True` is run.  There can be multiple `if` statements.
 
-There can be multiple `elif` statements, and the `else` is optional.  Numerical values are compared in order: largest to smallest (_see below_), or smallest to largest.
+There can be multiple `if` statements, and the `else` is optional.  Numerical values are compared in order: largest to smallest (_see below_), or smallest to largest.
 
 ``` python
 # Initialise variable
@@ -503,6 +503,8 @@ if score >= 80:
 
     # True: display message
     print("Excellent score!")
+
+else:
 
 # Check value
 elif score >= 50:
@@ -1050,3 +1052,6 @@ for score in scores:
 ### Multiple arrays
 
 A program can use more than one array, in the same way that a program can use multiple variables.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNTQ3NTI4OTc3XX0=
+-->
