@@ -966,7 +966,7 @@ print("The combined age is " + str(total))
 answer = ""
 total = 0
 
-# Chack answer - loop until False
+# Check answer - loop until False
 while answer != "no":
 
     # Get value from user and cast
@@ -1055,5 +1055,5 @@ for score in scores:
 
 A program can use more than one array, in the same way that a program can use multiple variables.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDg1MDg1NV19
+eyJoaXN0b3J5IjpbMTg3MTU0MTU5NywtNDA0ODUwODU1XX0=
 -->
