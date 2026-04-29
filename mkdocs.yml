@@ -1,6 +1,23 @@
 site_name: N5 CS
 
 theme:
-  name: readthedocs
+    name: readthedocs
 
 navigation_depth: 4
+
+nav:
+    - Home: index.md
+    - SDD:
+        - Software: N5-CS-SDD-General.md
+        - Data: N5-CS-SDD-Data.md
+        - Assignment: N5-CS-SDD-Assignment.md
+        - Arithmetic: N5-CS-SDD-Arithmetic.md
+        - Concatenation: N5-CS-SDD-Concatenation.md
+        - User input: N5-CS-SDD-Input.md
+        - Comparison operators: N5-CS-SDD-Comparisons.md
+        - Logical operators: N5-CS-SDD-Operators.md
+        - Loops: N5-CS-SDD-Loops.md
+        - Predefined functions: N5-CS-SDD-Functions.md
+        - Standard algorithms: N5-CS-SDD-Standard-Algorithms.md
+    - DDD: N5-CS-DDD.md
+    - WDD: N5-CS-WDD.md

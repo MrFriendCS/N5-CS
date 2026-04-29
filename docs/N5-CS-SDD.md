@@ -508,17 +508,17 @@ else:
 
   # Nested if
 
-	# Check value
-	if score >= 50:
+    # Check value
+    if score >= 50:
 
-	    # True: display message
-	    print("Well done!")
+        # True: display message
+        print("Well done!")
 
-	# Otherwise
-	else:
-	    
-	    # All False: display message
-	    print("Oh dear!")
+    # Otherwise
+    else:
+        
+        # All False: display message
+        print("Oh dear!")
 ```
 
 
@@ -619,13 +619,13 @@ time = "Night"
 if age <= 18 and time == "Day":
 
     # Both True: display message
-	print("True!")
+    print("True!")
 
 # Otherwise
 else:
 
     # Either False: display message
-	print("False!")
+    print("False!")
 ```
 
 
@@ -642,13 +642,13 @@ time = "Night"
 if age <= 18 or time == "Day":
 
     # Either True: display message
-	print("True!")
+    print("True!")
 
 # Otherwise
 else:
 
     # Both False: display message
-	print("False!")
+    print("False!")
 ```
 
 
@@ -664,13 +664,13 @@ age = 16
 if not (age <= 18):
 
     # True: display message
-	print("True!")
+    print("True!")
 
 # otherwise
 else:
 
     # False: display message
-	print("False!")
+    print("False!")
 ```
 
 
@@ -948,10 +948,10 @@ total = 0
 # Loop required number of times
 for counter in range(4):
 
-	# Get value from user and cast
+    # Get value from user and cast
     age = int(input("Enter an age: "))
 
-	# Add value to total
+    # Add value to total
     total = total + age
 
 # Display result
@@ -1005,7 +1005,7 @@ for index in range(len(heights)):
     # Get value to assign to array
     height = float(input("Enter a height: "))
 
-	# Assign value to array
+    # Assign value to array
     heights[index] = height
 
 # Display array
@@ -1027,10 +1027,10 @@ scores = [56, 34, 2, 85, 51]
 # Loop for each element in array
 for index in range(len(scores)):
 
-	# Get value from array
-	score = scores[index]
-	
-	# Display current value
+    # Get value from array
+    score = scores[index]
+    
+    # Display current value
     print(score)
 ```
 
