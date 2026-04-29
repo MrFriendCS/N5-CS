@@ -8,7 +8,7 @@ navigation_depth: 4
 nav:
     - Home: index.md
     - SDD:
-        - Software: N5-CS-SDD-General.md
+        - Software: N5-CS-SDD.md
         - Data: N5-CS-SDD-Data.md
         - Assignment: N5-CS-SDD-Assignment.md
         - Arithmetic: N5-CS-SDD-Arithmetic.md
@@ -21,5 +21,12 @@ nav:
         - Loops: N5-CS-SDD-Loops.md
         - Predefined functions: N5-CS-SDD-Functions.md
         - Standard algorithms: N5-CS-SDD-Standard-Algorithms.md
-    - DDD: N5-CS-DDD.md
-    - WDD: N5-CS-WDD.md
+    - DDD:
+        - Databases: N5-CS-DDD.md
+        - Databases: N5-CS-DDD-Modify-Data.md
+        - Databases: N5-CS-DDD-Remove-Data.md
+        - Databases: N5-CS-DDD-Create-Table.md
+        - Databases: N5-CS-DDD-Modify-Table.md
+        - Databases: N5-CS-DDD-Examples.md
+    - WDD:
+        - Web: N5-CS-WDD.md
