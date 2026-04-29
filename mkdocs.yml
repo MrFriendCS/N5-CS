@@ -10,7 +10,7 @@ nav:
     - SDD:
         - Software: sdd/N5-CS-SDD.md
         - Data: sdd/N5-CS-SDD-Data.md
-        - Assignment: Nsdd/5-CS-SDD-Assignment.md
+        - Assignment: sdd/N5-CS-SDD-Assignment.md
         - Arithmetic: sdd/N5-CS-SDD-Arithmetic.md
         - Concatenation: sdd/N5-CS-SDD-Concatenation.md
         - User input: sdd/N5-CS-SDD-Input.md
