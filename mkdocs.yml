@@ -8,25 +8,25 @@ navigation_depth: 4
 nav:
     - Home: index.md
     - SDD:
-        - Software: N5-CS-SDD.md
-        - Data: N5-CS-SDD-Data.md
-        - Assignment: N5-CS-SDD-Assignment.md
-        - Arithmetic: N5-CS-SDD-Arithmetic.md
-        - Concatenation: N5-CS-SDD-Concatenation.md
-        - User input: N5-CS-SDD-Input.md
-        - Comparison operators: N5-CS-SDD-Comparisons.md
-        - Selection - Simple: N5-CS-SDD-Selection-Simple.md
-        - Logical operators: N5-CS-SDD-Logic.md
-        - Selection - Complex: N5-CS-SDD-Selection-Complex.md
-        - Loops: N5-CS-SDD-Loops.md
-        - Predefined functions: N5-CS-SDD-Functions.md
-        - Standard algorithms: N5-CS-SDD-Standard-Algorithms.md
+        - Software: sdd/N5-CS-SDD.md
+        - Data: sdd/N5-CS-SDD-Data.md
+        - Assignment: Nsdd/5-CS-SDD-Assignment.md
+        - Arithmetic: sdd/N5-CS-SDD-Arithmetic.md
+        - Concatenation: sdd/N5-CS-SDD-Concatenation.md
+        - User input: sdd/N5-CS-SDD-Input.md
+        - Comparison operators: sdd/N5-CS-SDD-Comparisons.md
+        - Selection - Simple: sdd/N5-CS-SDD-Selection-Simple.md
+        - Logical operators: sdd/N5-CS-SDD-Logic.md
+        - Selection - Complex: sdd/N5-CS-SDD-Selection-Complex.md
+        - Loops: sdd/N5-CS-SDD-Loops.md
+        - Predefined functions: sdd/N5-CS-SDD-Functions.md
+        - Standard algorithms: sdd/N5-CS-SDD-Standard-Algorithms.md
     - DDD:
-        - Databases: N5-CS-DDD.md
-        - Databases: N5-CS-DDD-Modify-Data.md
-        - Databases: N5-CS-DDD-Remove-Data.md
-        - Databases: N5-CS-DDD-Create-Table.md
-        - Databases: N5-CS-DDD-Modify-Table.md
-        - Databases: N5-CS-DDD-Examples.md
+        - Databases: ddd/N5-CS-DDD.md
+        - Databases: ddd/N5-CS-DDD-Modify-Data.md
+        - Databases: ddd/N5-CS-DDD-Remove-Data.md
+        - Databases: ddd/N5-CS-DDD-Create-Table.md
+        - Databases: ddd/N5-CS-DDD-Modify-Table.md
+        - Databases: ddd/N5-CS-DDD-Examples.md
     - WDD:
-        - Web: N5-CS-WDD.md
+        - Web: wdd/N5-CS-WDD.md
