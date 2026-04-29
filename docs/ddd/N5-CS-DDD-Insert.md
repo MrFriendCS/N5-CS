@@ -1,4 +1,4 @@
-# Add New Data
+# Add Data
 
 It is possible to insert a record, multiple records, or partial records into a table using `INSERT INTO` and `VALUES`.  All validation rules must be met for the new data to be added.
 

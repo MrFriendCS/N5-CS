@@ -3,7 +3,7 @@
 
 ## Notes
 
-All the code examples use Python.
+All the software code examples use Python.
 
 Python uses indentation (spaces at the beginning of a line) to show where code blocks are.
 

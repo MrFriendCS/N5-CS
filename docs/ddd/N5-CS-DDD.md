@@ -2,7 +2,7 @@
 
 ## Notes
 
-All the code examples use SQLite.  They will work with [DB Browser for SQLite](https://sqlitebrowser.org/).
+All the database code examples use SQLite.  They will work with [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 These notes are focused on N5 Computing Science so some terms might be used differently.
 

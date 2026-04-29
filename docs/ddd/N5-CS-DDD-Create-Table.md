@@ -1,4 +1,4 @@
-# Create a table
+# Create a Table
 
 ## Data types
 

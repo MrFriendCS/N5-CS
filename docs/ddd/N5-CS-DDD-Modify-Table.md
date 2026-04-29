@@ -1,4 +1,4 @@
-# Modify a table
+# Modify a Table
 
 Modifying a table involves a number of steps:
 

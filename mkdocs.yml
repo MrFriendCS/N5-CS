@@ -23,7 +23,7 @@ nav:
         - Standard algorithms: sdd/N5-CS-SDD-Standard-Algorithms.md
     - DDD:
         - Databases: ddd/N5-CS-DDD.md
-        - Display data results: ddd/N5-CS-DDD-Select.md
+        - Display results: ddd/N5-CS-DDD-Select.md
         - Filter results: ddd/N5-CS-DDD-Where.md
         - Sort results: ddd/N5-CS-DDD-Order.md
         - Joining tables: ddd/N5-CS-DDD-Equi-join.md

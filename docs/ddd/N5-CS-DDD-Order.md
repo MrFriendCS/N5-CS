@@ -1,4 +1,4 @@
-# Sort results
+# Sort Results
 
 It is possible to sort the output of a search using `ORDER BY` and stating the field, or fields.  Fields are sorted ascending, smallest to largest, by default.
 

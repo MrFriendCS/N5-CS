@@ -1,4 +1,4 @@
-# Equi-join between tables
+# Equi-join
 
 Tables are joined using the primary key of one table and the foreign key of the other table.
 

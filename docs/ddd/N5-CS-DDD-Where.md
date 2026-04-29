@@ -1,4 +1,4 @@
-# Filter results
+# Filter Results
 
 To limit the number of records returned, the `WHERE` keyword is used with a comparison operator.
 
