@@ -23,8 +23,13 @@ nav:
         - Standard algorithms: sdd/N5-CS-SDD-Standard-Algorithms.md
     - DDD:
         - Databases: ddd/N5-CS-DDD.md
-        - Modify data: ddd/N5-CS-DDD-Modify-Data.md
-        - Remove data: ddd/N5-CS-DDD-Remove-Data.md
+        - Display data results: ddd/N5-CS-DDD-Select.md
+        - Filter results: ddd/N5-CS-DDD-Where.md
+        - Sort results: ddd/N5-CS-DDD-Order.md
+        - Joining tables: ddd/N5-CS-DDD-Equi-join.md
+        - Add data: ddd/N5-CS-DDD-Insert.md
+        - Modify data: ddd/N5-CS-DDD-Update.md
+        - Remove data: ddd/N5-CS-DDD-Delete.md
         - Create table: ddd/N5-CS-DDD-Create-Table.md
         - Modify table: ddd/N5-CS-DDD-Modify-Table.md
         - Examples: ddd/N5-CS-DDD-Examples.md
