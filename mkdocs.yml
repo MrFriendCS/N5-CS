@@ -15,8 +15,9 @@ nav:
         - Concatenation: N5-CS-SDD-Concatenation.md
         - User input: N5-CS-SDD-Input.md
         - Comparison operators: N5-CS-SDD-Comparisons.md
-        - Selection: N5-CS-SDD-Selection.md
-        - Logical operators: N5-CS-SDD-Operators.md
+        - Selection - Simple: N5-CS-SDD-Selection-Simple.md
+        - Logical operators: N5-CS-SDD-Logic.md
+        - Selection - Complex: N5-CS-SDD-Selection-Complex.md
         - Loops: N5-CS-SDD-Loops.md
         - Predefined functions: N5-CS-SDD-Functions.md
         - Standard algorithms: N5-CS-SDD-Standard-Algorithms.md
