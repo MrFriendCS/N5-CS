@@ -35,3 +35,10 @@ nav:
         - Examples: ddd/N5-CS-DDD-Examples.md
     - WDD:
         - Web: wdd/N5-CS-WDD.md
+        - HTML:
+            - Web: wdd/N5-CS-WDD-HTML.md
+        - CSS:
+            - Web: wdd/N5-CS-WDD-CSS.md
+        - JS:
+            - Web: wdd/N5-CS-WDD-JS.md
+        
