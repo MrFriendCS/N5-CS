@@ -23,10 +23,10 @@ nav:
         - Standard algorithms: sdd/N5-CS-SDD-Standard-Algorithms.md
     - DDD:
         - Databases: ddd/N5-CS-DDD.md
-        - Databases: ddd/N5-CS-DDD-Modify-Data.md
-        - Databases: ddd/N5-CS-DDD-Remove-Data.md
-        - Databases: ddd/N5-CS-DDD-Create-Table.md
-        - Databases: ddd/N5-CS-DDD-Modify-Table.md
-        - Databases: ddd/N5-CS-DDD-Examples.md
+        - Modify data: ddd/N5-CS-DDD-Modify-Data.md
+        - Remove data: ddd/N5-CS-DDD-Remove-Data.md
+        - Create table: ddd/N5-CS-DDD-Create-Table.md
+        - Modify table: ddd/N5-CS-DDD-Modify-Table.md
+        - Examples: ddd/N5-CS-DDD-Examples.md
     - WDD:
         - Web: wdd/N5-CS-WDD.md
