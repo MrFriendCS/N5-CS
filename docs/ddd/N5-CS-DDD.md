@@ -50,7 +50,7 @@ The first 4 records of the data used in the examples are shown in the following 
 
 ### Table: Vaccination
 
-| vaxID | petID | vaxDate    | name             | reaction | price |
+| vaxID | petID | vaxDate    | vaxTame          | reaction | price |
 | :---: | :---: | -------    | ----             | :------: | ----- |
 | 1     | 13    | 2019-09-03 | Distemper        | TRUE     | 45.00 |
 | 2     | 5     | 2020-06-23 | Canine hepatitis | FALSE    | 35.50 |
