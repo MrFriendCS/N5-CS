@@ -80,8 +80,8 @@ Type hinting is used to show what data type or data structure a variable will ho
 
 ### Single Data Types
 
-| SQA       | Python Data Type |
-| ---       | ---------------- |
+| SQA       | Python |
+| ---       | ------ |
 | Character | str |
 | String    | str |
 | Integer   | int |
@@ -91,8 +91,8 @@ Type hinting is used to show what data type or data structure a variable will ho
 
 ### Data Structures
 
-| SQA                | Python Data Type |
-| ---                | ---------------- |
+| SQA                | Python |
+| ---                | ------ |
 | Array of Character | list[str] |
 | Array of String    | list[str] |
 | Array of Integer   | list[int] |
