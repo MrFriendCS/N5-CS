@@ -8,8 +8,8 @@ All comparisons must be `True`.
 
 ``` python
 # Initialise variables
-age = 16
-time = "Night"
+age: int = 16
+time: str = "Night"
 
 # Check values
 if age <= 18 and time == "Day":
@@ -31,8 +31,8 @@ At least one comparison must be `True`.
 
 ``` python
 # Initialise variables
-age = 16
-time = "Night"
+age: int = 16
+time: str = "Night"
 
 # Check values
 if age <= 18 or time == "Day":
@@ -54,7 +54,7 @@ Reverses the Boolean.
 
 ``` python
 # Initialise variable
-age = 16
+age: int = 16
 
 # Check value (brackets added for clarity)
 if not (age <= 18):
@@ -74,8 +74,8 @@ else:
 
 ``` python
 # Initialise variables
-age = 21
-banned = False
+age: int = 21
+banned: bool = False
 
 # Check values
 if age >= 18 and not banned:

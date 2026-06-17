@@ -17,27 +17,27 @@ The value *might* need to be calculated first before being assigned.
 
 ``` python
 # Assign an integer value
-myInteger = 5
+myInteger: int = 5
 ```
 
 ``` python
 # Assign a real value
-myReal = 3.14
+myReal: float = 3.14
 ```
 
 ``` python
 # Assign a character
-myCharacter = "&"
+myCharacter: str = "&"
 ```
 
 ``` python
 # Assign a string
-myString = "Hello"
+myString: str = "Hello"
 ```
 
 ``` python
 # Assign a Boolean value
-myBoolean = True
+myBoolean: bool = True
 ```
 
 
@@ -48,18 +48,18 @@ myBoolean = True
 
 ``` python
 # Assign an array of integers
-myArrayOfIntegers = [56, 34, 2, 85, 51]
+myArrayOfIntegers: list[int] = [56, 34, 2, 85, 51]
 ```
 
 ``` python
 # Assign an array with many values - split over lines
-myLongArray = ["Monday", "Tuesday", "Wednesday", "Thursday", 
+myLongArray: list[str] = ["Monday", "Tuesday", "Wednesday", "Thursday", 
                "Friday", "Saturday", "Sunday"]
 ```
 
 ``` python
 # Assign an array of strings - Shorthand
-myArrayOfStrings = [""] * 4
+myArrayOfStrings: list[str]  = [""] * 4
 ```
 
 

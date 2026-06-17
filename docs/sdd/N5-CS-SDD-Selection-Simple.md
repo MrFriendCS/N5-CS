@@ -11,7 +11,7 @@ Code is only run if the comparison is `True`.
 
 ``` python
 # Initialise variable
-age = 21
+age: int = 21
 
 # Check value
 if age >= 18:
@@ -27,7 +27,7 @@ One section of code is always run.
 
 ``` python
 # Initialise variable
-age = 16
+age: int = 16
 
 # check value
 if age >= 18:
@@ -51,7 +51,7 @@ Numerical values are compared in order: largest to smallest (_see below_), or sm
 
 ``` python
 # Initialise variable
-score = 53
+score: int = 53
 
 # Check value
 if score >= 80:
@@ -85,7 +85,7 @@ Numerical values are compared in order: largest to smallest (_see below_), or sm
 
 ``` python
 # Initialise variable
-score = 53
+score: int = 53
 
 # Check value
 if score < 50:

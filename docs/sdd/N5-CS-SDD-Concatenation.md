@@ -9,8 +9,9 @@ A string can be concatenated with another string.
 
 ``` python
 # Initialise variables
-part1 = "Ho"
-part2 = "use"
+part1: str = "Ho"
+part2: str = "use"
+word: str = ""
 
 # Concatenate strings
 word = part1 + part2
@@ -23,11 +24,12 @@ Be sure to include a space between words when concatenating.
 
 ``` python
 # Initialise variables
-word1 = "Hello"
-word2 = "world"
+word1: str = "Hello"
+word2: str = "world"
+phrase: str = ""
 
 # Concatenate strings
-phrase = word1 + " " + word2
+phrase = word1 + " " + word2 + "!"
 
 # Display result
 print(phrase)
@@ -40,10 +42,11 @@ To concatenate something that is not a string, it must be cast (converted) to a 
 
 ``` python
 # Initialise variable
-age = 18
+age: int = 18
+phrase: str = ""
 
 # Cast to string and concatenate
-phrase = "I am " + str(age)
+phrase = "I am " + str(age) + "."
 
 # Display result
 print(phrase)
@@ -56,8 +59,9 @@ An array can be concatenated with another array.
 
 ``` python
 # Initialise variables
-part1 = ["Ho", "Ho"]
-part2 = ["Ho"]
+part1: list[str] = ["Ho", "Ho"]
+part2: list[str] = ["Ho"]
+combined: list[str] = []
 
 # Concatenate arrays
 combined = part1 + part2
@@ -73,8 +77,9 @@ To concatenate something that is not an array, it must be cast (converted) to an
 
 ``` python
 # Initialise variables
-myArray = [0, 1, 1, 2, 3, 5]
-myInt = 8
+myArray: list[int] = [0, 1, 1, 2, 3, 5]
+myInt: int = 8
+combined: list[int] = []
 
 # Cast to array and concatenate
 combined = myArray + [myInt]

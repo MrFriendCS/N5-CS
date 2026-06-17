@@ -15,6 +15,9 @@ This approach can be easier to use when the input validation is within another l
 The conditional loop is only entered if the value entered is invalid.
 
 ``` python
+# Initialise variable
+dice: int = 0
+
 # Get value from user and cast
 dice = int(input("Enter dice value: "))
 
@@ -38,7 +41,7 @@ Variable is assigned a value that will cause the loop condition to be true.
 
 ``` python
 # Initialise variable - not valid
-dice = 0
+dice: int = 0
 
 # Check value
 while dice < 1 or dice > 6:
@@ -63,8 +66,9 @@ print("You entered " + str(dice))
 ### Fixed loop
 
 ``` python
-# Initialise variable
-total = 0
+# Initialise variables
+age: int = 0
+total: int = 0
 
 # Loop required number of times
 for counter in range(4):
@@ -76,7 +80,7 @@ for counter in range(4):
     total = total + age
 
 # Display result
-print("The combined age is " + str(total))
+print("The combined age is " + str(total) + ".")
 ```
 
 
@@ -84,8 +88,9 @@ print("The combined age is " + str(total))
 
 ``` python
 # Initialise variables
-answer = ""
-total = 0
+answer: str = ""
+age: int = 0
+total: int = 0
 
 # Check answer - loop until False
 while answer != "no":
@@ -100,7 +105,7 @@ while answer != "no":
     answer = input("Enter another age? ")
 
 # Display result
-print("The combined age is " + str(total))
+print("The combined age is " + str(total) + ".")
 ```
 
 
@@ -114,8 +119,9 @@ Often, the loop variable is called __`index`__.
 #### Putting values in
 
 ``` python
-# Initialise variable
-heights = [0.0] * 5
+# Initialise variables
+height: float = 0.0
+heights: list[float] = [0.0] * 5
 
 # Display array
 print(heights)
@@ -142,8 +148,9 @@ print(heights)
 The loop variable `index` is assigned each value in turn from the `range()` function.
 
 ``` python
-# Initialise variable
-scores = [56, 34, 2, 85, 51]
+# Initialise variables
+score: int = 0
+scores: list[int] = [56, 34, 2, 85, 51]
 
 # Loop for each element in array
 for index in range(len(scores)):
@@ -161,8 +168,9 @@ for index in range(len(scores)):
 The loop variable `score` is assigned each value in turn from the `scores` array.
 
 ``` python
-# Initialise variable
-scores = [56, 34, 2, 85, 51]
+# Initialise variables
+score: int = 0
+scores: list[float] = [56, 34, 2, 85, 51]
 
 # Loop for each element in array
 for score in scores:

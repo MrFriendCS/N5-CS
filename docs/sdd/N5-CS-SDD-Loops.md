@@ -65,6 +65,9 @@ It only runs if the comparison is `True`.  Each time the code is completed the c
 ## Example
 
 ``` python
+# Initialise variable
+value: int = 0
+
 # Get value from user and cast to integer
 value = int(input("Enter a value: "))
 

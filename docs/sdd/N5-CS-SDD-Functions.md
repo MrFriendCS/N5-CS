@@ -11,6 +11,9 @@ The code can be used to produce a random integer, with the lowest and highest po
 # Get extra code
 import random
 
+# Initialise variable
+myDice: int = 0
+
 # Pick a random integer
 myDice = random.randint(1, 6)
 
@@ -28,7 +31,8 @@ The round function works with floating point values (decimals).  It returns (pro
 
 ``` python
 # Initialise variable
-myReal = 3.14159265359
+myReal: float = 3.14159265359
+myRound: float = 0.0
 
 # Round to 2 decimal places
 myRound = round(myReal, 2)
@@ -47,7 +51,8 @@ The following example will return a value of 4.
 
 ``` python
 # Initialise variable
-myReal= 3.5
+myReal: float = 3.5
+myRound: int = 0
 
 # Round to zero decimal places
 myRound = round(myReal)
@@ -60,7 +65,8 @@ The following example will ***also*** return a value of 4.
 
 ``` python
 # Initialise variable
-myReal= 4.5
+myReal: float = 4.5
+myRound: int = 0
 
 # Round to zero decimal places
 myRound = round(myReal)
@@ -79,7 +85,8 @@ The length function works with strings and arrays.  It returns a number of chara
 
 ``` python
 # Initialise variable
-myString = "Computing"
+myString: str = "Computing"
+myLength: int = 0
 
 # Get number of characters in string
 myLength = len(myString)
@@ -93,7 +100,8 @@ print(myLength)
 
 ``` python
 # Initialise variable
-myArrayOfIntegers = [56, 34, 2, 85, 51]
+myArrayOfIntegers: list[int] = [56, 34, 2, 85, 51]
+myLength: int = 0
 
 # Get number of elements in array
 myLength = len(myArrayOfIntegers)
