@@ -71,3 +71,30 @@ Elements in an array are numbered, starting at zero.  They  are accessed using t
 # Assign a value to an element
 myArrayOfIntegers[0] = 65
 ```
+
+
+## Type Hinting
+
+Type hinting is used to show what data type or data structure a variable will hold.
+
+
+### Single Data Types
+
+| SQA       | Python Data Type |
+| ---       | ---------------- |
+| Character | str |
+| String    | str |
+| Integer   | int |
+| Real      | float |
+| Boolean   | bool |
+
+
+### Data Structures
+
+| SQA                | Python Data Type |
+| ---                | ---------------- |
+| Array of Character | list[str] |
+| Array of String    | list[str] |
+| Array of Integer   | list[int] |
+| Array of Real      | list[float] |
+| Array of Boolean   | list[bool] |
