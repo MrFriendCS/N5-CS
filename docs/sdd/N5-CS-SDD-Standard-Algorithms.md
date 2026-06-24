@@ -179,6 +179,8 @@ for score in scores:
     print(score)
 ```
 
+This is known as a `for each` loop.
+
 
 ## Multiple arrays
 
