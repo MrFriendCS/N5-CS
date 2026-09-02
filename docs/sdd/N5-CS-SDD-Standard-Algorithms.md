@@ -121,7 +121,7 @@ Often, the loop variable is called __`index`__.
 ``` python
 # Initialise variables
 height: float = 0.0
-heights: list[float] = [0.0] * 5
+heights: list[float] = [0.0 for index in range(5)]
 
 # Display array
 print(heights)
