@@ -58,8 +58,8 @@ myLongArray: list[str] = ["Monday", "Tuesday", "Wednesday", "Thursday",
 ```
 
 ``` python
-# Assign an array of strings - Shorthand
-myArrayOfStrings: list[str]  = [""] * 4
+# Assign an array of strings - default values
+myArrayOfStrings: list[str]  = ["" for index in range(4)]
 ```
 
 
