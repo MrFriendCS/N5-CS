@@ -54,7 +54,7 @@ myArrayOfIntegers: list[int] = [56, 34, 2, 85, 51]
 ``` python
 # Assign an array with many values - split over lines
 myLongArray: list[str] = ["Monday", "Tuesday", "Wednesday", "Thursday", 
-               "Friday", "Saturday", "Sunday"]
+                          "Friday", "Saturday", "Sunday"]
 ```
 
 ``` python
