@@ -88,8 +88,8 @@ The colour of the text and / or the background can be changed using one of the m
 
 To change the colour, the properties are:
 
-* __text__: `color`
-* __background__: `background-color`
+* **text**: `color`
+* **background**: `background-color`
 
 ``` css
 h5 {color: DarkRed;
@@ -98,7 +98,7 @@ h5 {color: DarkRed;
 
 ### Size
 
-There is ___no___ space between a value and the unit.
+There is ***no*** space between a value and the unit.
 
 ``` css
 img {width: 50%;

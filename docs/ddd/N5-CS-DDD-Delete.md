@@ -7,4 +7,4 @@ DELETE FROM Pet
     WHERE petID = 29;
 ```
 
-__Caution__: without the `WHERE` clause all records would be deleted!
+**Caution**: without the `WHERE` clause all records would be deleted!

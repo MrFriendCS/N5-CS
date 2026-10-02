@@ -18,7 +18,7 @@ range(start, stop, step)
 
 ### Example 1 - Stop value
 
-Display the numbers 0 to 9, ten numbers in total.  The __loop variable__ is `counter` and it holds the current value from the range function.
+Display the numbers 0 to 9, ten numbers in total.  The **loop variable** is `counter` and it holds the current value from the range function.
 
 ``` python
 # Fixed loop: Stop value

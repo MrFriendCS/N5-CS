@@ -113,7 +113,7 @@ print("The combined age is " + str(total) + ".")
 
 Arrays store more than one value, called elements.  Each element has a position.  Python starts counting from zero.
 
-Often, the loop variable is called __`index`__.
+Often, the loop variable is called **`index`**.
 
 
 #### Putting values in

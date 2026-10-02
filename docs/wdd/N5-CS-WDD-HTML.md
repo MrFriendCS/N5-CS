@@ -62,8 +62,8 @@ Hello world
 
 A HTML documen has two main parts:
 
- * __head__: information about the page
- * __body__: the content that is displayed
+ * **head**: information about the page
+ * **body**: the content that is displayed
 
 ``` html
 <!DOCTYPE html>
@@ -108,7 +108,7 @@ The [CSS](#css) for a webpage can be in an external file using the `link` elemen
 <link href="styles.css" rel="stylesheet" type="text/css">
 ```
 
-___Note___: A few HTML elements do not have a closing tag, and `link` is one of them.
+***Note***: A few HTML elements do not have a closing tag, and `link` is one of them.
 
 
 

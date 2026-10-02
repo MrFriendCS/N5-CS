@@ -4,7 +4,7 @@ To search a database, a basic statement with two keywords `SELECT` and `FROM` is
 
 The `SELECT` keyword lists the required field(s).  The `FROM` keyword states the table(s) that the fields are in.
 
-To display all the fields the __`*`__ symbol is used.
+To display all the fields the **`*`** symbol is used.
 
 ``` sql
 SELECT *

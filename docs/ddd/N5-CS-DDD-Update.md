@@ -19,4 +19,4 @@ UPDATE Pet
     WHERE petID = 29;
 ```
 
-__Caution__: without the `WHERE` clause all records would be updated!
+**Caution**: without the `WHERE` clause all records would be updated!
