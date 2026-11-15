@@ -5,7 +5,8 @@
 
 Before a fixed loop starts, the number of times it will run ***is*** stated.
 
-The range function produces a sequence of values.  The last value in the sequence is always one less than the `stop` value:
+The range function produces a sequence of values.
+The last value in the sequence is always one less than the `stop` value:
 
 ``` python
 range(stop)  ## Starts from 0
@@ -18,7 +19,8 @@ range(start, stop, step)
 
 ### Example 1 - Stop value
 
-Display the numbers 0 to 9, ten numbers in total.  The **loop variable** is `counter` and it holds the current value from the range function.
+Display the numbers 0 to 9, ten numbers in total.
+The **loop variable** is `counter` and it holds the current value from the range function.
 
 ``` python
 # Fixed loop: Stop value
@@ -59,7 +61,9 @@ for counter in range(1, 10, 2):
 
 Before a conditional loop starts, the number of times it will run ***is not*** stated.
 
-It only runs if the comparison is `True`.  Each time the code is completed the comparison is checked again.  If it is still `True` the code is run again.
+It only runs if the comparison is `True`.
+Each time the code is completed the comparison is checked again.
+If it is still `True` the code is run again.
 
 
 ## Example

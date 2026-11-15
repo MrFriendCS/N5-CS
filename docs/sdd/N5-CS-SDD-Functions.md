@@ -5,7 +5,7 @@
 
 The code to produce a random number needs to be imported before it can be used.
 
-The code can be used to produce a random integer, with the lowest and highest possible values specified.
+The code can be used to produce a random integer, with the minimum and maximum possible values specified.
 
 ``` python
 # Get extra code

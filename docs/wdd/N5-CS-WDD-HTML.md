@@ -1,10 +1,13 @@
 # Hypertext Markup Language (HTML) 
 
+
 ## HTML
 
-HTML uses elements to display content.  An element normally consists of opening (`<tag>`) and closing (`</tag>`) tags, with the content to be display contained between the tags.
+HTML uses elements to display content.
+An element normally consists of opening (`<tag>`) and closing (`</tag>`) tags, with the content to be displayed contained between the tags.
 
-HTML is not whitespace sensitive.  This means a statement can be all on a single line or split over multiple lines.
+HTML is not whitespace sensitive.
+This means a statement can be all on a single line or split over multiple lines.
 
 ``` html
 <tag>content</tag>
@@ -31,7 +34,9 @@ All elements in a HTML document are contained within the opening and closing `ht
 </html>
 ```
 
+
 ## Information
+
 
 ### Comments
 
@@ -50,6 +55,7 @@ This comment is not displayed
 -->
 ```
 
+
 ### Display information
 
 Without HTML tags information is displayed as plain text, but with tags it will have the formatting associated with the tag.
@@ -58,9 +64,10 @@ Without HTML tags information is displayed as plain text, but with tags it will 
 Hello world
 ```
 
+
 ## HTML document (Webpage)
 
-A HTML documen has two main parts:
+A HTML document has two main parts:
 
  * **head**: information about the page
  * **body**: the content that is displayed
@@ -78,7 +85,9 @@ A HTML documen has two main parts:
 </html>
 ```
 
+
 ### Head
+
 
 ### Title
 
@@ -88,7 +97,9 @@ The webpage title will be displayed on the browser tab:
 <title>My Web Page</title>
 ```
 
+
 ### Style
+
 
 #### Internal
 
@@ -96,9 +107,10 @@ The [CSS](#css) for a webpage can be internal using the `style` tag.
 
 ``` html
 <style>
-    <!-- CSS rules go here -->
+    /* CSS rules go here */
 </style>
 ```
+
 
 #### External
 
@@ -114,6 +126,7 @@ The [CSS](#css) for a webpage can be in an external file using the `link` elemen
 
 ## Body
 
+
 ### Heading
 
 There are six levels of heading.
@@ -123,8 +136,9 @@ There are six levels of heading.
 
 <h3>Mid-level heading</h3>
 
-<h6>Lowest leveleast heading level</h6>
+<h6>Lowest level heading</h6>
 ```
+
 
 ### Paragraph
 
@@ -134,9 +148,12 @@ There are six levels of heading.
 <p>Plus another paragraph of text.</p>
 ```
 
+
 ### Lists
 
-Lists can be ordered (`ol`) or unordered `ul`).  Both types of lists contain list items (`li`).
+Lists can be ordered (`ol`) or unordered `ul`).
+Both types of lists contain list items (`li`).
+
 
 #### Ordered list - Numbered
 
@@ -149,7 +166,8 @@ Lists can be ordered (`ol`) or unordered `ul`).  Both types of lists contain lis
 </ol>
 ```
 
-#### Unorderd list - Bullet points
+
+#### Unordered list - Bullet points
 
 
 ``` html
@@ -161,22 +179,23 @@ Lists can be ordered (`ol`) or unordered `ul`).  Both types of lists contain lis
 ```
 
 
-
 ## Division
 
 The `<div>` tag is used to divide the webpage into different parts.
 
 ``` html
 <div>
-	<h1>First area</h1>
-<div>
+    <h1>First area</h1>
+</div>
 
 <div>
-	<h1>Second area</h1>
-<div>
+    <h1>Second area</h1>
+</div>
 ```
 
+
 ## Anchor (Hyperlinks)
+
 
 ### External
 
@@ -187,6 +206,7 @@ Link to an external website, using absolute addressing.
 <a href="https://mrfriendcs.github.io/">N5 CS Help</a>
 ```
 
+
 ### Internal
 
 Link to another webpage, in the same folder, using relative addressing.
@@ -195,24 +215,29 @@ Link to another webpage, in the same folder, using relative addressing.
 <a href="home.html">Home</a>
 ```
 
+
 ## Media
 
 To ensure that media is displayed / played correctly the `type` attribute is used.
 
-| File type | Type |
-| --------- | ---- |
+| File type  | Type |
+| ---------  | ---- |
 | jpeg / jpg | image/jpeg |
-| png | image/png |
-| mp3 | audio/mpeg |
-| mp4 | video/mp4 |
+| png        | image/png |
+| mp3        | audio/mpeg |
+| mp4        | video/mp4 |
+
 
 ### Image
 
-The image tag (`<img>`) has two attributes.  The first (`src`) is where the image is located, and can use relative or absolute addressing.  The second (`alt`) is the alternative text that will be displayed if the image can't be displayed, and is used by screen readers.
+The image tag (`<img>`) has two attributes.
+The first (`src`) is where the image is located, and can use relative or absolute addressing.
+The second (`alt`) is the alternative text that will be displayed if the image can't be displayed, and is used by screen readers.
 
 ``` html
 <img src="laptop.jpg" alt="Laptop on a table">
 ```
+
 
 ### Audio
 
@@ -222,19 +247,22 @@ The image tag (`<img>`) has two attributes.  The first (`src`) is where the imag
 </audio>
 ```
 
+
 ### Video
 
 ``` html
 <video controls src="clapping.mp4">  
-	No video player available
+    No video player available
 </video>
 ```
+
 
 ## Classes and IDs
 
 HTML elements can have additional attributes for `class` and `id` which are used for applying CSS rules to specific elements, and can be used by JavaScript.
 
-A class can be assigned to one or more cascading Style Sheets (CSS), whereas an ID can only be applied to one element on a page.
+A class can be assigned to one or more elements on a page, whereas an ID can only be applied to one element on a page.
+
 
 ### Classes
 
@@ -244,6 +272,7 @@ A class can be assigned to one or more cascading Style Sheets (CSS), whereas an 
 <p class="highlight">Plus another.</p>
 ```
 
+
 ### IDs
 
 ``` html
@@ -251,6 +280,7 @@ A class can be assigned to one or more cascading Style Sheets (CSS), whereas an 
 <p>Another paragraph.</p>
 <p>Plus another.</p>
 ```
+
 
 ### Classes and IDs
 

@@ -1,6 +1,7 @@
 # JavaScript (JS)
 
-JavaScript statements are terminated with a semicolon, **`;`**. An individual statement will probably run without a semicolon but multiple statements will not.
+JavaScript statements are terminated with a semicolon, **`;`**.
+An individual statement will probably run without a semicolon but multiple statements will not.
 
 ## Information
 

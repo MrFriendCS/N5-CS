@@ -1,6 +1,7 @@
 # Assignment
 
-Variables are used to store values.  An assignment statement has 3 parts:
+Variables are used to store values.
+An assignment statement has 3 parts:
 
  1. **=** is the assignment operator (an equals sign in maths)
  2. The value to be assigned is to the right of the assignment operator
@@ -65,7 +66,8 @@ myArrayOfStrings: list[str]  = ["" for index in range(4)]
 
 ### Individual value
 
-Elements in an array are numbered, starting at zero.  They  are accessed using the subscript operator `[ ]` and the index position of the element.
+Elements in an array are numbered, starting at zero.
+They  are accessed using the subscript operator `[ ]` and the index position of the element.
 
 ``` python
 # Assign a value to an element
@@ -75,7 +77,8 @@ myArrayOfIntegers[0] = 65
 
 ## Type Hinting
 
-Type hinting is used to show what data type or data structure a variable will hold.
+Type hinting is used to show what data type or data structure a variable should hold.
+Type hinting does not force the specific data type to be used, but is useful for debugging.
 
 
 ### Single Data Types

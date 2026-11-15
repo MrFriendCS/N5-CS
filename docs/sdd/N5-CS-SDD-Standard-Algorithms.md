@@ -3,7 +3,8 @@
 
 ## Input validation
 
-User input can be checked using a conditional loop.  If the value entered is not acceptable an error message is displayed and the value re-entered until it is.
+User input can be checked using a conditional loop.
+If the value entered is not acceptable an error message is displayed and the value re-entered until it is.
 
 It can be done two different ways, initial input before the loop or within the loop.
 
@@ -111,7 +112,9 @@ print("The combined age is " + str(total) + ".")
 
 ## Traversing a 1-D array
 
-Arrays store more than one value, called elements.  Each element has a position.  Python starts counting from zero.
+Arrays store more than one value, called elements.
+Each element has a position.
+Python starts counting from zero.
 
 Often, the loop variable is called **`index`**.
 
@@ -170,7 +173,7 @@ The loop variable `score` is assigned each value in turn from the `scores` array
 ``` python
 # Initialise variables
 score: int = 0
-scores: list[float] = [56, 34, 2, 85, 51]
+scores: list[int] = [56, 34, 2, 85, 51]
 
 # Loop for each element in array
 for score in scores:

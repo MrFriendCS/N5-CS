@@ -11,6 +11,7 @@ Modifying a table involves a number of steps:
  7. Rename the new table as the old table
  8. Turn on referential integrity - _if needed_
 
+
 ## 1. Get details
 
 To view the field names, keys, data types, and validation of a table the `sqlite_schema.sql` field for the required table is displayed:
@@ -37,6 +38,7 @@ CREATE TABLE Vaccination (
 )
 ```
 
+
 ## 2. Create new table
 
 Create a new table by copying and pasting the output of Step 1, with the required changes made.
@@ -58,15 +60,17 @@ CREATE TABLE NewVaccination (
 );
 ```
 
+
 ## 3. Copy data
 
 Copy the data from the old table into the new table.
 
 ``` sql
-INSERT INTO NewVaccianation
+INSERT INTO NewVaccination
     SELECT *
     FROM Vaccination;
 ```
+
 
 ## 4. Check data
 
@@ -74,8 +78,9 @@ Check that the data has been copied into the new table.
 
 ``` sql
 SELECT *
-    FROM NewVaccianation;
+    FROM NewVaccination;
 ```
+
 
 ## 5. Turn off referential integrity
 
@@ -85,6 +90,7 @@ If the primary key of the old table is used as a foreign key  in another table t
 PRAGMA foreign_keys = off;
 ```
 
+
 ## 6. Delete old table
 
 Delete the old table.
@@ -92,6 +98,7 @@ Delete the old table.
 ``` sql
 DROP TABLE Vaccination;
 ```
+
 
 ## 7. Rename new table
 
@@ -101,6 +108,7 @@ Rename the new table.
 ALTER TABLE NewVaccination
     RENAME TO Vaccination;
 ```
+
 
 ## 8. Turn on referential integrity
 

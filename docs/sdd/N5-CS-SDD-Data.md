@@ -6,7 +6,9 @@
 
 ### Character
 
-A single character: letter, number, or symbol.  Contained in quote marks.
+A single character: letter, number, or symbol.
+Contained in quote marks.
+Python use the string data type for both characters and strings.
 
 ``` python
 "a"
@@ -17,7 +19,8 @@ A single character: letter, number, or symbol.  Contained in quote marks.
 
 ### String
 
-A string of characters.  Contained in quote marks.
+A string of characters.
+Contained in quote marks.
 
 ``` python
 "Hello world"
@@ -29,7 +32,8 @@ A string of characters.  Contained in quote marks.
 
 ### Integer
 
-A whole number, positive and negative.  _Not_ contained in quotes.
+A whole number, positive and negative.
+_Not_ contained in quotes.
 
 ``` python
 1234
@@ -40,7 +44,8 @@ A whole number, positive and negative.  _Not_ contained in quotes.
 
 ### Real
 
-A decimal number, positive and negative.  _Not_ contained in quotes.
+A decimal number, positive and negative.
+_Not_ contained in quotes.
 
 ``` python
 3.14
@@ -51,7 +56,8 @@ A decimal number, positive and negative.  _Not_ contained in quotes.
 
 ### Boolean
 
-A binary choice.  _Not_ contained in quotes.
+A binary choice.
+_Not_ contained in quotes.
 
 ``` python
 True

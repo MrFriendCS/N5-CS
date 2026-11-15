@@ -1,5 +1,6 @@
 # Selection
 
+
 ## Simple
 
 Selection makes use of a comparison operator to decide what to do.
@@ -45,7 +46,8 @@ else:
 
 ### Example 3 - Nested if
 
-Only the section of code for the first comparison that is `True` is run.  There can be multiple `if` statements, and the `else` is optional.
+Only the section of code for the first comparison that is `True` is run.
+There can be multiple `if` statements, and the `else` is optional.
 
 Numerical values are compared in order: largest to smallest (_see below_), or smallest to largest.
 
@@ -79,7 +81,8 @@ else:
 
 ### Example 4 - if, elif, else
 
-Only the section of code for the first comparison that is `True` is run.  There can be multiple `elif` statements, and the `else` is optional.  
+Only the section of code for the first comparison that is `True` is run.
+There can be multiple `elif` statements, and the `else` is optional.  
 
 Numerical values are compared in order: largest to smallest (_see below_), or smallest to largest.
 

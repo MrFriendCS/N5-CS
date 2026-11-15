@@ -4,7 +4,8 @@ To limit the number of records returned, the `WHERE` keyword is used with a comp
 
 **Note:** Whilst SQL keywords are not case sensitive, search terms are.  Searching for `Hello` will not find `hello`, `HELLO`, or any other variation.
 
-### Comparison operators
+
+## Comparison operators
 
 Comparison operators are used to compare one value with another.
 
@@ -17,19 +18,22 @@ Comparison operators are used to compare one value with another.
 | <      | Less than |
 | <=     | Less than or equal to |
 
+
 ## Simple search
 
 A simple search compares a field in a record with a value.  If the comparison is `True` then the required fields of that record are displayed.
 
 ``` sql
 SELECT *
-    FROM Vaccination
+    FROM Pet
     WHERE species = "Cat";
 ```
+
 
 ## Complex search
 
 A complex search compares two fields.
+
 
 #### AND
 
@@ -41,6 +45,7 @@ SELECT *
     WHERE name = "Distemper"
       AND reaction = TRUE;
 ```
+
 
 ### OR
 

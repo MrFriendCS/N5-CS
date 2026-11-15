@@ -45,5 +45,5 @@ Reverses the result of the comparison.
 | True       | False  |
 
 ``` python
-not (16 <= 18))  # not (True) => False
+not (16 <= 18)  # not (True) => False
 ```

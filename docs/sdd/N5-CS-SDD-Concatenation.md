@@ -73,7 +73,7 @@ print(combined)
 
 ## Non-arrays
 
-To concatenate something that is not an array, it must be cast (converted) to an array.
+To concatenate something that is not an array, it must be placed in square bracket `[ ]`.
 
 ``` python
 # Initialise variables

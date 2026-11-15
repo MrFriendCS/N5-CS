@@ -2,11 +2,13 @@
 
 ## Notes
 
-All the database code examples use SQLite.  They will work with [DB Browser for SQLite](https://sqlitebrowser.org/).
+All the database code examples use SQLite.
+They will work with [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 These notes are focused on N5 Computing Science so some terms might be used differently.
 
-SQLite, and SQL, keywords are not case sensitive.  The following are all equally valid:
+SQLite, and SQL, keywords are not case sensitive.
+The following are all equally valid:
 
 ``` sql
 SELECT / SeLeCt / select
@@ -14,14 +16,18 @@ SELECT / SeLeCt / select
 
 In the examples, the keywords will be in uppercase.
 
-SQLite, and SQL, is not whitespace sensitive.  This means a statement can be all on a single line or split over multiple lines.  In general, the examples have one keyword per line.
+SQLite, and SQL, is not whitespace sensitive.
+This means a statement can be all on a single line or split over multiple lines.
+In general, the examples have one keyword per line.
 
-The statements are terminated with a semicolon, **`;`**.  An individual statement will run without a semicolon but multiple statements will not.
+The statements are terminated with a semicolon, **`;`**.
+An individual statement will run without a semicolon but multiple statements will not.
 
 
 ## Attribute types (Data types)
 
-SQLite has fewer data types than SQL.  However, SQL datatypes can be used and SQLite will match these to it's own datatypes.
+SQLite has fewer data types than SQL.
+However, SQL datatypes can be used and SQLite will match these to it's own datatypes.
 
 | Data type     | Example data |
 | ---------     | ------------ |
@@ -35,9 +41,11 @@ SQLite has fewer data types than SQL.  However, SQL datatypes can be used and SQ
 
 ## Example Data
 
-The example [database](N5-CS-Database.db) contains the tables and records that the SQL examples will work with. The file can be opened with [DB Browser for SQLite](https://sqlitebrowser.org/).
+The example [database](https://mrfriendcs.github.io/n5-cs/ddd/assets/N5-CS-Database.db) contains the tables and records that the SQL examples will work with.
+The file can be opened with [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 The first 4 records of the data used in the examples are shown in the following tables:
+
 
 ### Table: Pet
 
@@ -47,6 +55,7 @@ The first 4 records of the data used in the examples are shown in the following 
 | 2     | Minnnie  | Gerbil  | 2021-05-24 |
 | 3     | Bo       | Rabbit  | 2011-10-13 |
 | 4     | Joscelin | Gerbil  | 2022-02-19 |
+
 
 ### Table: Vaccination
 
@@ -75,6 +84,7 @@ SELECT name
 
 
 ## Information
+
 
 ### Comments
 

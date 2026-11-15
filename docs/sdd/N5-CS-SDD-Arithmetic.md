@@ -15,7 +15,7 @@ Multiplication
 4 * 2
 ```
 
-Division
+Division - Produces a Float
 ``` python
 4 / 2
 ```
