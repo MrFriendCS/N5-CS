@@ -14,6 +14,7 @@ SELECT *
 To select one, or more fields, their names are used.
 
 ``` sql
-SELECT name, species
+SELECT name,
+       species
     FROM Pet;
 ```

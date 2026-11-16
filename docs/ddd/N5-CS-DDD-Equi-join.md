@@ -6,7 +6,8 @@ Tables are joined using the primary key of one table and the foreign key of the 
 
 ``` sql
 SELECT *
-    FROM table1, table2
+    FROM table1,
+         table2
     WHERE table1.primaryKey = table2.foreignKey;
 ```
 
@@ -16,6 +17,7 @@ SELECT *
 
 ``` sql
 SELECT *
-    FROM Pet, Vaccination
+    FROM Pet,
+         Vaccination
     WHERE pet.petID = vaccination.petID;
 ```

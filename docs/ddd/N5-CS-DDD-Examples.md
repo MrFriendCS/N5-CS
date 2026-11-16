@@ -5,8 +5,12 @@
 Select various fields from two tables, with two search conditions and ordered on two fields.
 
 ``` sql
-SELECT Pet.name, species, Vaccination.name, vaxDate
-    FROM Pet, Vaccination
+SELECT Pet.name,
+       species,
+       Vaccination.name,
+       vaxDate
+    FROM Pet,
+         Vaccination
     WHERE Pet.petID = Vaccination.petID
       AND species = "Rabbit"
     ORDER BY Pet.name ASC,
